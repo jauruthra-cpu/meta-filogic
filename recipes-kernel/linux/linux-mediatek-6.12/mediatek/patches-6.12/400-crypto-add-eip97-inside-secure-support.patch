@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/crypto/inside-secure/safexcel.c
 +++ b/drivers/crypto/inside-secure/safexcel.c
 @@ -608,6 +608,14 @@ static int safexcel_hw_init(struct safex

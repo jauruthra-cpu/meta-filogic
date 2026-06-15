@@ -5,6 +5,7 @@ Subject: [PATCH 1/6] drivers: spi-mt65xx: Move chip_config to driver's private
  data
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/spi/spi-mt65xx.c                 | 28 ++++++++++--------------
  include/linux/platform_data/spi-mt65xx.h | 17 --------------

@@ -9,6 +9,7 @@ We can use mt7986 platform data in driver, but mt7988 needs different
 clocks so for binding we need own compatible.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Message-ID: <20241012143826.7690-3-linux@fw-web.de>
 Signed-off-by: Ulf Hansson <ulf.hansson@linaro.org>

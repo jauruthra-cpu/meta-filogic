@@ -8,6 +8,7 @@ cache line of PPE which should not be used, cause the unexpected
 behavior happen in system.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c      | 165 ++++++++++++++++++-
  drivers/net/ethernet/mediatek/mtk_ppe.h      |   3 +-

@@ -18,6 +18,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/drivers/driver_nl80211.c | 3 ++-
  4 files changed, 7 insertions(+), 6 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_config.c b/src/ap/ap_config.c
 index 7d056aa7c..eedde9762 100644
 --- a/src/ap/ap_config.c

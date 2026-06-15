@@ -8,6 +8,7 @@ Without this patch, the MT7988 2x10Gbps BiDi cannot achieve line rate
 when packets smaller than 256B.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c      | 4 ++++
  drivers/net/ethernet/mediatek/mtk_ppe_regs.h | 2 ++

@@ -10,6 +10,7 @@ This mode can control the total number of PPPQ users to ensure they
 do not exceed the QDMA bandwidth.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h   |  5 +++
  drivers/net/ethernet/mediatek/mtk_ppe.c       | 33 +++++++++++++++++--

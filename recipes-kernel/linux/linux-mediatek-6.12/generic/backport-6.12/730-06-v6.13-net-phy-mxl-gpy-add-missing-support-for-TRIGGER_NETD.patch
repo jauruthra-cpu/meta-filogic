@@ -9,6 +9,7 @@ indication trigger to be offloaded. Add TRIGGER_NETDEV_LINK_10 to the
 supported triggers.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/cc5da0a989af8b0d49d823656d88053c4de2ab98.1728057367.git.daniel@makrotopia.org
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

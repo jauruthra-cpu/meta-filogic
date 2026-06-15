@@ -19,6 +19,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  wpa_supplicant/wpas_glue.c | 28 ++++++++++++++++++++++++++++
  3 files changed, 47 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/rsn_supp/wpa.h b/src/rsn_supp/wpa.h
 index 7636fece6..6ccc7d361 100644
 --- a/src/rsn_supp/wpa.h

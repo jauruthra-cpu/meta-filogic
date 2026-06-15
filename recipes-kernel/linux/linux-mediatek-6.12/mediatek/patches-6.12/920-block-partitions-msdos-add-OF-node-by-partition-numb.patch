@@ -6,6 +6,7 @@ Subject: [PATCH] block: partitions: msdos: add OF node by partition number
 A hack for some legacy boards...
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/partitions/msdos.c | 66 +++++++++++++++++++++++++++++++++-------
  1 file changed, 55 insertions(+), 11 deletions(-)

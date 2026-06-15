@@ -76,6 +76,7 @@ filter parent ffff: protocol all pref 10 u32 chain 0 fh 800::800 order 2048 key 
 |-------------|
 
 Signed-off-by: Kevin Darbyshire-Bryant <ldir@darbyshire-bryant.me.uk>
+Upstream-Status: Pending
 ---
  include/uapi/linux/netfilter/xt_connmark.h | 10 ++++
  net/netfilter/xt_connmark.c                | 55 ++++++++++++++++++----

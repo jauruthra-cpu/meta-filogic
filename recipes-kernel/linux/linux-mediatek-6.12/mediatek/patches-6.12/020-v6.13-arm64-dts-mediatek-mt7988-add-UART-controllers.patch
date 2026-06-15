@@ -10,6 +10,7 @@ MT7988 has three on-SoC UART controllers that support M16C450 and
 M16550A modes.
 
 Signed-off-by: Rafał Miłecki <rafal@milecki.pl>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/r/20240605085433.26513-2-zajec5@gmail.com
 Signed-off-by: Matthias Brugger <matthias.bgg@gmail.com>

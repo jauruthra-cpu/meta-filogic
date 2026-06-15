@@ -17,6 +17,7 @@ Fixes: 045b14ca5c36 ("of: WARN on deprecated #address-cells/#size-cells handling
 Tested-by: Sean Anderson <sean.anderson@linux.dev>
 Link: https://lore.kernel.org/r/20250110215030.3637845-2-robh@kernel.org
 Signed-off-by: Rob Herring (Arm) <robh@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/of/address.c | 18 +++++++++++++++---
  1 file changed, 15 insertions(+), 3 deletions(-)

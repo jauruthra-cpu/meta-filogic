@@ -7,6 +7,7 @@ Newer QCA9530 and QCA9550 devices should use same div table as AR933X.
 
 Fixes: d51b6ce441d3 ("net: ethernet: add ag71xx driver")
 Signed-off-by: Oskari Lemmela <oskari@lemmela.net>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/atheros/ag71xx.c | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)

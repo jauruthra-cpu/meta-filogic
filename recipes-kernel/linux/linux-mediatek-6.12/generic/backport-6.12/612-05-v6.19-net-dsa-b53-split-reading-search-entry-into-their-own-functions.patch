@@ -7,6 +7,7 @@ Subject: [PATCH] net: dsa: b53: split reading search entry into their own
 Split reading search entries into a function for each format.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251107080749.26936-6-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

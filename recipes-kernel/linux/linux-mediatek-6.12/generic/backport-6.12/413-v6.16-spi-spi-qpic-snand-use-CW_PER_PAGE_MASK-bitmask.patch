@@ -15,6 +15,7 @@ implementations.
 No functional changes intended.
 
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Md Sadre Alam <quic_mdalam@quicinc.com>
 Link: https://patch.msgid.link/20250515-qpic-snand-use-bitmasks-v1-1-11729aeae73b@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>

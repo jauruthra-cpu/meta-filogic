@@ -32,6 +32,8 @@ Signed-off-by: Peter Chiu <chui-hao.chiu@mediatek.com>
  src/drivers/driver_nl80211_event.c |  2 +-
  7 files changed, 36 insertions(+), 5 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index 9773b5389..24e440b08 100644
 --- a/src/ap/drv_callbacks.c

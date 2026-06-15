@@ -9,18 +9,18 @@ SRC_URI_mt7988 += " \
 SRC_URI_mt7987 += " \
     file://mt7987 \
 "
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 
 inherit allarch
 
 do_install_mt7988() {
     install -d ${D}/${base_libdir}/firmware/mediatek/mt7988/
-    install -m 644 ${WORKDIR}/mt7988/* ${D}${base_libdir}/firmware/mediatek/mt7988/
+    install -m 644 ${UNPACKDIR}/mt7988/* ${D}${base_libdir}/firmware/mediatek/mt7988/
 }
 
 do_install_mt7987() {
     install -d ${D}/${base_libdir}/firmware/mediatek/mt7987/
-    install -m 644 ${WORKDIR}/mt7987/* ${D}${base_libdir}/firmware/mediatek/mt7987/
+    install -m 644 ${UNPACKDIR}/mt7987/* ${D}${base_libdir}/firmware/mediatek/mt7987/
 }
 
 FILES:${PN} += "${base_libdir}/firmware/mediatek/*"

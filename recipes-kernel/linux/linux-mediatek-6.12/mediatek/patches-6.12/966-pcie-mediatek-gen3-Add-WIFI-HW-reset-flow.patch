@@ -10,6 +10,7 @@ Add WIFI HW reset before PCIe host detects EP device for reboot.
 NA
 
 Signed-off-by: Jianguo Zhang <jianguo.zhang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/pci/controller/pcie-mediatek-gen3.c | 29 +++++++++++++++++++++
  1 file changed, 29 insertions(+)

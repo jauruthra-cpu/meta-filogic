@@ -15,6 +15,7 @@ device_add_disk() is converted to a simple wrapper of add_disk_fwnode()
 with the fwnode entry set as NULL.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Christoph Hellwig <hch@lst.de>
 Link: https://lore.kernel.org/r/20241002221306.4403-4-ansuelsmth@gmail.com
 Signed-off-by: Jens Axboe <axboe@kernel.dk>

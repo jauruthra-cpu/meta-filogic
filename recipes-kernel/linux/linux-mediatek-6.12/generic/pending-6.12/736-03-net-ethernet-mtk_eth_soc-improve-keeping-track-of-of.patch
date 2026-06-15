@@ -8,6 +8,7 @@ mtk_foe_entry for tracking L2 subflows. Preparation for improving
 flow accounting support.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c | 162 ++++++++++++------------
  drivers/net/ethernet/mediatek/mtk_ppe.h |  15 +--

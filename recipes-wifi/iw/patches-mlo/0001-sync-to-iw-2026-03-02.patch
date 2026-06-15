@@ -2,6 +2,7 @@ From 3dcef44ffd4a16a9eac49bd8016c445b14877294 Mon Sep 17 00:00:00 2001
 From: MeiChia Chiu <meichia.chiu@mediatek.com>
 Date: Mon, 9 Mar 2026 14:07:25 +0800
 Subject: [PATCH 0/9] Sync to iw 2026-03-02
+Upstream-Status: Pending
 
 Aleksander Jan Bajkowski (1):
   iw: survey: add BSS receive time to survey

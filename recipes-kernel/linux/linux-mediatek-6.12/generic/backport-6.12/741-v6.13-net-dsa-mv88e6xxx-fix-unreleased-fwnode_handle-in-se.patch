@@ -12,6 +12,7 @@ and is no longer required.
 
 Fixes: 94a2a84f5e9e ("net: dsa: mv88e6xxx: Support LED control")
 Signed-off-by: Javier Carrasco <javier.carrasco.cruz@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Reviewed-by: Linus Walleij <linus.walleij@linaro.org>
 Signed-off-by: David S. Miller <davem@davemloft.net>

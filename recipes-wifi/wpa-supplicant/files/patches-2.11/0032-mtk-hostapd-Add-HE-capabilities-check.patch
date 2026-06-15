@@ -7,6 +7,8 @@ Subject: [PATCH 032/149] mtk: hostapd: Add HE capabilities check
  src/ap/hw_features.c | 26 ++++++++++++++++++++++++++
  1 file changed, 26 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hw_features.c b/src/ap/hw_features.c
 index 92f8ab0e8..9bcf4c63f 100644
 --- a/src/ap/hw_features.c

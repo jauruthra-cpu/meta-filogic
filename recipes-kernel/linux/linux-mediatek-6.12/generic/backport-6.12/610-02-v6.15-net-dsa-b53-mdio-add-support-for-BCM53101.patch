@@ -7,6 +7,7 @@ BCM53101 is a ethernet switch, very similar to the BCM53115.
 Enable support for it, in the existing b53 dsa driver.
 
 Signed-off-by: Torben Nielsen <torben.nielsen@prevas.dk>
+Upstream-Status: Pending
 Signed-off-by: Claus Stovgaard <claus.stovgaard@prevas.dk>
 Link: https://patch.msgid.link/20250217080503.1390282-1-claus.stovgaard@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

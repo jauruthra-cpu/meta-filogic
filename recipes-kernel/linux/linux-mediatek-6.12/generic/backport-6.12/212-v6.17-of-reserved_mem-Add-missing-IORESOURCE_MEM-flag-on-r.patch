@@ -16,6 +16,7 @@ Reviewed-by: Iuliana Prodan <iuliana.prodan@nxp.com>
 Reviewed-by: Saravana Kannan <saravanak@google.com>
 Link: https://lore.kernel.org/r/20250820192805.565568-1-robh@kernel.org
 Signed-off-by: Rob Herring (Arm) <robh@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/of/of_reserved_mem.c | 1 +
  1 file changed, 1 insertion(+)

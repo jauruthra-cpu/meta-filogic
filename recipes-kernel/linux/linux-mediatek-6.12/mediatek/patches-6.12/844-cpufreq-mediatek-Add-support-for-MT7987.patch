@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/cpufreq/mediatek-cpufreq.c
 +++ b/drivers/cpufreq/mediatek-cpufreq.c
 @@ -781,6 +781,12 @@ static const struct mtk_cpufreq_platform

@@ -34,6 +34,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/common/ieee802_11_defs.h | 13 +++++++
  6 files changed, 70 insertions(+), 35 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ctrl_iface_ap.c b/src/ap/ctrl_iface_ap.c
 index 869ba83db..d4cdb5693 100644
 --- a/src/ap/ctrl_iface_ap.c

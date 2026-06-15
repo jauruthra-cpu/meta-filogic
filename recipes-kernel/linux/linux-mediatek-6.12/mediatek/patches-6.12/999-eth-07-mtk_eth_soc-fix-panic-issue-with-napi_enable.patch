@@ -9,6 +9,7 @@ close to when mtk_open is called. This could lead to a kernel panic at
 netif_napi_enable because the ETH driver does not call netif_napi_add().
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 44 ++++++++++++---------
  1 file changed, 26 insertions(+), 18 deletions(-)

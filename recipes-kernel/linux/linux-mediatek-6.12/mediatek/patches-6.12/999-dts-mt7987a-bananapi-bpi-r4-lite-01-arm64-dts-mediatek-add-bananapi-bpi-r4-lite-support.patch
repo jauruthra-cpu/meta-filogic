@@ -11,6 +11,7 @@ split out from mt7987a-rfb to match the DTSO layout used upstream
 in OpenWrt.
 
 Signed-off-by: Sam Shih <sam.shih@mediatek.com>
+Upstream-Status: Pending
 ---
 v4: Split BPI-R4-Lite flash overlays out of mt7987a-rfb; add storage
     media DT overlays; align with OpenWrt DTSO format

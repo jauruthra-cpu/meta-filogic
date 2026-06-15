@@ -11,6 +11,7 @@ Update the only user of custom config_clks (tegra30 devfreq driver) to
 this new implementation.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/devfreq/tegra30-devfreq.c |  5 +++--
  drivers/opp/core.c                | 11 ++++++-----

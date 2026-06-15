@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/mtd/spi-nor/macronix.c
 +++ b/drivers/mtd/spi-nor/macronix.c
 @@ -76,6 +76,11 @@ static const struct flash_info macronix_

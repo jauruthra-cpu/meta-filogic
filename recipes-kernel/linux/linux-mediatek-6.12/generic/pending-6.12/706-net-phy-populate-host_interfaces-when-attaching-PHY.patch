@@ -14,6 +14,7 @@ consumption, but also limits the supported interface modes to
 full-duplex only.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/phylink.c | 21 ++++++++++++++++++++-
  1 file changed, 20 insertions(+), 1 deletion(-)

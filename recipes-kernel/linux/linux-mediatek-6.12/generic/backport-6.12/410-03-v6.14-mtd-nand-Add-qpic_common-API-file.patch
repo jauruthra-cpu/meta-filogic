@@ -8,6 +8,7 @@ qpic APIs which will be used by both qpic raw nand
 driver and qpic spi nand driver.
 
 Signed-off-by: Md Sadre Alam <quic_mdalam@quicinc.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/Makefile            |    2 +-

@@ -8,6 +8,7 @@ Add support for FudanMicro FM25S01BI3 SPI NAND.
 Link: https://www.fmsh.com/nvm/FM25S01BI3_ds_eng.pdf
 
 Signed-off-by: Mikhail Zhilkin <csharper2005@gmail.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/spi/fmsh.c | 72 +++++++++++++++++++++++++++++++++++++

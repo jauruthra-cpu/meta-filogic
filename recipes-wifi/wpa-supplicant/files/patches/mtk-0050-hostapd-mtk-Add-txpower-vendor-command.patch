@@ -20,6 +20,8 @@ control.
  src/drivers/driver_nl80211_capa.c |  3 ++
  12 files changed, 108 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 3f26191..8ecba5c 100644
 --- a/hostapd/config_file.c

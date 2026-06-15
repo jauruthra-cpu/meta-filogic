@@ -6,6 +6,7 @@ It improves performance by eliminating the need for a cache flush for DMA on
 attached devices
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/arch/arm64/boot/dts/mediatek/mt7622.dtsi

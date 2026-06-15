@@ -10,6 +10,8 @@ Signed-off-by: mtk20656 <chank.chen@mediatek.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
  mode change 100755 => 100644 src/ap/ieee802_11.c
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11.c b/src/ap/ieee802_11.c
 old mode 100755
 new mode 100644

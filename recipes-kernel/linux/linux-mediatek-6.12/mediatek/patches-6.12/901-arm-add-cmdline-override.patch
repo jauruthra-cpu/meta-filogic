@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/arch/arm/Kconfig
 +++ b/arch/arm/Kconfig
 @@ -1505,6 +1505,14 @@ config ARM_ATAG_DTB_COMPAT_CMDLINE_EXTEN

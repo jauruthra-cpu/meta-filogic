@@ -8,6 +8,7 @@ Realtek PHY driver to its own subdirectory and rename realtek.c to
 realtek_main.c.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/c566551b-c915-4e34-9b33-129a6ddd6e4c@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

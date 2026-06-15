@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Wed, 28 Apr 2021 21:03:13 +0200
 Subject: [PATCH] mac80211: minstrel_ht: fix MINSTREL_FRAC macro

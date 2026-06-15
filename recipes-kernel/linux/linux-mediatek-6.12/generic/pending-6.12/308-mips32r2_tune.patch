@@ -5,6 +5,7 @@ This provides a good tradeoff across at least 24Kc-74Kc, while also
 producing smaller code.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  arch/mips/Makefile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

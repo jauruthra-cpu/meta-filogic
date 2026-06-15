@@ -33,6 +33,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/drivers/driver_nl80211.c |  43 +++++++++++++++
  6 files changed, 168 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 31a0069e8..eda481d32 100644
 --- a/hostapd/ctrl_iface.c

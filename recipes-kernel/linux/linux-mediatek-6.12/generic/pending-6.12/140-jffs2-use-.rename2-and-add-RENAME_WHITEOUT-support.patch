@@ -4,6 +4,7 @@ Subject: jffs2: use .rename2 and add RENAME_WHITEOUT support
 It is required for renames on overlayfs
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/fs/jffs2/dir.c

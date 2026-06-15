@@ -11,6 +11,7 @@ configurations. It is unlikely to be accepted upstream, as upstream
 plans on integrating their own framework for handling these LEDs.
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 ---
  drivers/net/phy/mediatek/mtk-ge.c | 33 +++++++++++++++++++++++++++++++++
  1 file changed, 33 insertions(+)

@@ -4,6 +4,7 @@ Date: Thu, 6 Jun 2019 16:29:04 +0800
 Subject: [PATCH] spi: spi-mem: Mediatek: Add SPI Nand support for MT7629
 
 Signed-off-by: Xiangsheng Hou <xiangsheng.hou@mediatek.com>
+Upstream-Status: Pending
 ---
  arch/arm/boot/dts/mediatek/mt7629-rfb.dts | 45 ++++++++++++++++++++++++++++++++
  arch/arm/boot/dts/mediatek/mt7629.dtsi    | 22 ++++++++++++++++

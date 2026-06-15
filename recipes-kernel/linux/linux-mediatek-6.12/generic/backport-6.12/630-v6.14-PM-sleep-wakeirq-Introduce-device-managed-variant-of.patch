@@ -9,6 +9,7 @@ clear the wake irq on device destruction to simplify error handling
 and resource management in drivers.
 
 Signed-off-by: Peng Fan <peng.fan@nxp.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250103-wake_irq-v2-1-e3aeff5e9966@nxp.com
 Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>
 ---

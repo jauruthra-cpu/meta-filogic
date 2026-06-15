@@ -27,6 +27,7 @@ Stephen Boyd.
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Reviewed-by: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
 Signed-off-by: Cristian Ciocaltea <cristian.ciocaltea@collabora.com>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20241019-clk_bulk_ena_fix-v4-1-57f108f64e70@collabora.com
 Signed-off-by: Stephen Boyd <sboyd@kernel.org>
 ---

@@ -7,6 +7,7 @@ Felix will try to get this define included into musl
 
 lede-commit: 795e7cf60de19e7a076a46874fab7bb88b43bbff
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  include/uapi/linux/spi/spidev.h | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

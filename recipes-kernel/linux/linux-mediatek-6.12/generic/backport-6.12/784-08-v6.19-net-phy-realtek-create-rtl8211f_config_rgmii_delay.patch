@@ -20,6 +20,7 @@ problem. However, I don't know that it is, so there is no Fixes: tag.
 The issue was observed through code inspection.
 
 Signed-off-by: Vladimir Oltean <vladimir.oltean@nxp.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20251117234033.345679-2-vladimir.oltean@nxp.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

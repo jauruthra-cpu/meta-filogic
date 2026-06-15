@@ -9,6 +9,7 @@ directly instead of used as a shifter.
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Dan Carpenter <dan.carpenter@linaro.org>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/2f4b0a0b-2c03-41c0-8a4a-3d789a83832d@stanley.mountain
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

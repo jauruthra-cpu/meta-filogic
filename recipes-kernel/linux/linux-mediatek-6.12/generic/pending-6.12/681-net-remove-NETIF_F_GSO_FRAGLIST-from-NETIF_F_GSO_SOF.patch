@@ -9,6 +9,7 @@ NETIF_F_GSO_SOFTWARE and switch to NETIF_F_GSO_SOFTWARE_ALL (which includes
 fraglist GSO) in places where it's safe to add.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/dummy.c

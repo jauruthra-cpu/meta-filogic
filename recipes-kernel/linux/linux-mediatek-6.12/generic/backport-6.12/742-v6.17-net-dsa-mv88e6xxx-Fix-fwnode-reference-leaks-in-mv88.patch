@@ -18,6 +18,7 @@ This fix follows the same pattern as commit d029edefed39
 Fixes: 94a2a84f5e9e ("net: dsa: mv88e6xxx: Support LED control")
 Cc: stable@vger.kernel.org
 Signed-off-by: Miaoqian Lin <linmq006@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Linus Walleij <linus.walleij@linaro.org>
 Link: https://patch.msgid.link/20250901073224.2273103-1-linmq006@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

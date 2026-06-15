@@ -3,7 +3,7 @@ From: Shayne Chen <shayne.chen@mediatek.com>
 Date: Mon, 21 Oct 2024 18:57:09 +0800
 Subject: [PATCH 09/17] openwrt: Revert iw: allow specifying CFLAGS/LIBS
  externally
-
+Upstream-Status: Pending
 ---
  Makefile | 20 ++++++++++----------
  1 file changed, 10 insertions(+), 10 deletions(-)

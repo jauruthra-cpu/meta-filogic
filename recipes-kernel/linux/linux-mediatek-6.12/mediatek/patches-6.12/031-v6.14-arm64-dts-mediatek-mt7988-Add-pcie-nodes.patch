@@ -6,6 +6,7 @@ Subject: [PATCH 12/32] arm64: dts: mediatek: mt7988: Add pcie nodes
 Add pcie controllers for mt7988. Reuse mt7986 compatible.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/r/20241217091238.16032-11-linux@fw-web.de
 Signed-off-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>

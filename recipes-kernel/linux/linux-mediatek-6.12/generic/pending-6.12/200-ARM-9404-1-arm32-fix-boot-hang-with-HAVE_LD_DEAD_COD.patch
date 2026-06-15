@@ -10,6 +10,7 @@ and adding the additional entry with KEEP, fix the problem.
 
 Fixes: ed0f94102251 ("ARM: 9404/1: arm32: enable HAVE_LD_DEAD_CODE_DATA_ELIMINATION")
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  arch/arm/include/asm/vmlinux.lds.h | 10 +++++-----
  arch/arm/kernel/vmlinux.lds.S      |  4 ++--

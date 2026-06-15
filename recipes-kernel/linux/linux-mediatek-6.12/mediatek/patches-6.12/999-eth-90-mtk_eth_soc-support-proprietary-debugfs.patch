@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From 1d9311b4eadf79c458a379eae7ebddf273c25128 Mon Sep 17 00:00:00 2001
 From: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
 Date: Tue, 2 Dec 2025 13:53:08 +0800
@@ -3278,15 +3279,6 @@ Subject: [PATCH] net: ethernet: mtk_eth_soc: support proprietary debugfs
  	.ndo_change_mtu		= mtk_change_mtu,
  	.ndo_tx_timeout		= mtk_tx_timeout,
  	.ndo_get_stats64        = mtk_get_stats64,
-@@ -7089,6 +7114,8 @@ static int mtk_probe(struct platform_dev
- 		}
- 	}
- 
-+	mtk_eth_debugfs_init(eth);
-+
- 	/* we run 2 devices on the same DMA ring so we need a dummy device
- 	 * for NAPI to work
- 	 */
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.h
 +++ b/drivers/net/ethernet/mediatek/mtk_eth_soc.h
 @@ -347,6 +347,8 @@
@@ -3344,3 +3336,15 @@ Subject: [PATCH] net: ethernet: mtk_eth_soc: support proprietary debugfs
  	struct mii_bus			*mii_bus;
  	unsigned int			mdc_divider;
  	struct work_struct		pending_work;
+diff -Naur kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.c kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.c
+--- kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.c	2026-07-01 13:16:46.769076514 +0000
++++ kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.c	2026-07-01 13:18:54.506321267 +0000
+@@ -7132,6 +7132,8 @@
+ 			goto err_deinit_ppe;
+ 	}
+ 
++	mtk_eth_debugfs_init(eth);
++
+ 	/* we run 2 devices on the same DMA ring so we need a dummy device
+ 	 * for NAPI to work
+ 	 */

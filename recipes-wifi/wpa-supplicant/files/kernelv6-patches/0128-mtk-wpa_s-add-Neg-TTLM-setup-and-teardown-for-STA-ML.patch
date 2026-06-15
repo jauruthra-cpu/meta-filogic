@@ -29,6 +29,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/wpa_cli.c     | 17 +++++++++
  6 files changed, 177 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/common/ieee802_11_defs.h b/src/common/ieee802_11_defs.h
 index 591b487dd..db7195ac6 100644
 --- a/src/common/ieee802_11_defs.h

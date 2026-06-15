@@ -9,6 +9,7 @@ when adding support for a new chip version we have to touch less code,
 except something changes fundamentally.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Link: https://patch.msgid.link/06991f47-2aec-4aa2-8918-2c6e79332303@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

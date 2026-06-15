@@ -4,6 +4,7 @@ Date: Mon, 23 Dec 2024 16:27:20 +0800
 Subject: [PATCH 07/15] mtk wed add hwpath wmm support
 
 Signed-off-by: Rex Lu <rex.lu@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c       |  3 +-
  drivers/net/ethernet/mediatek/mtk_ppe.h       |  2 +-

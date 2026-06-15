@@ -13,6 +13,7 @@ label, check that it has the same offset and size and return the DT
 of_node to correctly use NVMEM cells.
 
 Signed-off-by: Ansuel Smith <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/parsers/cmdlinepart.c | 71 +++++++++++++++++++++++++++++++
  1 file changed, 71 insertions(+)

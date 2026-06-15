@@ -17,6 +17,7 @@ Since the API requires OF and is only related to layout, move the
 function in layouts.c to correctly handle non-OF NVMEM.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/nvmem/core.c           | 79 +--------------------------------
  drivers/nvmem/layouts.c        | 80 ++++++++++++++++++++++++++++++++++

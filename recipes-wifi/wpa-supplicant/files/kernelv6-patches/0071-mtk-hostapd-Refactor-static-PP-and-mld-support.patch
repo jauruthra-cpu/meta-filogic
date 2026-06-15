@@ -19,6 +19,8 @@ Add band_idx attribute in pp cmd for vendor cmd under mld setting.
  src/drivers/driver_nl80211.c |  4 ++-
  11 files changed, 86 insertions(+), 32 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index c16c548c2..cd9584daa 100644
 --- a/hostapd/config_file.c

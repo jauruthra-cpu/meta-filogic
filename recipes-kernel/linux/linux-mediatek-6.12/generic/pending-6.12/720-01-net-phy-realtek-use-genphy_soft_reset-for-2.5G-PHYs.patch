@@ -9,6 +9,7 @@ the PHY.
 
 Reported-by: Yevhen Kolomeiko <jarvis2709@gmail.com>
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/realtek/realtek_main.c | 6 ++++++
  1 file changed, 6 insertions(+)

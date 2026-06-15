@@ -2,6 +2,7 @@ From 9e358352ebf68a808a358477a70cedadc7ae3c9c Mon Sep 17 00:00:00 2001
 From: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
 Date: Wed, 4 Dec 2024 11:25:23 +0800
 Subject: [PATCH 15/17] iw: add radio mask for scanning
+Upstream-Status: Pending
 
 Add radio mask for scanning
 

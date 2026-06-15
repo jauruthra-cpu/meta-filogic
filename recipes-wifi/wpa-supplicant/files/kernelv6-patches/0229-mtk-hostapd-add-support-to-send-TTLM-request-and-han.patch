@@ -17,6 +17,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/common/ieee802_11_defs.h |   1 +
  5 files changed, 108 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index cd0b6ff35..7f87d5a76 100644
 --- a/src/ap/hostapd.c

@@ -8,6 +8,7 @@ Align the b53_arl_read{,25}() functions by consistently using the
 parsed arl entry instead of parsing the raw registers again.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251107080749.26936-2-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

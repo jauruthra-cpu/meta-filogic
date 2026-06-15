@@ -12,6 +12,8 @@ This reverts commit de49e55d7a1f62ef8eeb8269d8b34726468d54ac.
  wpa_supplicant/wpa_supplicant_i.h |  3 +--
  4 files changed, 18 insertions(+), 15 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/bss.c b/wpa_supplicant/bss.c
 index 50a3f60d1..db7d1dd54 100644
 --- a/wpa_supplicant/bss.c

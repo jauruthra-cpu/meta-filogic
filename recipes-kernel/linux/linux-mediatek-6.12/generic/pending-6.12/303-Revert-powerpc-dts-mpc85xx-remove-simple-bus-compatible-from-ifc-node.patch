@@ -12,6 +12,7 @@ are populated properly.
 Fixes fsl,ifc-nand probing under at least P1010.
 
 Signed-off-by: Rosen Penev <rosenp@gmail.com>
+Upstream-Status: Pending
 ---
  arch/powerpc/boot/dts/fsl/b4si-post.dtsi      | 2 +-
  arch/powerpc/boot/dts/fsl/bsc9131si-post.dtsi | 2 +-

@@ -9,6 +9,7 @@ part number.
 
 Fixes: ad5ce743a6b0 ("net: phy: realtek: Add driver instances for rtl8221b via Clause 45")
 Signed-off-by: Aleksander Jan Bajkowski <olek2@wp.pl>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Link: https://patch.msgid.link/20251016192325.2306757-1-olek2@wp.pl
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

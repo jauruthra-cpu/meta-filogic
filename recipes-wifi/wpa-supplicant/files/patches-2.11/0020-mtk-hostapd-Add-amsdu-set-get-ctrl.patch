@@ -19,6 +19,8 @@ Subject: [PATCH 020/149] mtk: hostapd: Add amsdu set get ctrl
  src/drivers/driver_nl80211_capa.c |   3 +
  13 files changed, 207 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index a5fa97a35..1f57b882f 100644
 --- a/hostapd/config_file.c

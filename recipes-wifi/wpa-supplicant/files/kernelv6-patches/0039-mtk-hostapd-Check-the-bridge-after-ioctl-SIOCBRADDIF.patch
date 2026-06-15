@@ -16,6 +16,8 @@ Signed-off-by: Michael Lee <michael-cy.lee@mediatek.com>
  src/drivers/linux_ioctl.c | 16 +++++++++++++++-
  1 file changed, 15 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/linux_ioctl.c b/src/drivers/linux_ioctl.c
 index 29abc0c59..73d27825d 100644
 --- a/src/drivers/linux_ioctl.c

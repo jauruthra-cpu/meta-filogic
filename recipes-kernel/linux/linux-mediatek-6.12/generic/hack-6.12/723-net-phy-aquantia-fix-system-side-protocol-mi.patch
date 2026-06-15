@@ -8,6 +8,7 @@ Do not set up protocols for speeds that are not supported by FW.  Enabling
 these protocols leads to link issues on system side.
 
 Signed-off-by: Alex Marginean <alexandru.marginean@nxp.com>
+Upstream-Status: Pending
 ---
  drivers/net/phy/aquantia/aquantia_main.c | 8 +++++++-
  1 file changed, 7 insertions(+), 1 deletion(-)

@@ -13,6 +13,7 @@ Modify the kernel configuration in a way it fails on unset symbols
 regardless of the aforementioned preconditions.
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 ---
  scripts/kconfig/conf.c | 6 ++++++
  1 file changed, 6 insertions(+)

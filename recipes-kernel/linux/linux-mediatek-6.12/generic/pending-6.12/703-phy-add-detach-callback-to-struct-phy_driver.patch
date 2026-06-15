@@ -4,6 +4,7 @@ Subject: generic: add detach callback to struct phy_driver
 lede-commit: fe61fc2d7d0b3fb348b502f68f98243b3ddf5867
 
 Signed-off-by: Gabor Juhos <juhosg@openwrt.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/phy_device.c | 3 +++
  include/linux/phy.h          | 6 ++++++

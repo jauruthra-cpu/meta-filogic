@@ -9,6 +9,8 @@ Signed-off-by: himanshu.goyal <himanshu.goyal@mediatek.com>
  src/common/mtk_vendor.h | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/common/mtk_vendor.h b/src/common/mtk_vendor.h
 index 97c5a47..62d79cb 100644
 --- a/src/common/mtk_vendor.h

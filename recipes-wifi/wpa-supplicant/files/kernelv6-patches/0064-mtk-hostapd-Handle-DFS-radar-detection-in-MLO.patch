@@ -27,6 +27,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/drivers/driver_nl80211_event.c |  3 ++-
  6 files changed, 33 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_drv_ops.c b/src/ap/ap_drv_ops.c
 index c54453f1d..15a1c0644 100644
 --- a/src/ap/ap_drv_ops.c

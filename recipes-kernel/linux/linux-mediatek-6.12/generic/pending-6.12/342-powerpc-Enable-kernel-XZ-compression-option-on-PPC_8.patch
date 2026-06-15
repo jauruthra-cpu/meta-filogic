@@ -8,6 +8,7 @@ simpleImage on TP-Link TL-WDR4900 (Freescale P1014 processor).
 
 Suggested-by: Christian Lamparter <chunkeey@gmail.com>
 Signed-off-by: Pawel Dembicki <paweldembicki@gmail.com>
+Upstream-Status: Pending
 ---
  arch/powerpc/Kconfig | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

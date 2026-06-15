@@ -10,6 +10,7 @@ when the SFP module is inserted and will switch to the PHY framework
 when the SFP module is removed.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 226 +++++++++++++++++++-
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |  23 ++

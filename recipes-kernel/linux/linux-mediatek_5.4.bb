@@ -39,7 +39,7 @@ SRC_URI:append_mt7987 += " \
 SRC_URI:append_mt7986-32bit += " \
     file://mediatek/patches-32bit-5.4/mt7986-32bit.cfg \
     file://mediatek/patches-32bit-5.4/401-pinctrl-add-mt7986-driver-32bit.patch \
-    file://mediatek/patches-32bit-5.4/999-add_armv7_support_for_panther.patch \
+    file://mediatek/patches-32bit-5.4/999-add:armv7_support_for_panther.patch \
 "
 SRC_URI:append += " \
     file://rdkb_cfg/iptables.cfg \

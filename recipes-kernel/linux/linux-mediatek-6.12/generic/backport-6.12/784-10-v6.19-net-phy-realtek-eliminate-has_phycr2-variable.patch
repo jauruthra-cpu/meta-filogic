@@ -10,6 +10,7 @@ rtl8211f_config_init() yields the same result (the PHY driver ID is a
 runtime invariant), but with one temporary variable less.
 
 Signed-off-by: Vladimir Oltean <vladimir.oltean@nxp.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20251117234033.345679-4-vladimir.oltean@nxp.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

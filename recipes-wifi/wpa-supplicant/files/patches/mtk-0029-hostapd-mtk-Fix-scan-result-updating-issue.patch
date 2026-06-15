@@ -11,6 +11,8 @@ should be assigned the default value for this kind of AP.
  wpa_supplicant/bss.c | 4 ++++
  1 file changed, 4 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/bss.c b/wpa_supplicant/bss.c
 index 01ddb13..4e711cf 100644
 --- a/wpa_supplicant/bss.c

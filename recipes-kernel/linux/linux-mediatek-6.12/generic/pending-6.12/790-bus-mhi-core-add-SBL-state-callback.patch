@@ -13,6 +13,7 @@ currently no way to ensure that we are in that state, so provide a
 callback that the controller can trigger off.
 
 Signed-off-by: Robert Marko <robimarko@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/bus/mhi/host/main.c | 1 +
  include/linux/mhi.h         | 2 ++

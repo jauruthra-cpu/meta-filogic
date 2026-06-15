@@ -28,6 +28,7 @@ not the current configuration.
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/E1tIUre-006ITz-KF@rmk-PC.armlinux.org.uk
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

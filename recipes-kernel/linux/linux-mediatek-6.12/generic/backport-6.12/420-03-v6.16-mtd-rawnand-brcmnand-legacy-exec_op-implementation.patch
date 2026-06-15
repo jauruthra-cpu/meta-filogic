@@ -13,6 +13,7 @@ implementation which doesn't rely on low level registers.
 
 Fixes: 3c8260ce7663 ("mtd: rawnand: brcmnand: exec_op implementation")
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: David Regan <dregan@broadcom.com>
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Reviewed-by: William Zhang <william.zhang@broadcom.com>

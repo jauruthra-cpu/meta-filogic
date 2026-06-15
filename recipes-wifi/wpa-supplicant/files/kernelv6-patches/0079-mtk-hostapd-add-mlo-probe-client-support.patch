@@ -12,6 +12,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/sta_info.c    | 18 +++++++++++++++++-
  2 files changed, 29 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 764281bbc..50e53a0a6 100644
 --- a/hostapd/ctrl_iface.c

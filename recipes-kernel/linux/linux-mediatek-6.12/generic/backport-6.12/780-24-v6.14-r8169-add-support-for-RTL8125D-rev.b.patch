@@ -7,6 +7,7 @@ Add support for RTL8125D rev.b. Its XID is 0x689. It is basically
 based on the one with XID 0x688, but with different firmware file.
 
 Signed-off-by: ChunHao Lin <hau@realtek.com>
+Upstream-Status: Pending
 [hkallweit1@gmail.com: rebased after adjusted version numbering]
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
 Reviewed-by: Simon Horman <horms@kernel.org>

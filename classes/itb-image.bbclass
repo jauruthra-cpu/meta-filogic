@@ -1,4 +1,4 @@
-inherit kernel-uboot kernel-artifact-names uboot-sign kernel-fitimage
+inherit kernel-uboot kernel-artifact-names uboot-sign_bpi kernel-fitimage
 
 python __anonymous () {
         d.appendVarFlag('do_assemble_filogic_fitimage', 'depends', ' rdk-generic-broadband-image:do_hash_rootfs')

@@ -13,6 +13,7 @@ given its ARC core configurations match (at least cache line sizes etc).
 .dtb right after it, keeping the string in place.
 
 Signed-off-by: Eugeniy Paltsev <Eugeniy.Paltsev@synopsys.com>
+Upstream-Status: Pending
 Signed-off-by: Alexey Brodkin <abrodkin@synopsys.com>
 Signed-off-by: Evgeniy Didin <Evgeniy.Didin@synopsys.com>
 ---

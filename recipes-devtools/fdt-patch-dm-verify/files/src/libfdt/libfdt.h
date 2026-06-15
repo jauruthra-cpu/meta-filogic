@@ -1757,14 +1757,14 @@ static inline int fdt_setprop_cell(void *fdt, int nodeoffset, const char *name,
 	fdt_setprop((fdt), (nodeoffset), (name), NULL, 0)
 
 /**
- * fdt_appendprop - append to or create a property
+ * fdt:appendprop - append to or create a property
  * @fdt: pointer to the device tree blob
  * @nodeoffset: offset of the node whose property to change
  * @name: name of the property to append to
  * @val: pointer to data to append to the property value
  * @len: length of the data to append to the property value
  *
- * fdt_appendprop() appends the value to the named property in the
+ * fdt:appendprop() appends the value to the named property in the
  * given node, creating the property if it does not already exist.
  *
  * This function may insert data into the blob, and will therefore
@@ -1783,17 +1783,17 @@ static inline int fdt_setprop_cell(void *fdt, int nodeoffset, const char *name,
  *	-FDT_ERR_BADLAYOUT,
  *	-FDT_ERR_TRUNCATED, standard meanings
  */
-int fdt_appendprop(void *fdt, int nodeoffset, const char *name,
+int fdt:appendprop(void *fdt, int nodeoffset, const char *name,
 		   const void *val, int len);
 
 /**
- * fdt_appendprop_u32 - append a 32-bit integer value to a property
+ * fdt:appendprop_u32 - append a 32-bit integer value to a property
  * @fdt: pointer to the device tree blob
  * @nodeoffset: offset of the node whose property to change
  * @name: name of the property to change
  * @val: 32-bit integer value to append to the property (native endian)
  *
- * fdt_appendprop_u32() appends the given 32-bit integer value
+ * fdt:appendprop_u32() appends the given 32-bit integer value
  * (converting to big-endian if necessary) to the value of the named
  * property in the given node, or creates a new property with that
  * value if it does not already exist.
@@ -1814,21 +1814,21 @@ int fdt_appendprop(void *fdt, int nodeoffset, const char *name,
  *	-FDT_ERR_BADLAYOUT,
  *	-FDT_ERR_TRUNCATED, standard meanings
  */
-static inline int fdt_appendprop_u32(void *fdt, int nodeoffset,
+static inline int fdt:appendprop_u32(void *fdt, int nodeoffset,
 				     const char *name, uint32_t val)
 {
 	fdt32_t tmp = cpu_to_fdt32(val);
-	return fdt_appendprop(fdt, nodeoffset, name, &tmp, sizeof(tmp));
+	return fdt:appendprop(fdt, nodeoffset, name, &tmp, sizeof(tmp));
 }
 
 /**
- * fdt_appendprop_u64 - append a 64-bit integer value to a property
+ * fdt:appendprop_u64 - append a 64-bit integer value to a property
  * @fdt: pointer to the device tree blob
  * @nodeoffset: offset of the node whose property to change
  * @name: name of the property to change
  * @val: 64-bit integer value to append to the property (native endian)
  *
- * fdt_appendprop_u64() appends the given 64-bit integer value
+ * fdt:appendprop_u64() appends the given 64-bit integer value
  * (converting to big-endian if necessary) to the value of the named
  * property in the given node, or creates a new property with that
  * value if it does not already exist.
@@ -1849,32 +1849,32 @@ static inline int fdt_appendprop_u32(void *fdt, int nodeoffset,
  *	-FDT_ERR_BADLAYOUT,
  *	-FDT_ERR_TRUNCATED, standard meanings
  */
-static inline int fdt_appendprop_u64(void *fdt, int nodeoffset,
+static inline int fdt:appendprop_u64(void *fdt, int nodeoffset,
 				     const char *name, uint64_t val)
 {
 	fdt64_t tmp = cpu_to_fdt64(val);
-	return fdt_appendprop(fdt, nodeoffset, name, &tmp, sizeof(tmp));
+	return fdt:appendprop(fdt, nodeoffset, name, &tmp, sizeof(tmp));
 }
 
 /**
- * fdt_appendprop_cell - append a single cell value to a property
+ * fdt:appendprop_cell - append a single cell value to a property
  *
- * This is an alternative name for fdt_appendprop_u32()
+ * This is an alternative name for fdt:appendprop_u32()
  */
-static inline int fdt_appendprop_cell(void *fdt, int nodeoffset,
+static inline int fdt:appendprop_cell(void *fdt, int nodeoffset,
 				      const char *name, uint32_t val)
 {
-	return fdt_appendprop_u32(fdt, nodeoffset, name, val);
+	return fdt:appendprop_u32(fdt, nodeoffset, name, val);
 }
 
 /**
- * fdt_appendprop_string - append a string to a property
+ * fdt:appendprop_string - append a string to a property
  * @fdt: pointer to the device tree blob
  * @nodeoffset: offset of the node whose property to change
  * @name: name of the property to change
  * @str: string value to append to the property
  *
- * fdt_appendprop_string() appends the given string to the value of
+ * fdt:appendprop_string() appends the given string to the value of
  * the named property in the given node, or creates a new property
  * with that value if it does not already exist.
  *
@@ -1894,11 +1894,11 @@ static inline int fdt_appendprop_cell(void *fdt, int nodeoffset,
  *	-FDT_ERR_BADLAYOUT,
  *	-FDT_ERR_TRUNCATED, standard meanings
  */
-#define fdt_appendprop_string(fdt, nodeoffset, name, str) \
-	fdt_appendprop((fdt), (nodeoffset), (name), (str), strlen(str)+1)
+#define fdt:appendprop_string(fdt, nodeoffset, name, str) \
+	fdt:appendprop((fdt), (nodeoffset), (name), (str), strlen(str)+1)
 
 /**
- * fdt_appendprop_addrrange - append a address range property
+ * fdt:appendprop_addrrange - append a address range property
  * @fdt: pointer to the device tree blob
  * @parent: offset of the parent node
  * @nodeoffset: offset of the node to add a property at
@@ -1906,7 +1906,7 @@ static inline int fdt_appendprop_cell(void *fdt, int nodeoffset,
  * @addr: start address of a given range
  * @size: size of a given range
  *
- * fdt_appendprop_addrrange() appends an address range value (start
+ * fdt:appendprop_addrrange() appends an address range value (start
  * address and size) to the value of the named property in the given
  * node, or creates a new property with that value if it does not
  * already exist.
@@ -1931,7 +1931,7 @@ static inline int fdt_appendprop_cell(void *fdt, int nodeoffset,
  *		contain a new property
  *	-FDT_ERR_TRUNCATED, standard meanings
  */
-int fdt_appendprop_addrrange(void *fdt, int parent, int nodeoffset,
+int fdt:appendprop_addrrange(void *fdt, int parent, int nodeoffset,
 			     const char *name, uint64_t addr, uint64_t size);
 
 /**

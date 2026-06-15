@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c
 +++ b/drivers/net/ethernet/mediatek/mtk_eth_soc.c
 @@ -1817,6 +1817,9 @@ static void mtk_tx_set_dma_desc_v2(struc

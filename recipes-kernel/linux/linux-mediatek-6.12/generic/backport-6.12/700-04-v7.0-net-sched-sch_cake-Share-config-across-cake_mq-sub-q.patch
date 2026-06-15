@@ -11,6 +11,7 @@ This adds support for configuring the cake_mq instance directly, sharing
 the config across the cake sub-qdiscs.
 
 Signed-off-by: Toke Høiland-Jørgensen <toke@redhat.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20260109-mq-cake-sub-qdisc-v8-4-8d613fece5d8@redhat.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

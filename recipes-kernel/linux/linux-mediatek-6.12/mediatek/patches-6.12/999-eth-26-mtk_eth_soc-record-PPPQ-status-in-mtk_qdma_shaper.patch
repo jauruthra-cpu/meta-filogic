@@ -5,6 +5,7 @@ Subject: [PATCH] net: ethernet: mtk_eth_soc: record PPPQ status in the
  mtk_qdma_shaper structure
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 39 +++++++++++++++++++++
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 18 ++++++++++

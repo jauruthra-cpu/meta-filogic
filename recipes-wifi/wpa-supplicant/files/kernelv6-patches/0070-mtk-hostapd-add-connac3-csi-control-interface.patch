@@ -20,6 +20,8 @@ Signed-off-by: mtk20656 <chank.chen@mediatek.com>
  src/drivers/driver_nl80211_capa.c |   3 +
  9 files changed, 511 insertions(+), 7 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 13fd7f511..bae9bae3a 100644
 --- a/hostapd/ctrl_iface.c

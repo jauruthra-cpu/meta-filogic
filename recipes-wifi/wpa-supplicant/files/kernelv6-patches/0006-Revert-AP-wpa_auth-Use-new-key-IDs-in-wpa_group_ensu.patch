@@ -12,6 +12,8 @@ makes QT beacon protection test case failed.
  src/ap/wpa_auth.c | 12 ++++++------
  1 file changed, 6 insertions(+), 6 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wpa_auth.c b/src/ap/wpa_auth.c
 index 857dd332f..3d54be11c 100644
 --- a/src/ap/wpa_auth.c

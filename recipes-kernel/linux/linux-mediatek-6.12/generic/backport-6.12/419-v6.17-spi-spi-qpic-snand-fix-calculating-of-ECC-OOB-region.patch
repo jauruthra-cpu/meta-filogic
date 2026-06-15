@@ -30,6 +30,7 @@ values for various OOB size/ECC strength configurations:
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Konrad Dybcio <konrad.dybcio@oss.qualcomm.com>
 Link: https://patch.msgid.link/20250805-qpic-snand-oob-ecc-fix-v2-1-e6f811c70d6f@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>

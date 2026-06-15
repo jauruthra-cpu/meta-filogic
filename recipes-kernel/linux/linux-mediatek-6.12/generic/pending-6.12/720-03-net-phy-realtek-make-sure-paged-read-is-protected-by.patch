@@ -12,6 +12,7 @@ Make sure it is also protected by the MDIO bus mutex and use
 rtl821x_write_page instead of 3 individually locked MDIO bus operations.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/realtek/realtek_main.c | 8 +++++---
  1 file changed, 5 insertions(+), 3 deletions(-)

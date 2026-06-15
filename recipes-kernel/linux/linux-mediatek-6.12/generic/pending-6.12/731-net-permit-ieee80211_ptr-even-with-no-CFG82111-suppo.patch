@@ -9,6 +9,7 @@ backports project and for any downstream wireless driver that loads in
 the kernel dynamically.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  include/linux/netdevice.h       | 2 +-
  net/batman-adv/hard-interface.c | 2 +-

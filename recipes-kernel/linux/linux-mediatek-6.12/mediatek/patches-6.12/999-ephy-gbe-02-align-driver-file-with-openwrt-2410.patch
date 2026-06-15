@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/phy/mediatek/mtk-ge-soc.c
 +++ b/drivers/net/phy/mediatek/mtk-ge-soc.c
 @@ -137,6 +137,8 @@

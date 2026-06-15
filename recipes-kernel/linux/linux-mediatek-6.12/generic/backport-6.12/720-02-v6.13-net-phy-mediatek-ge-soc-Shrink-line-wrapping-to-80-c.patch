@@ -8,6 +8,7 @@ This patch shrinks line wrapping to 80 chars. Also, in
 tx_amp_fill_result(), use FIELD_PREP() to prettify code.
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>
 ---

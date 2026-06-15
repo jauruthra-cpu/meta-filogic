@@ -12,6 +12,8 @@ Signed-off-by: Bo Jiao <Bo.Jiao@mediatek.com>
  src/ap/drv_callbacks.c | 3 +++
  1 file changed, 3 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index 6a5754428..9afad7ae8 100644
 --- a/src/ap/drv_callbacks.c

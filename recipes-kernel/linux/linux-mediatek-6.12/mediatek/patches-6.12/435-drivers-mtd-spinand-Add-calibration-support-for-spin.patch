@@ -5,6 +5,7 @@ Subject: [PATCH 5/6] drivers: mtd: spinand: Add calibration support for
  spinand
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/core.c | 54 +++++++++++++++++++++++++++++++++++++
  1 file changed, 54 insertions(+)

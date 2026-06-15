@@ -12,6 +12,7 @@ If debug messages is too annoying, user can disable it by "dmesg -n 7"
 command.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/phy/phylink.c     | 13 +++++++--
  drivers/net/phy/sfp-bus.c     |  3 +++

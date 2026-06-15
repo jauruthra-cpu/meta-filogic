@@ -16,6 +16,7 @@ Fixes: 462a3daad679 ("net: phy: mediatek: fix compile-test dependencies")
 Acked-by: Daniel Golle <daniel@makrotopia.org>
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Acked-by: Arnd Bergmann <arnd@arndb.de>
 Link: https://patch.msgid.link/20250410100410.348-1-ansuelsmth@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

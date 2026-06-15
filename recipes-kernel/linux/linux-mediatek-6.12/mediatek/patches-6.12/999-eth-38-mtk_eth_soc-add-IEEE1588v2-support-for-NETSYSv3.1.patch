@@ -17,6 +17,7 @@ Without this patch, the user is unable to use ptp4l to obtain the
 hardware timestamp from GMAC.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/Makefile      |   2 +-
  drivers/net/ethernet/mediatek/mtk_eth_ptp.c | 521 ++++++++++++++++++++

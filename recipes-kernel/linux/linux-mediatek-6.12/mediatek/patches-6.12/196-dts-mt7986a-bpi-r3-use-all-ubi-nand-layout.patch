@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3-emmc.dtso
 +++ b/arch/arm64/boot/dts/mediatek/mt7986a-bananapi-bpi-r3-emmc.dtso
 @@ -21,5 +21,24 @@

@@ -4,6 +4,7 @@ Date: Thu, 23 Jun 2022 18:37:55 +0800
 Subject: [PATCH 3/6] drivers: spi-mem: Add spi calibration hook
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/spi/spi-mem.c       | 8 ++++++++
  include/linux/spi/spi-mem.h | 4 ++++

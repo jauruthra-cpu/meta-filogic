@@ -19,6 +19,7 @@ node name in device tree) adding the nvmem cell index to the least
 significant digit of the MAC address.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/nvmem/layouts/Kconfig  |   9 +++
  drivers/nvmem/layouts/Makefile |   1 +

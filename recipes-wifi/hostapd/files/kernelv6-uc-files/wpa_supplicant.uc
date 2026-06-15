@@ -1,7 +1,7 @@
 let libubus = require("ubus");
 import * as uloop from "uloop";
 import { open, readfile } from "fs";
-import { wdev_create, wdev_set_mesh_params, wdev_remove, is_equal, wdev_set_up, vlist_new, phy_open } from "common";
+import { wdev_create, wdev_set_mesh_params, wdev:remove, is_equal, wdev_set_up, vlist_new, phy_open } from "common";
 
 let ubus = libubus.connect();
 
@@ -29,7 +29,7 @@ function iface_stop(iface)
 
 	delete wpas.data.iface_phy[ifname];
 	wpas.remove_iface(ifname);
-	wdev_remove(ifname);
+	wdev:remove(ifname);
 	iface.running = false;
 }
 
@@ -50,7 +50,7 @@ function iface_start(phydev, iface, macaddr_list)
 		wdev_config.mld_radio_mask = wdev_config.mld_allowed_phy_bitmap;
 
 	wpas.data.iface_phy[ifname] = phy;
-	wdev_remove(ifname);
+	wdev:remove(ifname);
 	let ret = phydev.wdev_add(ifname, wdev_config);
 	if (ret)
 		wpas.printf(`Failed to create device ${ifname}: ${ret}`);
@@ -130,7 +130,7 @@ function phy_name(phy, radio)
 	return phy;
 }
 
-function mld_remove(data)
+function mld:remove(data)
 {
 	if (!data.radio_mask_up)
 		return;
@@ -138,7 +138,7 @@ function mld_remove(data)
 	let name = data.name;
 	wpas.printf(`Remove MLD interface ${name}`);
 	wpas.remove_iface(name);
-	wdev_remove(name);
+	wdev:remove(name);
 	data.radio_mask_up = 0;
 }
 
@@ -200,7 +200,7 @@ function mld_add(data, phy_list)
 	if (!iface) {
 		wpas.printf(`Interface ${name} not found after adding\n`);
 		wpas.remove_iface(name);
-		wdev_remove(name);
+		wdev:remove(name);
 		return;
 	}
 
@@ -213,16 +213,16 @@ function mld_add(data, phy_list)
 	data.radio_mask_up = data.radio_mask_present;
 }
 
-function mld_remove_links(data)
+function mld:remove_links(data)
 {
 	// TODO
-	mld_remove(data);
+	mld:remove(data);
 }
 
 function mld_add_links(data)
 {
 	// TODO: incremental update
-	mld_remove(data);
+	mld:remove(data);
 	mld_add(data);
 }
 
@@ -260,7 +260,7 @@ function mld_set_config(config)
 	}
 
 	for (let name, data in prev_mld)
-		mld_remove(data);
+		mld:remove(data);
 
 	wpas.data.mld = new_mld;
 
@@ -297,7 +297,7 @@ function mld_update_iface(name, data) {
 		return;
 
 	if (!data.radio_mask_present) {
-		mld_remove(data);
+		mld:remove(data);
 		return;
 	}
 
@@ -305,7 +305,7 @@ function mld_update_iface(name, data) {
 	if (!mask)
 		return;
 
-	mld_remove_links(data);
+	mld:remove_links(data);
 }
 
 function mld_update_phy(phy, ifaces) {
@@ -595,7 +595,7 @@ let main_obj = {
 			};
 		}
 	},
-	config_remove: {
+	config:remove: {
 		args: {
 			iface: ""
 		},
@@ -747,7 +747,7 @@ function iface_channel_switch(ifname, iface, info)
 	ubus.call("hostapd", "apsta_state", msg);
 }
 
-function iface_ubus_remove(ifname)
+function iface_ubus:remove(ifname)
 {
 	let obj = wpas.data.iface_ubus[ifname];
 	if (!obj)
@@ -770,7 +770,7 @@ function iface_ubus_add(ifname)
 {
 	let ubus = wpas.data.ubus;
 
-	iface_ubus_remove(ifname);
+	iface_ubus:remove(ifname);
 
 	let obj = ubus.publish(`wpa_supplicant.${ifname}`, {
 		reload: {
@@ -843,9 +843,9 @@ return {
 		iface_ubus_add(name);
 		iface_event("add", name);
 	},
-	iface_remove: function(name, obj) {
+	iface:remove: function(name, obj) {
 		iface_event("remove", name);
-		iface_ubus_remove(name);
+		iface_ubus:remove(name);
 	},
 	ctrl_event: function(name, iface, ev) {
 		iface_ubus_notify(name, ev);

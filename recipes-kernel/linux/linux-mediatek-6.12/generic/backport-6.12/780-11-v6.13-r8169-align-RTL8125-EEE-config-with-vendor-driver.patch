@@ -7,6 +7,7 @@ Align the EEE config for RTL8125A/RTL8125B with vendor driver r8125.
 This should help to avoid compatibility issues.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/044c925e-8669-4b98-87df-95b4056f4f5f@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

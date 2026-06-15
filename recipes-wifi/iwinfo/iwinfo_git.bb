@@ -15,7 +15,7 @@ SRC_URI = "git://git.openwrt.org/project/iwinfo.git;branch=master \
            file://0003-Replace-typedef-loaL_reg-with-luaL_Reg.patch \
            "
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/${PN}-${PV}"
 
 CFLAGS += "-fPIC -D_GNU_SOURCE"
 CFLAGS += " -I=${includedir}/libnl-tiny "

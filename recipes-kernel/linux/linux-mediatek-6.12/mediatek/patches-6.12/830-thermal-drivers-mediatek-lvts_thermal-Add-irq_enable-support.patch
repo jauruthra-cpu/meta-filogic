@@ -6,6 +6,7 @@ Subject: [PATCH] thermal/drivers/mediatek/lvts_thermal: Add irq_enable
 Allow interrupt support to be disabled as some SoCs don't support it.
 
 Signed-off-by: Chad Monroe <chad@monroe.io>
+Upstream-Status: Pending
 ---
  drivers/thermal/mediatek/lvts_thermal.c |   33 ++++++++++++++++------
  1 file changed, 25 insertions(+), 8 deletions(-)

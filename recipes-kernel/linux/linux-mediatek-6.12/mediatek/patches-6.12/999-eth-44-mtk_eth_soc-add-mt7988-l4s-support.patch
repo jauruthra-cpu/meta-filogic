@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From b15180131e3f90773dc9760c87780f6c4d447093 Mon Sep 17 00:00:00 2001
 From: "chak-kei.lam" <chak-kei.lam@mediatek.com>
 Date: Tue, 3 Mar 2026 14:10:24 +0800
@@ -35,14 +36,11 @@ index a2b2635..00f284d 100644
  
  /* GDM Egress Control Register */
  #define MTK_GDMA_EG_CTRL(x)	({ typeof(x) _x = (x); (_x == MTK_GMAC3_ID) ?	\
-@@ -1742,6 +1743,7 @@ struct mtk_eth {
+@@ -1742,6 +1742,7 @@
  	struct metadata_dst		*dsa_meta[MTK_MAX_DSA_PORTS];
  
- 	u8				debug_level;
-+	u8				l4s_toggle;
+         u8                              debug_level;
++        u8                              l4s_toggle;
  	struct mtk_ppe			*ppe[3];
  	struct rhashtable		flow_table;
  
--- 
-2.45.2
-

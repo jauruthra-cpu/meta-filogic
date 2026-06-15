@@ -9,6 +9,7 @@ ring, which were implemented in three __phy_write().
 Now we can do the same thing via __mtk_tr_set_bits() helper.
 
 Signed-off-by: Sky Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250213080553.921434-4-SkyLake.Huang@mediatek.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

@@ -12,6 +12,7 @@ Without this patch, the DSCP value may be changed if the DSCP field in
 IB2 is not the same as that in the ingress packets.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h   |  1 +
  drivers/net/ethernet/mediatek/mtk_ppe.c       | 19 +++++++
@@ -20,18 +21,6 @@ Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
  drivers/net/ethernet/mediatek/mtk_ppe_regs.h  |  1 +
  5 files changed, 76 insertions(+)
 
-diff --git a/drivers/net/ethernet/mediatek/mtk_eth_soc.h b/drivers/net/ethernet/mediatek/mtk_eth_soc.h
-index 28de173..c2ea891 100644
---- a/drivers/net/ethernet/mediatek/mtk_eth_soc.h
-+++ b/drivers/net/ethernet/mediatek/mtk_eth_soc.h
-@@ -1710,6 +1710,7 @@ struct mtk_eth {
- 	struct metadata_dst		*dsa_meta[MTK_MAX_DSA_PORTS];
- 
- 	u8				debug_level;
-+	u8				dscp_toggle;
- 	u8				qos_toggle;
- 	u8				l4s_toggle;
- 	struct mtk_ppe			*ppe[3];
 diff --git a/drivers/net/ethernet/mediatek/mtk_ppe.c b/drivers/net/ethernet/mediatek/mtk_ppe.c
 index 095d531..3fd5ca0 100644
 --- a/drivers/net/ethernet/mediatek/mtk_ppe.c
@@ -175,3 +164,14 @@ index 0b9527a..9b2209d 100644
 -- 
 2.45.2
 
+diff -Naur kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.h kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.h
+--- kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.h	2026-07-02 05:33:57.097408052 +0000
++++ kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.h	2026-07-02 06:38:37.594705718 +0000
+@@ -1743,6 +1743,7 @@
+ 	struct metadata_dst		*dsa_meta[MTK_MAX_DSA_PORTS];
+ 
+         u8                              debug_level;
++        u8                              dscp_toggle;
+         u8                              qos_toggle;
+         u8                              l4s_toggle;
+ 	struct mtk_ppe			*ppe[3];

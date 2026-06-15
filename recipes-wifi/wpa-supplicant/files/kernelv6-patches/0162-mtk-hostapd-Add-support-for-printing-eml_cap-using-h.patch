@@ -27,6 +27,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  src/ap/ctrl_iface_ap.c | 26 ++++++++++++++++++++++++++
  1 file changed, 26 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ctrl_iface_ap.c b/src/ap/ctrl_iface_ap.c
 index 6bd14461c..d558d8799 100644
 --- a/src/ap/ctrl_iface_ap.c

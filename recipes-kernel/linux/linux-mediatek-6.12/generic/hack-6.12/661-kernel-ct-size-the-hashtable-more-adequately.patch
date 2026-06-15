@@ -8,6 +8,7 @@ To set the default size of the connection tracking hash table, a divider of
 2048 instead, making the default size scale better with the available RAM.
 
 Signed-off-by: Rui Salvaterra <rsalvaterra@gmail.com>
+Upstream-Status: Pending
 ---
  net/netfilter/nf_conntrack_core.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

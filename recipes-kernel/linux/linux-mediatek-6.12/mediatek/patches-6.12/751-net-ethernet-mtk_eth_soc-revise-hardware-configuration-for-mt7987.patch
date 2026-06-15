@@ -9,6 +9,7 @@ Change hardware configuration for the MT7987.
  - Enable PSE no-drop mechanism for packets from the WDMA Tx
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 49 +++++++++++++--------
  1 file changed, 31 insertions(+), 18 deletions(-)

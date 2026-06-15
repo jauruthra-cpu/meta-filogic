@@ -2,6 +2,7 @@ From: =?UTF-8?q?Rafa=C5=82=20Mi=C5=82ecki?= <zajec5@gmail.com>
 Subject: [PATCH] mtd: bcm47xxpart: check for bad blocks when calculating offsets
 
 Signed-off-by: Rafał Miłecki <zajec5@gmail.com>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/mtd/parsers/parser_trx.c

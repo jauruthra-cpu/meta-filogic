@@ -17,6 +17,7 @@ This patch also introduces an as21xx_bbu_api, which allows users to use
 debugfs to get or set the PHY mode for debugging purposes.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/phy/Makefile                      |    3 +-
  drivers/net/phy/as21xx_bbu_api/as21xx_api.c   | 1625 ++++++++++

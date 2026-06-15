@@ -9,6 +9,7 @@ Add defines for these VEND2 registers, based on the names of the
 standard c45 registers.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/c90bdf76-f8b8-4d06-9656-7a52d5658ee6@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

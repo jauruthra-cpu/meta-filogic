@@ -29,6 +29,8 @@ Signed-off-by: Money Wang <money.wang@mediatek.com>
  src/ap/bss_load.c | 2 +-
  3 files changed, 9 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index c67d08b..02f4f87 100644
 --- a/src/ap/beacon.c

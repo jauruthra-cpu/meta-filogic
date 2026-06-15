@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/netfilter/nf_flow_table_offload.c
 +++ b/net/netfilter/nf_flow_table_offload.c
 @@ -244,6 +244,7 @@ static int flow_offload_eth_src(struct n

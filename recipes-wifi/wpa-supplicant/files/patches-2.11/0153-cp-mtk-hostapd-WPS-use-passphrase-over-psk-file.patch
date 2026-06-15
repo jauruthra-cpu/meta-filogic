@@ -10,6 +10,8 @@ Change-Id: Ifb88dc143564291185592e104aafa1d91b814ec8
  src/ap/wps_hostapd.c | 7 ++++---
  1 file changed, 4 insertions(+), 3 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wps_hostapd.c b/src/ap/wps_hostapd.c
 index 8a6fc42b2..0429080d1 100644
 --- a/src/ap/wps_hostapd.c

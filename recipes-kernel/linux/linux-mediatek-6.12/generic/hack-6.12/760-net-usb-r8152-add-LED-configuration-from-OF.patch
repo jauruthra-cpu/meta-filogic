@@ -8,6 +8,7 @@ OF. This way, the correct value for board specific LED configuration can
 be determined.
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 ---
  drivers/net/usb/r8152.c | 23 +++++++++++++++++++++++
  1 file changed, 23 insertions(+)

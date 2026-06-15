@@ -10,6 +10,7 @@ the LED when a link is established, regardless of the speed.
 Tested on Orange Pi PC2 with RTL8211E PHY.
 
 Signed-off-by: Aleksander Jan Bajkowski <olek2@wp.pl>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250825211059.143231-1-olek2@wp.pl
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

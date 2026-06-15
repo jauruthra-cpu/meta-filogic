@@ -4,6 +4,7 @@ Date: Fri, 2 Jan 2026 09:45:29 +0800
 Subject: [PATCH] net: pcs: mtk_usxgmii: add link_poll mechanism
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/pcs/pcs-mtk-usxgmii.c    | 168 +++++++++++++++++++--------
  include/linux/pcs/pcs-mtk-usxgmii.h  |  29 +++++

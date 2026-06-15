@@ -12,6 +12,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  wpa_supplicant/sme.c | 5 ++++-
  1 file changed, 4 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/sme.c b/wpa_supplicant/sme.c
 index 3fdd95ab4..b785aca83 100644
 --- a/wpa_supplicant/sme.c

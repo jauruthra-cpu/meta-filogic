@@ -10,6 +10,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  hostapd/ctrl_iface.c | 6 ++++++
  1 file changed, 6 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index a61851314..6618599dd 100644
 --- a/hostapd/ctrl_iface.c

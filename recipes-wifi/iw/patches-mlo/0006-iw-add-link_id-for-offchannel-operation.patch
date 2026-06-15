@@ -2,6 +2,7 @@ From bb0faa2af776e01fa2b6d8e2240bd265de28c18f Mon Sep 17 00:00:00 2001
 From: Michael-CY Lee <michael-cy.lee@mediatek.com>
 Date: Thu, 27 Jun 2024 08:37:52 +0800
 Subject: [PATCH 13/17] iw: add link_id for offchannel operation
+Upstream-Status: Pending
 
 NL80211_CMD_REMAIN_ON_CANNEL has flag NL80211_FLAG_MLO_VALID_LINK_ID, so
 a link_id is necessary when the interface is MLD.

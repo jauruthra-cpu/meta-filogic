@@ -6,6 +6,7 @@ Subject: [PATCH] mtd: spinand: Add support for the Fidelix FM35X1GA
 Datasheet: http://www.hobos.com.cn/upload/datasheet/DS35X1GAXXX_100_rev00.pdf
 
 Signed-off-by: Davide Fioravanti <pantanastyle@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/Makefile  |  2 +-
  drivers/mtd/nand/spi/core.c    |  1 +

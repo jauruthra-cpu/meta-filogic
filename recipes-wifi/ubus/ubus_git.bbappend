@@ -80,7 +80,9 @@ SYSTEMD_SERVICE:${PN}_rdk = "ubusd.service"
 do_install:append_rdk() {
     # Install systemd unit files
     install -d ${D}${systemd_unitdir}/system
-    install -m 0644 ${WORKDIR}/ubusd.service ${D}${systemd_unitdir}/system
+    install -m 0644 ${UNPACKDIR}/ubusd.service ${D}${systemd_unitdir}/system
         sed -i -e 's,@SBINDIR@,${sbindir},g' \
             ${D}${systemd_unitdir}/system/ubusd.service
 }
+
+EXTRA_OECMAKE += "-DCMAKE_INSTALL_LIBDIR=${libdir}"

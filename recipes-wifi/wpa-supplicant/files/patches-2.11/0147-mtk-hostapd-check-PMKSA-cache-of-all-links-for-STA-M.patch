@@ -20,6 +20,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/wpa_auth_ie.c | 15 +++++++++++++--
  3 files changed, 41 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wpa_auth.c b/src/ap/wpa_auth.c
 index 3c7b1aa0c..ae62ec3b7 100644
 --- a/src/ap/wpa_auth.c

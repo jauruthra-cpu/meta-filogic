@@ -5,6 +5,7 @@ Add support for EON EN25QX128A with no flags as it does
 support SFDP parsing.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/spi-nor/spi-nor.c | 1 +
  1 file changed, 1 insertion(+)

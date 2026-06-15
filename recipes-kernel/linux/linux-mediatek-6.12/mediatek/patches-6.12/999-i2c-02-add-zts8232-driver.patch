@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/iio/pressure/Kconfig
 +++ b/drivers/iio/pressure/Kconfig
 @@ -346,4 +346,15 @@ config ZTS8032

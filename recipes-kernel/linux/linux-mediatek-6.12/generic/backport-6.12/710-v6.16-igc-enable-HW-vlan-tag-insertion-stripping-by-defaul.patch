@@ -14,6 +14,7 @@ controllers, my upload performance increased from under 30 Mb/s to the expected
 ~1 Gb/s.
 
 Signed-off-by: Rui Salvaterra <rsalvaterra@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/intel/igc/igc_main.c | 3 +++
  1 file changed, 3 insertions(+)

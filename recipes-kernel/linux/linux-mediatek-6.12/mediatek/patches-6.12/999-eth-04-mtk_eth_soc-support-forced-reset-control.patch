@@ -7,6 +7,7 @@ Without this patch, users are unable to control the forced reset
 through the proprietary debugfs.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 6 ++++--
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 1 +

@@ -16,6 +16,8 @@ Signed-off-by: Yi-Chia Hsieh <Yi-Chia.Hsieh@mediatek.com>
  src/common/ieee802_11_defs.h | 36 +++++++++++++++++++
  5 files changed, 116 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 5c4491d10..31d42e0f4 100644
 --- a/src/ap/beacon.c

@@ -19,6 +19,7 @@ loaded or an HW reset.
 
 Fixes: 830877d89edc ("net: phy: Add support for Aeonsemi AS21xxx PHYs")
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250823134431.4854-2-ansuelsmth@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

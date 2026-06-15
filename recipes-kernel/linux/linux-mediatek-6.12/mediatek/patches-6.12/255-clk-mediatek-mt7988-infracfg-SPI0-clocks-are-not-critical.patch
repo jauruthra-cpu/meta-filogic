@@ -42,6 +42,7 @@ Remove CLK_IS_CRITICAL flag from clocks related to SPI0.
 
 Fixes: 4b4719437d85 ("clk: mediatek: add drivers for MT7988 SoC")
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/clk/mediatek/clk-mt7988-infracfg.c | 6 ++----
  1 file changed, 2 insertions(+), 4 deletions(-)

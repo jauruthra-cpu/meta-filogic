@@ -3,6 +3,7 @@ Subject: hack: net: remove bogus netfilter dependencies
 
 lede-commit: 589d2a377dee27d206fc3725325309cf649e4df6
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  net/netfilter/Kconfig | 2 --
  1 file changed, 2 deletions(-)

@@ -9,6 +9,7 @@ driver requires firmware to run. Also, update MAINTAINERS for
 MediaTek's built-in 2.5Gphy dt-bindings and change MAINTAINER's name.
 
 Signed-off-by: Sky Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  .../bindings/net/mediatek,2p5gphy-fw.yaml     | 37 +++++++++++++++++++
  MAINTAINERS                                   |  3 +-

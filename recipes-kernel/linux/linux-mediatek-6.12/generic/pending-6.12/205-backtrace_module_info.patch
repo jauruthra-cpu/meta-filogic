@@ -5,6 +5,7 @@ Subject: kernel: when KALLSYMS is disabled, print module address + size for matc
 
 lede-commit 53827cdc824556cda910b23ce5030c363b8f1461
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  lib/vsprintf.c | 15 +++++++++++----
  1 file changed, 11 insertions(+), 4 deletions(-)

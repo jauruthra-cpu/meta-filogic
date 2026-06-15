@@ -8,6 +8,7 @@ Interrupts are mapped on the VEND2 page. VEND2 registers are only
 accessible via C45 reads and cannot be accessed by C45 over C22.
 
 Signed-off-by: Jianhui Zhao <zhaojh329@gmail.com>
+Upstream-Status: Pending
 [Enable only link state change interrupts]
 Signed-off-by: Aleksander Jan Bajkowski <olek2@wp.pl>
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>

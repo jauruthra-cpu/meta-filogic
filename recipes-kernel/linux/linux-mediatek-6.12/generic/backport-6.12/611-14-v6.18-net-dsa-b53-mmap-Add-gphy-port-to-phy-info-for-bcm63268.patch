@@ -6,6 +6,7 @@ Subject: [PATCH] net: dsa: b53: mmap: Add gphy port to phy info for bcm63268
 Add gphy mask to bcm63xx phy info struct and add data for bcm63268
 
 Signed-off-by: Kyle Hendry <kylehendrydev@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250814002530.5866-2-kylehendrydev@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

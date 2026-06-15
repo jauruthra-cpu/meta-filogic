@@ -5,6 +5,7 @@ Add splice_read using generic_file_splice_read.
 Add splice_write using iter_file_splice_write
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/fs/jffs2/file.c

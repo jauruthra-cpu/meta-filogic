@@ -8,6 +8,7 @@ version 11 (early RTL8168b)"). Nobody complained yet, so remove
 support for this chip version.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Link: https://patch.msgid.link/b689ab6d-20b5-4b64-bd7e-531a0a972ba3@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

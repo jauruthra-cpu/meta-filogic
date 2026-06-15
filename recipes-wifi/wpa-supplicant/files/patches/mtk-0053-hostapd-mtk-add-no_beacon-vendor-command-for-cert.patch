@@ -23,6 +23,8 @@ hostapd_cli -i <interface> no_beacon <value>
  src/drivers/driver_nl80211_capa.c |  3 +++
  9 files changed, 91 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index cb0e106..1d499d9 100644
 --- a/hostapd/ctrl_iface.c

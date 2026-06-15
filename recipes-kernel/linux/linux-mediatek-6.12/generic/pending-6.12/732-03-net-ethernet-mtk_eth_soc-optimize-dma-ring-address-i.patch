@@ -7,6 +7,7 @@ Since DMA descriptor sizes are all power of 2, we can avoid costly integer
 division in favor or simple shifts.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c

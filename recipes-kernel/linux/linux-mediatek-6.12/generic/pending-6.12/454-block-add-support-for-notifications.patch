@@ -7,6 +7,7 @@ Add notifier block to notify other subsystems about the addition or
 removal of block devices.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/Kconfig          |   6 +++
  block/Makefile         |   1 +

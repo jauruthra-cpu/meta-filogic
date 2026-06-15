@@ -44,6 +44,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/drivers/driver_nl80211_capa.c |  3 ++
  12 files changed, 162 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index b941ec5fa..fe92540c4 100644
 --- a/hostapd/config_file.c

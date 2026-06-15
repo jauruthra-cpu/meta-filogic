@@ -14,6 +14,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/hostapd.h      |  7 +++++++
  4 files changed, 101 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 79673e16f..aefb98954 100644
 --- a/hostapd/ctrl_iface.c

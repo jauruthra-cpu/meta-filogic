@@ -10,6 +10,7 @@ that firmware works stably. Also, certain control registers will
 be set to fix link-up issues.
 
 Signed-off-by: Sky Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  MAINTAINERS                          |   1 +
  drivers/net/phy/mediatek/Kconfig     |  11 +

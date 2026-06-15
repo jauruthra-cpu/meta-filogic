@@ -10,6 +10,7 @@ ID with support for the ESMT F50L1G41LC chip.
 
 Link: https://github.com/openwrt/openwrt/pull/15214#issuecomment-3514824435
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/spi/core.c |  1 +

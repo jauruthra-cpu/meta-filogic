@@ -15,6 +15,8 @@ Signed-off-by: Michael Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/config.c | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/config.c b/wpa_supplicant/config.c
 index 994ee5e..0186011 100644
 --- a/wpa_supplicant/config.c

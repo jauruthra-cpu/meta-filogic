@@ -41,6 +41,7 @@ be used from the current device tree bindings and the existing
 device trees in the kernel.
 
 Signed-off-by: Linus Walleij <linus.walleij@linaro.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250813-ks8995-to-dsa-v1-4-75c359ede3a5@linaro.org
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

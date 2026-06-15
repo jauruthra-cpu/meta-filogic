@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/mtd/nand/spi/core.c
 +++ b/drivers/mtd/nand/spi/core.c
 @@ -1929,15 +1929,18 @@ static int spinand_init_via_casn(struct

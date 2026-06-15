@@ -11,6 +11,7 @@ In addition switch to warn level because the firmware is optional and
 typically just fixes compatibility issues.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Message-ID: <d9c5094c-89a6-40e2-b5fe-8df7df4624ef@gmail.com>
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>

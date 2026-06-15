@@ -7,6 +7,7 @@ Introduce a proper platform MFD driver for the LynxI (H)SGMII PCS which
 is going to initially be used for the MT7988 SoC.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/pcs/pcs-mtk-lynxi.c   | 227 ++++++++++++++++++++++++++++--
  include/linux/pcs/pcs-mtk-lynxi.h |  11 ++

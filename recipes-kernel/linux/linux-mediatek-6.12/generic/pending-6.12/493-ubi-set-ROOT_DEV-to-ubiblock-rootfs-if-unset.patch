@@ -2,6 +2,7 @@ From: Daniel Golle <daniel@makrotopia.org>
 Subject: ubi: set ROOT_DEV to ubiblock "rootfs" if unset
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/ubi/block.c | 10 ++++++++++
  1 file changed, 10 insertions(+)

@@ -8,6 +8,7 @@ Without this patch, the users cannot enable HW_LRO feature on the
 mt7987.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 176 ++++++++++++++++----
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |  45 ++++-

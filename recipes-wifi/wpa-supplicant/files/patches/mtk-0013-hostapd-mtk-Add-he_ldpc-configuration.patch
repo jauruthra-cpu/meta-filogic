@@ -12,6 +12,8 @@ Subject: [PATCH 13/35] hostapd: mtk: Add he_ldpc configuration
  src/common/ieee802_11_defs.h | 3 +++
  6 files changed, 19 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 017c21e..649618b 100644
 --- a/hostapd/config_file.c

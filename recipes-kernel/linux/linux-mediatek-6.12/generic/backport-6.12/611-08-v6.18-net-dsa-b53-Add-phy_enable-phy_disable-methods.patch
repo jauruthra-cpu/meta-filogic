@@ -7,6 +7,7 @@ Add phy enable/disable to b53 ops to be called when
 enabling/disabling ports.
 
 Signed-off-by: Kyle Hendry <kylehendrydev@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250724035300.20497-2-kylehendrydev@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

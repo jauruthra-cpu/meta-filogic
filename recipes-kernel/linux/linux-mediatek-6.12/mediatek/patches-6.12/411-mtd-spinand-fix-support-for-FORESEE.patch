@@ -3,6 +3,7 @@ Force update_cache_variants to use reset for Foresee NAND with bad blocks
 Tested on Xiaomi AX3000T + F35SQA001G with bad blocks and without bad blocks
 
 Signed-off-by: Dim Fish <dimfish@gmail.com>
+Upstream-Status: Pending
 
 --- a/drivers/mtd/nand/spi/foresee.c
 +++ b/drivers/mtd/nand/spi/foresee.c

@@ -9,6 +9,7 @@ User can use the command below to enable DSCP learning flow.
 Without this patch, the PPEs are unable to learn the DSCP from SKB.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c       | 11 ++++
  drivers/net/ethernet/mediatek/mtk_ppe.h       |  2 +

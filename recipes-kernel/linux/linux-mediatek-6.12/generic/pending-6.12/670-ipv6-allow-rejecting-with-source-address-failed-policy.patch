@@ -6,6 +6,7 @@ ICMPv6 Destination Unreachable, Code 5 (Source address failed ingress/
 egress policy) on the LAN side, so add an appropriate rule for that.
 
 Signed-off-by: Jonas Gorski <jogo@openwrt.org>
+Upstream-Status: Pending
 ---
  include/net/netns/ipv6.h       |  1 +
  include/uapi/linux/fib_rules.h |  4 +++

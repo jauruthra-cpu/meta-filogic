@@ -29,6 +29,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/ap/scs.c               |  3 +++
  9 files changed, 33 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 5cc691b47..10a1e5561 100644
 --- a/hostapd/config_file.c

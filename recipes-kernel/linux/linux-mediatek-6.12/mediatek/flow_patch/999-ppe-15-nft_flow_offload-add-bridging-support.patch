@@ -7,6 +7,7 @@ Without this patch, the bridging traffic is unable to BIND using
 nft_flow_offload.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  net/netfilter/nft_flow_offload.c | 220 +++++++++++++++++++++++++++----
  1 file changed, 196 insertions(+), 24 deletions(-)

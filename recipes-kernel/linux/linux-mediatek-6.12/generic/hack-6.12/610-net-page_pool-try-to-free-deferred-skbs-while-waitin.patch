@@ -12,6 +12,7 @@ Deal with this by scheduling rx softirq on all CPUs.
 Patch by Lorenzo Bianconi
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/net/core/page_pool.c

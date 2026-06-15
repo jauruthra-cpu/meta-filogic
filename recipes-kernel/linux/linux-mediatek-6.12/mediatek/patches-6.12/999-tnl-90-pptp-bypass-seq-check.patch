@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/ppp/pptp.c
 +++ b/drivers/net/ppp/pptp.c
 @@ -356,6 +356,15 @@ static int pptp_rcv_core(struct sock *sk

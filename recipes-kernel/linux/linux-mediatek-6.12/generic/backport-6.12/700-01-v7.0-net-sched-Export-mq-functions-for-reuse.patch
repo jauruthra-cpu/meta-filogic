@@ -16,6 +16,7 @@ No functional change intended.
 
 Reviewed-by: Willem de Bruijn <willemb@google.com>
 Signed-off-by: Toke Høiland-Jørgensen <toke@redhat.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20260109-mq-cake-sub-qdisc-v8-1-8d613fece5d8@redhat.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

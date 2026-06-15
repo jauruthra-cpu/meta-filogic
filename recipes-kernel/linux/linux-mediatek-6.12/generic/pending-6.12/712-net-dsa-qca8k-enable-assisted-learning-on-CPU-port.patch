@@ -14,6 +14,7 @@ DHCP will fail to complete and traffic cannot flow for around 300
 seconds.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/net/dsa/qca/qca8k-8xxx.c | 14 +++++++++-----
  1 file changed, 9 insertions(+), 5 deletions(-)

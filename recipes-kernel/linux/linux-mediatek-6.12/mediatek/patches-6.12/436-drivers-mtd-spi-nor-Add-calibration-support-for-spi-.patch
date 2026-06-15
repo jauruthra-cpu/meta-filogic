@@ -5,6 +5,7 @@ Subject: [PATCH 6/6] drivers: mtd: spi-nor: Add calibration support for
  spi-nor
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/core.c |  5 ++++-
  drivers/mtd/spi-nor/core.c  | 15 +++++++++++++++

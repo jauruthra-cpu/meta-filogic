@@ -10,6 +10,7 @@ So we can switch from paged access to directly addressing the
 MDIO_MMD_VEND2 registers.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/a5f2333c-dda9-48ad-9801-77049766e632@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

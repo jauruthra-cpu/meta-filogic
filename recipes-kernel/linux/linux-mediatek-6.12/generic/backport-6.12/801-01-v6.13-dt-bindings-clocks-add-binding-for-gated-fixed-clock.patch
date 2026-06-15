@@ -23,6 +23,7 @@ or similar. The enable pin might be separate but can also just be tied
 to the vdd supply, hence it is optional in the binding.
 
 Signed-off-by: Heiko Stuebner <heiko@sntech.de>
+Upstream-Status: Pending
 Reviewed-by: Rob Herring (Arm) <robh@kernel.org>
 Reviewed-by: Conor Dooley <conor.dooley@microchip.com>
 Link: https://lore.kernel.org/r/20240906082511.2963890-2-heiko@sntech.de

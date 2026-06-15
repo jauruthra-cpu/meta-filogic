@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/compat/main.c
 +++ b/compat/main.c
 @@ -19,31 +19,6 @@ MODULE_LICENSE("GPL");

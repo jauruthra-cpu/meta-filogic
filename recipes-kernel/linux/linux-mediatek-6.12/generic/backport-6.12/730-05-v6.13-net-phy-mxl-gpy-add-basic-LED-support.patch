@@ -12,6 +12,7 @@ The hardware claims to support 16 PWM brightness levels but there is no
 documentation on how to use that feature, hence this is not supported.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/b6ec9050339f8244ff898898a1cecc33b13a48fc.1727741563.git.daniel@makrotopia.org
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

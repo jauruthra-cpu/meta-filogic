@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/soc/mediatek/mtk-devapc.c
 +++ b/drivers/soc/mediatek/mtk-devapc.c
 @@ -15,7 +16,7 @@

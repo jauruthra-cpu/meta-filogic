@@ -10,6 +10,7 @@ BCM5325 doesn't implement FAST_AGE registers so we should avoid reading or
 writing them.
 
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250614080000.1884236-7-noltari@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

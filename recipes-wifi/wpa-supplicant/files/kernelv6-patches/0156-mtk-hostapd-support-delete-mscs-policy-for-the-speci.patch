@@ -18,6 +18,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/ap/scs.h          |  1 +
  4 files changed, 45 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index d1925b6ab..2850b6450 100644
 --- a/hostapd/ctrl_iface.c

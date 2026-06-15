@@ -6,6 +6,7 @@ Subject: rfkill: add fake rfkill support
 allow building of modules depending on RFKILL even if RFKILL is not enabled.
 
 Signed-off-by: John Crispin <john@phrozen.org>
+Upstream-Status: Pending
 ---
  include/linux/rfkill.h |  2 +-
  net/Makefile           |  2 +-

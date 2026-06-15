@@ -4,6 +4,7 @@ Subject: kernel: add a config option for keeping the kallsyms table uncompressed
 [john@phrozen.org: added to my upstream queue 30.12.2016]
 lede-commit: e0e3509b5ce2ccf93d4d67ea907613f5f7ec2eed
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  init/Kconfig            | 11 +++++++++++
  kernel/kallsyms.c       |  8 ++++++++

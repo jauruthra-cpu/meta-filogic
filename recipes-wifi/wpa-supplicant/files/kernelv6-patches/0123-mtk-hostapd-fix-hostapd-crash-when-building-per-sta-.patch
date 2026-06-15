@@ -13,6 +13,8 @@ Signed-off-by: Peter Chiu <chui-hao.chiu@mediatek.com>
  src/ap/beacon.c | 2 ++
  1 file changed, 2 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 60624c0dd..5d139ca40 100644
 --- a/src/ap/beacon.c

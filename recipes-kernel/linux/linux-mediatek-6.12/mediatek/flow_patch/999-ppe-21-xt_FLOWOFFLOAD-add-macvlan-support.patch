@@ -7,6 +7,7 @@ Without this patch, the packets forwarded through macvlan device
 would not be HNAT offloaded.
 
 Signed-off-by: chak-kei.lam <chak-kei.lam@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/macvlan.c          | 11 +++++++++++
  net/netfilter/xt_FLOWOFFLOAD.c |  4 +++-

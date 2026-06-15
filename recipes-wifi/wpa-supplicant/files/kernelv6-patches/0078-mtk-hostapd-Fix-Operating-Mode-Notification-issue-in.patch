@@ -15,6 +15,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  src/ap/ieee802_11_shared.c | 5 +++++
  1 file changed, 5 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11_shared.c b/src/ap/ieee802_11_shared.c
 index 24b061fdf..9c2b32b72 100644
 --- a/src/ap/ieee802_11_shared.c

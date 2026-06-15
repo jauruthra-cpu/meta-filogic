@@ -5,6 +5,7 @@ Subject: kernel: move regmap bloat out of the kernel image if it is only being u
 
 lede-commit: 96f39119815028073583e4fca3a9c5fe9141e998
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/base/regmap/Kconfig  | 15 ++++++++++-----
  drivers/base/regmap/Makefile | 12 ++++++++----

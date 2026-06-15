@@ -10,6 +10,7 @@ Reset counters when a flow enters bind. Once it expires (or enters unbind),
 store the last counter value in struct mtk_flow_entry.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_ppe.c

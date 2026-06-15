@@ -14,6 +14,7 @@ during synchronization.
 
 Fixes: 1bddd758bac2 ("net/sched: sch_cake: share shaper state across sub-instances of cake_mq")
 Signed-off-by: Jonas Köppeler <j.koeppeler@tu-berlin.de>
+Upstream-Status: Pending
 Acked-by: Toke Høiland-Jørgensen <toke@toke.dk>
 Link: https://patch.msgid.link/20260226-cake-mq-skip-sync-bandwidth-unlimited-v1-2-01830bb4db87@tu-berlin.de
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

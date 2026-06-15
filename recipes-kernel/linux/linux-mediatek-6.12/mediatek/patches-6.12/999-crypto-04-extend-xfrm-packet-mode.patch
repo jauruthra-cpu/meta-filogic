@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/8021q/vlan_dev.c
 +++ b/net/8021q/vlan_dev.c
 @@ -641,6 +641,9 @@ static netdev_features_t vlan_dev_fix_fe

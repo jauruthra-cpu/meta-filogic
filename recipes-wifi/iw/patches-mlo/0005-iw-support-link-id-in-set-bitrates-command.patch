@@ -2,6 +2,7 @@ From d1f53e1ffea7cb02151626829cb6bd598556f919 Mon Sep 17 00:00:00 2001
 From: Howard Hsu <howard-yh.hsu@mediatek.com>
 Date: Thu, 30 May 2024 10:17:29 +0800
 Subject: [PATCH 12/17] iw: support link id in set bitrates command
+Upstream-Status: Pending
 
 Since NL80211_CMD_SET_TX_BITRATE_MASK includes flag
 NL80211_FLAG_MLO_VALID_LINK_ID, nl80211_pre_do_it() will check whether

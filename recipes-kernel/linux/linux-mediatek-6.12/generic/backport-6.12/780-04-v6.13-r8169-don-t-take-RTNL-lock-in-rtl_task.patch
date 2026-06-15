@@ -11,6 +11,7 @@ A benefit of removing the RTNL lock here is that we now can
 synchronously cancel the workqueue from a context holding the RTNL mutex.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>
 ---
  drivers/net/ethernet/realtek/r8169_main.c | 8 ++------

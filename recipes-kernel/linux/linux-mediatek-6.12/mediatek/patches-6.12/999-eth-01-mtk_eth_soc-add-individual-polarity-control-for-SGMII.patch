@@ -14,6 +14,7 @@ Without this patch, the TX/RX polarity of the SGMII cannot be controlled
 individually.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)

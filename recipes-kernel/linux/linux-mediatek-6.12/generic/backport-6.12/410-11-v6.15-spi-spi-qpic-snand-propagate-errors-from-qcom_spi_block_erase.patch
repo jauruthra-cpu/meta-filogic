@@ -9,6 +9,7 @@ these errors to the callers instead of returning with success.
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Abel Vesa <abel.vesa@linaro.org>
 Reviewed-by: Md Sadre Alam <quic_mdalam@quicinc.com>
 ---

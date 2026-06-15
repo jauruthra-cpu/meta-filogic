@@ -163,7 +163,7 @@ static const struct mtk_fixed_factor infra_divs[] __initconst = {
 static const char *const mcu_bus_div_parents[] = { "cb_cksq_40m", "ccipll2_b",
 						   "cb_net1_d4" };
 
-static const char *const mcu_arm_div_parents[] = { "cb_cksq_40m", "arm_b",
+static const char *const mcu:arm_div_parents[] = { "cb_cksq_40m", "arm_b",
 						   "cb_net1_d4" };
 
 static struct mtk_composite mcu_muxes[] = {
@@ -171,8 +171,8 @@ static struct mtk_composite mcu_muxes[] = {
 	MUX_GATE_FLAGS(CK_MCU_BUS_DIV_SEL, "mcu_bus_div_sel",
 		       mcu_bus_div_parents, 0x7C0, 9, 2, -1, CLK_IS_CRITICAL),
 	/* mp2_pll_divider_cfg */
-	MUX_GATE_FLAGS(CK_MCU_ARM_DIV_SEL, "mcu_arm_div_sel",
-		       mcu_arm_div_parents, 0x7A8, 9, 2, -1, CLK_IS_CRITICAL),
+	MUX_GATE_FLAGS(CK_MCU_ARM_DIV_SEL, "mcu:arm_div_sel",
+		       mcu:arm_div_parents, 0x7A8, 9, 2, -1, CLK_IS_CRITICAL),
 };
 
 static const char *const netsys_parents[] = { "cb_cksq_40m", "cb_net2_d2",

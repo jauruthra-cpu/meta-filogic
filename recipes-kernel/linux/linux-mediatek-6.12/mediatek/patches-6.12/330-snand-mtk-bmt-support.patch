@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/mtd/nand/spi/core.c
 +++ b/drivers/mtd/nand/spi/core.c
 @@ -19,6 +19,7 @@

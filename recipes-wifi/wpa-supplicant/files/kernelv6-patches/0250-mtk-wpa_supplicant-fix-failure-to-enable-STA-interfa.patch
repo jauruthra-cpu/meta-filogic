@@ -13,6 +13,8 @@ Signed-off-by: Benjamin Lin <benjamin-jw.lin@mediatek.com>
  wpa_supplicant/wpa_supplicant.c | 6 ++++--
  1 file changed, 4 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/wpa_supplicant.c b/wpa_supplicant/wpa_supplicant.c
 index 6986c2eb1..864d7b742 100644
 --- a/wpa_supplicant/wpa_supplicant.c

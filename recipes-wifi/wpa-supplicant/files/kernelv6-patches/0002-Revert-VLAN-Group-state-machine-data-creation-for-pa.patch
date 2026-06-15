@@ -11,6 +11,8 @@ This reverts commit db4908d1c5d6bde34636f95176309db7aab7db5c.
  src/ap/wpa_auth.h |  3 +-
  3 files changed, 12 insertions(+), 105 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/sta_info.c b/src/ap/sta_info.c
 index fc16b1a42..ec91cce89 100644
 --- a/src/ap/sta_info.c

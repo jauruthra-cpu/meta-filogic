@@ -7,6 +7,7 @@ Add check for gphy in enable/disable phy calls and set power bits
 in gphy control register.
 
 Signed-off-by: Kyle Hendry <kylehendrydev@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250814002530.5866-3-kylehendrydev@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

@@ -11,6 +11,8 @@ WMM Parameter set count.
  src/ap/ieee802_11_he.c | 3 +++
  1 file changed, 3 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11_he.c b/src/ap/ieee802_11_he.c
 index 3c6ee72fe..3b6b2041c 100644
 --- a/src/ap/ieee802_11_he.c

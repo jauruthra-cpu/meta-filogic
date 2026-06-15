@@ -7,6 +7,7 @@ Airoha EN8801SC Gigabit PHY is used on Edgecore EAP111, so include a
 modified version of MTK SDK driver.
 
 Signed-off-by: Robert Marko <robert.marko@sartura.hr>
+Upstream-Status: Pending
 ---
  drivers/net/phy/Kconfig  | 5 +++++
  drivers/net/phy/Makefile | 1 +

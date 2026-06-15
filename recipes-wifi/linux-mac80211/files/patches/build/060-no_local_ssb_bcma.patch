@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/local-symbols
 +++ b/local-symbols
 @@ -451,43 +451,6 @@ USB_VL600=

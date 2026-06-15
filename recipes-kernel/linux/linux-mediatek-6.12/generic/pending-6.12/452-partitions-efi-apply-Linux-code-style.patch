@@ -7,6 +7,7 @@ Fix (mostly white space related) coding style issues in
 block/partitions/efi.c by use of clang-format.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/partitions/efi.c | 235 +++++++++++++++++++++--------------------
  1 file changed, 121 insertions(+), 114 deletions(-)

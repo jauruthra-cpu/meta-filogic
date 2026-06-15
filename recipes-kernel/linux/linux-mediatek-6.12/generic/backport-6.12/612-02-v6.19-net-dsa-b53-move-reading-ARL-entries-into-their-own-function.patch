@@ -10,6 +10,7 @@ functions, and name it the modern one after the first chip with that ARL
 format, (BCM53)95.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251107080749.26936-3-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

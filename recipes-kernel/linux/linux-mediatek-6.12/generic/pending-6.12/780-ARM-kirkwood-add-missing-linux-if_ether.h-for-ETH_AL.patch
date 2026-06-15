@@ -45,6 +45,7 @@ Cc: Michael Walle <michael@walle.cc>
 Reported-by: https://buildbot.openwrt.org/master/images/#/builders/56/builds/220/steps/44/logs/stdio
 Fixes: 83216e3988cd1 ("of: net: pass the dst buffer to of_get_mac_address()")
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  arch/arm/mach-mvebu/kirkwood.c | 1 +
  1 file changed, 1 insertion(+)

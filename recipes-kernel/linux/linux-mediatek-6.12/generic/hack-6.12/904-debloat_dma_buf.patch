@@ -4,6 +4,7 @@ Date: Sat, 8 Jul 2017 08:20:43 +0200
 Subject: debloat: dmabuf
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/base/Kconfig      |  2 +-
  drivers/dma-buf/Makefile  | 10 +++++++---

@@ -4,6 +4,7 @@ Date: Fri, 7 Jul 2017 17:24:23 +0200
 Subject: net: swconfig: adds openwrt switch layer
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/net/phy/Kconfig   | 83 +++++++++++++++++++++++++++++++++++++++++++++++
  drivers/net/phy/Makefile  | 15 +++++++++

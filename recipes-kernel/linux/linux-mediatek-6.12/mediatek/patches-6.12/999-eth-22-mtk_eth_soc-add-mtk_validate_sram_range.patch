@@ -11,6 +11,7 @@ rings. Consequently, even if certain platforms lack sufficient SRAM to
 allocate for all TX/RX/FQ rings, they can still enable MTK_SRAM feature.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 93 +++++++++++++--------
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 24 +++--

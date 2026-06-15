@@ -24,6 +24,7 @@ resource_set_range() is preferred when setting both addresses.
 
 Link: https://lore.kernel.org/r/20240614100606.15830-2-ilpo.jarvinen@linux.intel.com
 Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@linux.intel.com>
+Upstream-Status: Pending
 Signed-off-by: Bjorn Helgaas <bhelgaas@google.com>
 Reviewed-by: Jonathan Cameron <Jonathan.Cameron@huawei.com>
 ---

@@ -19,6 +19,7 @@ data. Forcing the dcache writeback to complete before the icache
 invalidation avoids this.
 
 Signed-off-by: Paul Burton <paul.burton@imgtec.com>
+Upstream-Status: Pending
 Cc: James Hogan <james.hogan@imgtec.com>
 ---
  arch/mips/mm/c-r4k.c | 13 +++++++++++--

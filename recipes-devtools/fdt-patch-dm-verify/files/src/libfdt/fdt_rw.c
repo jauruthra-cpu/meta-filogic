@@ -273,7 +273,7 @@ int fdt_setprop(void *fdt, int nodeoffset, const char *name,
 	return 0;
 }
 
-int fdt_appendprop(void *fdt, int nodeoffset, const char *name,
+int fdt:appendprop(void *fdt, int nodeoffset, const char *name,
 		   const void *val, int len)
 {
 	struct fdt_property *prop;

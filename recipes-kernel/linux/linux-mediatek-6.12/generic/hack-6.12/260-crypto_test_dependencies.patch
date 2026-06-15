@@ -7,6 +7,7 @@ Reduces kernel size after LZMA by about 5k on MIPS
 
 lede-commit: 044c316167e076479a344c59905e5b435b84a77f
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  crypto/Kconfig   | 13 ++++++-------
  crypto/algboss.c |  4 ++++

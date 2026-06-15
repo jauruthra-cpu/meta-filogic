@@ -8,6 +8,7 @@ Wihtout this patch, the mtk_eth_mux_setup() function may not correctly
 search the Mux.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_path.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

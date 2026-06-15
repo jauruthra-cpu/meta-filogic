@@ -30,6 +30,7 @@ likelyhood of all child devices already being loaded at the time of
 probing, preventing unnecessary deferred probes.
 
 Signed-off-by: Bernhard Frauendienst <kernel@nospam.obeliks.de>
+Upstream-Status: Pending
 ---
  drivers/mtd/Kconfig                 |   2 +
  drivers/mtd/Makefile                |   3 +

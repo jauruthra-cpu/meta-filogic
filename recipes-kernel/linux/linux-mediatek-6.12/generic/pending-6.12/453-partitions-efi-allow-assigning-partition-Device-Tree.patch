@@ -5,6 +5,7 @@ Subject: [PATCH 4/8] partitions/efi: allow assigning partition Device Tree
  node
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/partitions/efi.c | 34 +++++++++++++++++++++++++++++++++-
  1 file changed, 33 insertions(+), 1 deletion(-)

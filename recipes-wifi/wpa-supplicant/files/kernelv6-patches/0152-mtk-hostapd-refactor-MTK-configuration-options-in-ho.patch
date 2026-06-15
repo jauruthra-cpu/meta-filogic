@@ -47,6 +47,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/hw_features.c | 2 ++
  4 files changed, 11 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_config.c b/src/ap/ap_config.c
 index eedde9762..81f111f2b 100644
 --- a/src/ap/ap_config.c

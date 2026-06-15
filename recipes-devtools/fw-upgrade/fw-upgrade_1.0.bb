@@ -3,7 +3,7 @@ SECTION = "applications"
 LICENSE = "GPL-2.0-only"
 LIC_FILES_CHKSUM = "file://COPYING;md5=751419260aa954499f7abaabaa882bbe"
 
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 
 
 SRC_URI = " \
@@ -31,16 +31,16 @@ do_install() {
     install -d ${D}/lib/upgrade
     install -d ${D}${sbindir}
     if [ $IS_ITB_IMAGE = 'true' ]; then
-        install -m 0755 ${WORKDIR}/platform_v2.sh ${D}/lib/upgrade/platform.sh
-        install -m 0755 ${WORKDIR}/nand_v2.sh ${D}/lib/upgrade/nand.sh
-        install -m 0755 ${WORKDIR}/mmc_v2.sh ${D}/lib/upgrade/mmc.sh
-        install -m 0755 ${WORKDIR}/do_stage2_v2 ${D}/lib/upgrade/do_stage2
-        install -m 0755 ${WORKDIR}/sysupgrade_v2 ${D}${sbindir}/sysupgrade
+        install -m 0755 ${UNPACKDIR}/platform_v2.sh ${D}/lib/upgrade/platform.sh
+        install -m 0755 ${UNPACKDIR}/nand_v2.sh ${D}/lib/upgrade/nand.sh
+        install -m 0755 ${UNPACKDIR}/mmc_v2.sh ${D}/lib/upgrade/mmc.sh
+        install -m 0755 ${UNPACKDIR}/do_stage2_v2 ${D}/lib/upgrade/do_stage2
+        install -m 0755 ${UNPACKDIR}/sysupgrade_v2 ${D}${sbindir}/sysupgrade
     else
-        install -m 0755 ${WORKDIR}/platform.sh ${D}/lib/upgrade
-        install -m 0755 ${WORKDIR}/nand.sh ${D}/lib/upgrade
-        install -m 0755 ${WORKDIR}/mmc.sh ${D}/lib/upgrade
-        install -m 0755 ${WORKDIR}/do_stage2 ${D}/lib/upgrade
-        install -m 0755 ${WORKDIR}/sysupgrade ${D}${sbindir}
+        install -m 0755 ${UNPACKDIR}/platform.sh ${D}/lib/upgrade
+        install -m 0755 ${UNPACKDIR}/nand.sh ${D}/lib/upgrade
+        install -m 0755 ${UNPACKDIR}/mmc.sh ${D}/lib/upgrade
+        install -m 0755 ${UNPACKDIR}/do_stage2 ${D}/lib/upgrade
+        install -m 0755 ${UNPACKDIR}/sysupgrade ${D}${sbindir}
     fi
 }

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/pwm/pwm-mediatek.c
 +++ b/drivers/pwm/pwm-mediatek.c
 @@ -143,8 +143,12 @@ static int pwm_mediatek_config(struct pw

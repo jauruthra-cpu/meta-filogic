@@ -7,6 +7,7 @@ here and there and to cope with that without fixing stuff in the drivers
 we're just gracefully handling it on ARC.
 
 Signed-off-by: Alexey Brodkin <abrodkin@synopsys.com>
+Upstream-Status: Pending
 ---
  arch/arc/kernel/unaligned.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

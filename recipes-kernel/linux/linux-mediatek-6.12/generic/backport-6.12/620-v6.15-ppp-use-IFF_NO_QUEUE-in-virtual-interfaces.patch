@@ -17,6 +17,7 @@ for relevant protocols.
 While at it, remove the usused latency member from struct ppp_channel.
 
 Signed-off-by: Qingfang Deng <dqfext@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Toke Høiland-Jørgensen <toke@redhat.com>
 Link: https://patch.msgid.link/20250301135517.695809-1-dqfext@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

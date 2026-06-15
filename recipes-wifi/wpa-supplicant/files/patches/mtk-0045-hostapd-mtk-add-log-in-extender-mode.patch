@@ -8,6 +8,8 @@ Subject: [PATCH] hostapd: mtk: add log in extender mode
  src/ap/ctrl_iface_ap.c | 1 +
  2 files changed, 9 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 89594ec..aa435ee 100644
 --- a/hostapd/ctrl_iface.c

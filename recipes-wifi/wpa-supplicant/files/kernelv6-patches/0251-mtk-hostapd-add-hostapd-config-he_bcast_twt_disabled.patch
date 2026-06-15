@@ -27,6 +27,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/common/ieee802_11_defs.h |  2 ++
  10 files changed, 61 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index fcdb5984d..7620d0c01 100644
 --- a/hostapd/config_file.c

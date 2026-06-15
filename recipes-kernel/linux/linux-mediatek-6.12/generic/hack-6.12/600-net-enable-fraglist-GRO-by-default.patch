@@ -5,6 +5,7 @@ Subject: [PATCH] net: enable fraglist GRO by default
 This can significantly improve performance for packet forwarding/bridging
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/include/linux/netdev_features.h

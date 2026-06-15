@@ -27,6 +27,7 @@ The arrays are always used with their fixed size, so use __nonstring.
 
 Link: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=117178 [1]
 Signed-off-by: Kees Cook <kees@kernel.org>
+Upstream-Status: Pending
 Signed-off-by: Jason A. Donenfeld <Jason@zx2c4.com>
 Link: https://patch.msgid.link/20250521212707.1767879-3-Jason@zx2c4.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

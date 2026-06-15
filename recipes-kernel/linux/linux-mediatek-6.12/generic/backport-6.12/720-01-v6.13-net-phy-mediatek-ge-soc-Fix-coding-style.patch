@@ -8,6 +8,7 @@ reverse Xmas tree and remove unnecessary parens in
 mediatek-ge-soc.c.
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>
 ---

@@ -20,6 +20,8 @@ Signed-off-by: Yi-Chia Hsieh <Yi-Chia.Hsieh@mediatek.com>
  src/drivers/driver_nl80211_event.c |   2 +
  8 files changed, 362 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index b5c8f8fbf..a3780688f 100644
 --- a/hostapd/ctrl_iface.c

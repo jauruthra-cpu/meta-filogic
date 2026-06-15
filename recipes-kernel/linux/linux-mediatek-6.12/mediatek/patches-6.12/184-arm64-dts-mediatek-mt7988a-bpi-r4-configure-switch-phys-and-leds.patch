@@ -49,6 +49,7 @@ Errors-To:
 Assign pinctrl to switch phys and leds.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
 ---
  .../dts/mediatek/mt7988a-bananapi-bpi-r4.dtsi | 40 +++++++++++++++++++

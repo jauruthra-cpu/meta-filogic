@@ -11,6 +11,7 @@ and then NAKing it again.
 
 Link: https://github.com/openwrt/openwrt/issues/14309
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/net/bridge/br_arp_nd_proxy.c

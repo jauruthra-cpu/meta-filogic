@@ -46,6 +46,7 @@ via LynxI SGMII PCS:
  * Cisco SGMII (MAC side)
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  .../bindings/phy/mediatek,xfi-tphy.yaml       | 80 +++++++++++++++++++
  1 file changed, 80 insertions(+)

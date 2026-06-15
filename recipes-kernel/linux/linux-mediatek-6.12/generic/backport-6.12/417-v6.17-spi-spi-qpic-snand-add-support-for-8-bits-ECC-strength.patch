@@ -13,6 +13,7 @@ strength support.
 Tested on an IPQ9574 platform using a GigaDevice GD5F2GM7REYIG chip.
 
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250702-qpic-snand-8bit-ecc-v2-2-ae2c17a30bb7@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

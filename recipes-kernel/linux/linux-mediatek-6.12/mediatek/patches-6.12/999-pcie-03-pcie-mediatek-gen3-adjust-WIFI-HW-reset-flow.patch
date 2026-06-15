@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/pci/controller/pcie-mediatek-gen3.c
 +++ b/drivers/pci/controller/pcie-mediatek-gen3.c
 @@ -201,6 +201,7 @@ struct mtk_pcie_irq {

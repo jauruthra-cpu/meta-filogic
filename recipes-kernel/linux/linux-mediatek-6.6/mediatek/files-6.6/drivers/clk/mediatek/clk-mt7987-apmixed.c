@@ -43,7 +43,7 @@
 	      _tuner_en_bit, _pcw_reg, _pcw_shift, _pcw_chg_reg, NULL,       \
 	      _parent_name)
 
-static const struct mtk_pll_div_table mt7987_arm_ll_div[] = {
+static const struct mtk_pll_div_table mt7987:arm_ll_div[] = {
 	{ .div = 0, .freq = 2000000000 },
 	{ .div = 1, .freq = 1500000000 },
 	{ .div = 2, .freq = 750000000 },
@@ -68,7 +68,7 @@ static const struct mtk_pll_data plls[] = {
 	    0x0174, 4, 0, 0, 0, 0x0178, 0, 0x0174, "clkxtal"),
 	PLL_B(CLK_APMIXED_ARM_LL, "arm_ll", 0x0104, 0x0110, 0x00000001,
 	      PLL_AO, 0, 32, 0x0104, 4, 0, 0, 0, 0x0108, 0, 0x0104,
-	      mt7987_arm_ll_div, "clkxtal"),
+	      mt7987:arm_ll_div, "clkxtal"),
 	PLL(CLK_APMIXED_MSDCPLL, "msdcpll", 0x0124, 0x0130, 0x00000001, 0, 0,
 	    32, 0x0124, 4, 0, 0, 0, 0x0128, 0, 0x0124, "clkxtal"),
 };

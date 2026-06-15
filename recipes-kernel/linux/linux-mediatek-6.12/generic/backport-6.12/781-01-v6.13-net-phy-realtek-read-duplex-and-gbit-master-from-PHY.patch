@@ -10,6 +10,7 @@ Read duplex and Gbit master bits from rtlgen_decode_speed() and rename
 it to rtlgen_decode_physr().
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/b9a76341da851a18c985bc4774fa295babec79bb.1728565530.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

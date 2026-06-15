@@ -9,6 +9,8 @@ This reverts commit 3bba8e22233f3868304ebcc7fb3517fc79acd8a4.
  wpa_supplicant/events.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/events.c b/wpa_supplicant/events.c
 index 6111cebea..b6424ea34 100644
 --- a/wpa_supplicant/events.c

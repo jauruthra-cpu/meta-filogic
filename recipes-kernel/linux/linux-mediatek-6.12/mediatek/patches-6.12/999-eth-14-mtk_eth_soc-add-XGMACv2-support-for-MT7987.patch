@@ -7,6 +7,7 @@ Without this patch, the ETH driver is unable to control the link status
 and TX/RX flow control for the XGMACv2.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 59 +++++++++++++++------
  1 file changed, 44 insertions(+), 15 deletions(-)

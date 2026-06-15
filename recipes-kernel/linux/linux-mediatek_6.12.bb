@@ -22,11 +22,11 @@ SRC_URI = " \
     file://generic/defconfig \
     file://001-rdkb-eth-mtk-change-ifname-for.patch;apply=no \
     "
-SRC_URI:append_filogic += " \
+SRC_URI:append:filogic = " \
     file://mediatek/filogic.cfg \
 "
 
-SRC_URI:append += " \
+SRC_URI:append = " \
     file://rdkb_cfg/iptables.cfg \
     file://rdkb_cfg/turris_rdkb.cfg \
     file://rdkb_cfg/openvswitch.cfg \
@@ -63,42 +63,43 @@ require linux-mediatek6-12.inc
 export DTC_FLAGS = '-@'
 
 do_patch:prepend () {
-    cp -Rfp ${WORKDIR}/generic/files/* ${S}/
-	cp -Rfp ${WORKDIR}/mediatek/files/* ${S}/
-    cp -Rfp ${WORKDIR}/mediatek/files-6.12/* ${S}/
+    cp -Rfp ${UNPACKDIR}/generic/files/* ${STAGING_KERNEL_DIR}/
+	cp -Rfp ${UNPACKDIR}/mediatek/files/* ${STAGING_KERNEL_DIR}/
+    cp -Rfp ${UNPACKDIR}/mediatek/files-6.12/* ${STAGING_KERNEL_DIR}/
 }
 
 do_filogic_patches() {
-    cd ${S}
+    cd ${STAGING_KERNEL_DIR}
     DISTRO_FlowBlock_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','flow_offload','true','false',d)}"
     DISTRO_logan_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','logan','true','false',d)}"
     DISTRO_ccn34_build_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','ccn34','true','false',d)}"
     DISTRO_LAN_AS_WAN_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','lan0_as_wan','true','false',d)}"
         if [ ! -e patch_applied ]; then
-            patch -p1 < ${WORKDIR}/001-rdkb-eth-mtk-change-ifname-for.patch
-            patch -p1 < ${WORKDIR}/863-arm64-dts-mt7986-add-sound-wm8960.patch
-            patch -p1 < ${WORKDIR}/999-dsa-03-add-an8855-netlink-support.patch
-            patch -p1 < ${WORKDIR}/999-dts-04-arm64-dts-mediatek-add-mt7988-cpufreq-cooling-device.patch
-            patch -p1 < ${WORKDIR}/999-dts-12-arm64-dts-mediatek-add-mt7981-pinctrl.patch
-            patch -p1 < ${WORKDIR}/999-dts-13-arm64-dts-mediatek-add-mt7986-pinctrl.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-03-add-pwm-pin-and-devices.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-04-add-i2c-pin-and-devices.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-05-arm64-dts-mediatek-add-gpio-keys-debounce.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-wifi-device-node.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7986a-rfb-01-arm64-dts-mediaek-refactor-pinctrl-node.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7986a-rfb-08-arm64-dts-mediatek-fix-spim-nand-nor-dts-setting.patch
-            patch -p1 < ${WORKDIR}/999-net-01-netdevice-add-macvlan-device-path-type.patch
+            patch -p1 < ${UNPACKDIR}/001-rdkb-eth-mtk-change-ifname-for.patch
+            patch -p1 < ${UNPACKDIR}/863-arm64-dts-mt7986-add-sound-wm8960.patch
+            patch -p1 < ${UNPACKDIR}/999-dsa-03-add-an8855-netlink-support.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-04-arm64-dts-mediatek-add-mt7988-cpufreq-cooling-device.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-12-arm64-dts-mediatek-add-mt7981-pinctrl.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-13-arm64-dts-mediatek-add-mt7986-pinctrl.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7981-rfb-03-add-pwm-pin-and-devices.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7981-rfb-04-add-i2c-pin-and-devices.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7981-rfb-05-arm64-dts-mediatek-add-gpio-keys-debounce.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-wifi-device-node.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7986a-rfb-01-arm64-dts-mediaek-refactor-pinctrl-node.patch
+            patch -p1 < ${UNPACKDIR}/999-dts-mt7986a-rfb-08-arm64-dts-mediatek-fix-spim-nand-nor-dts-setting.patch
+            patch -p1 < ${UNPACKDIR}/999-net-01-netdevice-add-macvlan-device-path-type.patch
 
             if [ $DISTRO_FlowBlock_ENABLED = 'true' ]; then
-                for i in ${WORKDIR}/mediatek/flow_patch/*.patch; do patch -p1 < $i; done
+                for i in ${UNPACKDIR}/mediatek/flow_patch/*.patch; do patch -p1 < $i; done
             fi
             if [ $DISTRO_logan_ENABLED = 'true' ]; then
-                for i in ${WORKDIR}/mediatek/nf_hnat/*.patch; do patch -p1 < $i; done
-                patch -p1 < ${WORKDIR}/004-rdkb-hnat-bind-ifname.patch
+                for i in ${UNPACKDIR}/mediatek/nf_hnat/*.patch; do patch -p1 < $i; done
+                patch -p1 < ${UNPACKDIR}/004-rdkb-hnat-bind-ifname.patch
             fi
             touch patch_applied
         fi
 }
+
 
 kernel_do_install() {
 	#

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Johannes Berg <johannes.berg@intel.com>
 Date: Wed, 29 Mar 2023 16:46:26 +0200
 Subject: [PATCH] wifi: ieee80211: correctly mark FTM frames non-bufferable

@@ -1,5 +1,6 @@
 From: Felix Fietkau <nbd@nbd.name>
 Date: Fri, 6 Feb 2026 19:04:54 +0000
+Upstream-Status: Pending
 Subject: [PATCH] ubus: fix refcounting bug
 
 In uc_ubus_channel_req_cb an extra ref is taken for args and method,

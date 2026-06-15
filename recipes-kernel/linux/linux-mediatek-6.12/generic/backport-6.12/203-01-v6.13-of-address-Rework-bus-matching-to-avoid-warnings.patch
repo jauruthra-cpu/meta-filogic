@@ -19,6 +19,7 @@ Reported-by: Steven Price <steven.price@arm.com>
 Tested-by: Marek Szyprowski <m.szyprowski@samsung.com>
 Link: https://lore.kernel.org/r/20241108193547.2647986-2-robh@kernel.org
 Signed-off-by: Rob Herring (Arm) <robh@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/of/address.c | 14 +++++++++-----
  1 file changed, 9 insertions(+), 5 deletions(-)

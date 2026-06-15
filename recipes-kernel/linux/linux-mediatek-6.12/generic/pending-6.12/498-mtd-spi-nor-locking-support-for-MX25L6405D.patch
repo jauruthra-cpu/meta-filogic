@@ -15,6 +15,7 @@ Similar to commit 7ea40b54e83b ("mtd: spi-nor: enable locking support for
 MX25L12805D")
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 Signed-off-by: Nick Hainke <vincent@systemli.org>
 ---
  drivers/mtd/spi-nor/macronix.c | 3 ++-

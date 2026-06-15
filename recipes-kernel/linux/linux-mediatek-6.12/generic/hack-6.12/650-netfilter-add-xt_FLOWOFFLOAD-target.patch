@@ -3,6 +3,7 @@ Date: Tue, 20 Feb 2018 15:56:02 +0100
 Subject: [PATCH] netfilter: add xt_FLOWOFFLOAD target
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  create mode 100644 net/netfilter/xt_OFFLOAD.c
 

@@ -18,6 +18,7 @@ built. Due to this circumstance, affected devices fall back to using the
 generic PHY driver.
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 ---
  drivers/net/phy/Kconfig | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

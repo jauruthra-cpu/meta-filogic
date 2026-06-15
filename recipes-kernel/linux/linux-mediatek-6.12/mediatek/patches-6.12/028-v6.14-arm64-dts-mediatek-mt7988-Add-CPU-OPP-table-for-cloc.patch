@@ -7,6 +7,7 @@ Subject: [PATCH 09/32] arm64: dts: mediatek: mt7988: Add CPU OPP table for
 Add operating points defining frequency/voltages of cpu cores.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/r/20241217091238.16032-8-linux@fw-web.de
 Signed-off-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>

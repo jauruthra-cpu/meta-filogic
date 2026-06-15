@@ -4,6 +4,7 @@ Date: Thu, 23 Jun 2022 18:35:52 +0800
 Subject: [PATCH 2/6] drivers: spi: Add support for dynamic calibration
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/spi/spi.c       | 137 ++++++++++++++++++++++++++++++++++++++++
  include/linux/spi/spi.h |  42 ++++++++++++

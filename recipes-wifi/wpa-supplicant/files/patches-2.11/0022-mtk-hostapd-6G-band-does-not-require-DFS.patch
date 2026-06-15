@@ -7,6 +7,8 @@ Subject: [PATCH 022/149] mtk: hostapd: 6G band does not require DFS
  src/ap/dfs.c | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/dfs.c b/src/ap/dfs.c
 index 019dc154e..3d26a3f54 100644
 --- a/src/ap/dfs.c

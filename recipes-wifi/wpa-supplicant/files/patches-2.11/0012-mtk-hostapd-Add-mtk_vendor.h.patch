@@ -8,6 +8,8 @@ Subject: [PATCH 012/149] mtk: hostapd: Add mtk_vendor.h
  1 file changed, 197 insertions(+)
  create mode 100644 src/common/mtk_vendor.h
 
+Upstream-Status: Pending
+
 diff --git a/src/common/mtk_vendor.h b/src/common/mtk_vendor.h
 new file mode 100644
 index 000000000..4a19d2fc9

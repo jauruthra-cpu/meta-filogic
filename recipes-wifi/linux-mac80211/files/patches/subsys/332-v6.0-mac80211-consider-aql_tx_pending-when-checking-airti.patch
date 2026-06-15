@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Mon, 20 Jun 2022 14:59:09 +0200
 Subject: [PATCH] mac80211: consider aql_tx_pending when checking airtime

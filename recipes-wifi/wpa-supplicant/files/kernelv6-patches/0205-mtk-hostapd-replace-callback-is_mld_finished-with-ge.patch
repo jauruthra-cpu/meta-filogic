@@ -16,6 +16,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ucode.c | 42 ++++++++++++++++++++++++++----------------
  1 file changed, 26 insertions(+), 16 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ucode.c b/src/ap/ucode.c
 index 39883e6cd..f376c9c14 100644
 --- a/src/ap/ucode.c

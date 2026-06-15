@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Lorenzo Bianconi <lorenzo@kernel.org>
 Date: Thu, 24 Feb 2022 12:55:00 +0100
 Subject: [PATCH] mac80211: update bssid_indicator in

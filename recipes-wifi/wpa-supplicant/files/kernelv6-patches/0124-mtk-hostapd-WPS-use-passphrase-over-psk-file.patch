@@ -8,6 +8,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/wps_hostapd.c | 7 ++++---
  1 file changed, 4 insertions(+), 3 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wps_hostapd.c b/src/ap/wps_hostapd.c
 index ce306a387..731e84f8c 100644
 --- a/src/ap/wps_hostapd.c

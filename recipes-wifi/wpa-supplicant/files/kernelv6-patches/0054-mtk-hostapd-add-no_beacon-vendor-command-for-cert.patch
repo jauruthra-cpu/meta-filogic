@@ -28,6 +28,8 @@ Signed-off-by: Evelyn Tsai <evelyn.tsai@mediatek.com>
  src/drivers/driver_nl80211_capa.c |  3 +++
  9 files changed, 94 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 9936a7094..13fd7f511 100644
 --- a/hostapd/ctrl_iface.c

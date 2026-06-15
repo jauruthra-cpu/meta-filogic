@@ -7,6 +7,7 @@ Avoid using deprecated pcim_iomap_table by switching to
 pcim_iomap_region.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Jacob Keller <jacob.e.keller@intel.com>
 Reviewed-by: Simon Horman <horms@kernel.org>
 Link: https://patch.msgid.link/a36b4cf3-c792-40fa-8164-5dc9d5f14dd0@gmail.com

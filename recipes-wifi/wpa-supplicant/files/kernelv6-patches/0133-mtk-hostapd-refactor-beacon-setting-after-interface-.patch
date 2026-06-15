@@ -28,6 +28,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/hostapd.c | 10 ++++++++--
  3 files changed, 24 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 5d139ca40..4ca0995ae 100644
 --- a/src/ap/beacon.c

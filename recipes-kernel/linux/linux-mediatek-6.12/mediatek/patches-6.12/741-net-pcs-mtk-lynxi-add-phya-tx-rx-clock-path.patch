@@ -8,6 +8,7 @@ Consequently, users can switch the SGMII PCS to this new clock source
 for better performance on the MT7987.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
 --- a/drivers/net/pcs/pcs-mtk-lynxi.c
 +++ b/drivers/net/pcs/pcs-mtk-lynxi.c

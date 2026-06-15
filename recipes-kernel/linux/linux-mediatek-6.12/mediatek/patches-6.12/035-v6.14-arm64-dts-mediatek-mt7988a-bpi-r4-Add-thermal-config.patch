@@ -8,6 +8,7 @@ Add additional thermal trips to Bananapi R4 board.
 SoC only contains the critical trip.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/r/20241217091238.16032-15-linux@fw-web.de
 Signed-off-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>

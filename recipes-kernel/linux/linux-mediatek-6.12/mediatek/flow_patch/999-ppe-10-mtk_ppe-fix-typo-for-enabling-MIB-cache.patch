@@ -7,6 +7,7 @@ Without this patch, the PPE performance might degrade when
 per-accounting is enabled.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

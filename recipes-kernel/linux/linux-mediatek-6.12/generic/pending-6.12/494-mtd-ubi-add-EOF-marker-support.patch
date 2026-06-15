@@ -2,6 +2,7 @@ From: Gabor Juhos <juhosg@openwrt.org>
 Subject: mtd: add EOF marker support to the UBI layer
 
 Signed-off-by: Gabor Juhos <juhosg@openwrt.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/ubi/attach.c | 25 ++++++++++++++++++++++---
  drivers/mtd/ubi/ubi.h    |  1 +

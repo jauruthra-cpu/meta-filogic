@@ -8,6 +8,7 @@ similar to the ones in MT7531, except that the LPI threshold is in
 milliseconds.
 
 Signed-off-by: Qingfang Deng <dqfext@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 64 +++++++++++++++++++++
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 11 ++++

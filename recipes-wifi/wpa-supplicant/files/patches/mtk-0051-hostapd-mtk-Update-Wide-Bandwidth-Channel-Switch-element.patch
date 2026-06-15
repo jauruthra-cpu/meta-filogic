@@ -22,6 +22,8 @@ Signed-off-by: Yuvarani V <quic_yuvarani@quicinc.com>
  src/ap/ieee802_11.c | 28 ++++++++++++++++++++--------
  1 file changed, 20 insertions(+), 8 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11.c b/src/ap/ieee802_11.c
 index dd477fd..8a5fd20 100644
 --- a/src/ap/ieee802_11.c

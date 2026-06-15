@@ -6,6 +6,7 @@ This can improve performance under load by ensuring that NAPI processing is
 not pinned on CPU 0.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c

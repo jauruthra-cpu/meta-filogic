@@ -9,6 +9,7 @@ Content-Transfer-Encoding: 8bit
 This patch adds routerbootpart kernel build bits
 
 Signed-off-by: Thibaut VARÈNE <hacks@slashdirt.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/parsers/Kconfig  | 9 +++++++++
  drivers/mtd/parsers/Makefile | 1 +

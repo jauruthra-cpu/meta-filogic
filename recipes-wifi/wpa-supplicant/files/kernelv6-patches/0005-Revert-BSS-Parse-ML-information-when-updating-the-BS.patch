@@ -13,6 +13,8 @@ This reverts commit 67ba25bb979f9697bf83743129f9b7d3b9890ca9.
  wpa_supplicant/sme.c    |   3 +-
  5 files changed, 178 insertions(+), 150 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/tests/test-bss.c b/tests/test-bss.c
 index 7527983a9..c3f47281b 100644
 --- a/tests/test-bss.c

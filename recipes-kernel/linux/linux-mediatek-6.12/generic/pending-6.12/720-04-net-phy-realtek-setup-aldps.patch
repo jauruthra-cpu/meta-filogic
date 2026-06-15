@@ -7,6 +7,7 @@ Setup Link Down Power Saving Mode according the DTS property
 just like for RTL821x 1GE PHYs.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/realtek/realtek_main.c | 11 +++++++++++
  1 file changed, 11 insertions(+)

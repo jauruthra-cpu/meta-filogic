@@ -11,6 +11,7 @@ Fixes: 6757d345dd7db ("net: ethernet: mtk_wed: introduce hw_rro support for MT79
 Tested-by: Daniel Pawlik <pawlik.dan@gmail.com>
 Tested-by: Matteo Croce <teknoraver@meta.com>
 Signed-off-by: Rex Lu <rex.lu@mediatek.com>
+Upstream-Status: Pending
 Co-developed-by: Lorenzo Bianconi <lorenzo@kernel.org>
 Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
 Reviewed-by: Simon Horman <horms@kernel.org>

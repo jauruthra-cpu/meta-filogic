@@ -16,6 +16,7 @@ At the moment only input direction is supported. In future it should be
 possible to add support for output direction, too.
 
 Signed-off-by: Mauri Sandberg <maukka@ext.kapsi.fi>
+Upstream-Status: Pending
 Reviewed-by: Linus Walleij <linus.walleij@linaro.org>
 Reviewed-by: Andy Shevchenko <andy.shevchenko@gmail.com>
 ---

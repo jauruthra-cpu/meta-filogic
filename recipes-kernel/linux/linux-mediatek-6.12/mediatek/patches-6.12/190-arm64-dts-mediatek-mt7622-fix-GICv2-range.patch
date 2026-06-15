@@ -89,6 +89,7 @@ IPI5:         0          0       IRQ work interrupts
 IPI6:         0          0       CPU wake-up interrupts
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  arch/arm64/boot/dts/mediatek/mt7622.dtsi | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

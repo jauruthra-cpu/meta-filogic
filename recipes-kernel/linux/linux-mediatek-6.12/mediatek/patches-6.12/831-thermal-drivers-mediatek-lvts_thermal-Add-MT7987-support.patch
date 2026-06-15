@@ -7,6 +7,7 @@ Add support for Mediatek MT7987 LVTS. Based patch[1] from vendor  SDK.
 1: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/742007e189ffcc95783924cea1150f574b6eb71e
 
 Signed-off-by: Chad Monroe <chad@monroe.io>
+Upstream-Status: Pending
 ---
  drivers/thermal/mediatek/lvts_thermal.c             |   36 ++++++++++
  include/dt-bindings/thermal/mediatek,lvts-thermal.h |    3 

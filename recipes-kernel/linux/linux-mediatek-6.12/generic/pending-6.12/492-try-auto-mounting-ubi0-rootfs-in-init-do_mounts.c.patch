@@ -2,6 +2,7 @@ From: Daniel Golle <daniel@makrotopia.org>
 Subject: try auto-mounting ubi0:rootfs in init/do_mounts.c
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  init/do_mounts.c | 26 +++++++++++++++++++++++++-
  1 file changed, 25 insertions(+), 1 deletion(-)

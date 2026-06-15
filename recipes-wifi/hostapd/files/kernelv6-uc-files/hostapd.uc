@@ -1,6 +1,6 @@
 let libubus = require("ubus");
 import { open, readfile, access } from "fs";
-import { wdev_remove, is_equal, vlist_new, phy_is_fullmac, phy_open, wdev_set_radio_mask, wdev_set_up } from "common";
+import { wdev:remove, is_equal, vlist_new, phy_is_fullmac, phy_open, wdev_set_radio_mask, wdev_set_up } from "common";
 
 let ubus = libubus.connect(null, 60);
 
@@ -61,14 +61,14 @@ hostapd.data.bss_info_fields = {
 
 hostapd.data.mld = {};
 
-function iface_remove(cfg)
+function iface:remove(cfg)
 {
 	if (!cfg || !cfg.bss || !cfg.bss[0] || !cfg.bss[0].ifname)
 		return;
 
 	for (let bss in cfg.bss)
 		if (!bss.mld_ap)
-			wdev_remove(bss.ifname);
+			wdev:remove(bss.ifname);
 }
 
 function iface_gen_config(config, start_disabled)
@@ -335,8 +335,8 @@ function iface_restart(phydev, config, old_config)
 		pending.abort();
 
 	hostapd.remove_iface(phy);
-	iface_remove(old_config);
-	iface_remove(config);
+	iface:remove(old_config);
+	iface:remove(config);
 
 	if (!config.bss || !config.bss[0]) {
 		hostapd.printf(`No bss for phy ${phy}`);
@@ -463,7 +463,7 @@ function remove_file_fields(config)
 	);
 }
 
-function bss_remove_file_fields(config)
+function bss:remove_file_fields(config)
 {
 	let new_cfg = {};
 
@@ -662,7 +662,7 @@ function iface_reload_config(name, phydev, config, old_config)
 		hostapd.printf(`Remove bss '${ifname}' on phy '${name}'`);
 		prev_bss.delete();
 		if (!old_config.bss[i].mld_ap)
-			wdev_remove(ifname);
+			wdev:remove(ifname);
 	}
 
 	// Step 4: rename preserved interfaces, use temporary name on duplicates
@@ -767,7 +767,7 @@ function iface_reload_config(name, phydev, config, old_config)
 			continue;
 
 		if (is_equal(bss_remove_file_fields(config.bss[i]),
-		             bss_remove_file_fields(bss_list_cfg[i]))) {
+		             bss:remove_file_fields(bss_list_cfg[i]))) {
 			hostapd.printf(`Update config data files for bss ${ifname}`);
 			if (bss.set_config(config_inline, i, true) < 0) {
 				hostapd.printf(`Could not update config data files for bss ${ifname}`);
@@ -852,15 +852,15 @@ function iface_check_mld(phydev, name, config)
 			continue;
 
 		hostapd.printf(`Remove MLD interface ${mld_name}`);
-		wdev_remove(mld_name);
+		wdev:remove(mld_name);
 		delete mld_data.has_wdev;
 	}
 }
 
-function iface_config_remove(name, old_config)
+function iface_config:remove(name, old_config)
 {
 	hostapd.remove_iface(name);
-	return iface_remove(old_config);
+	return iface:remove(old_config);
 }
 
 function iface_set_config(name, config)
@@ -879,7 +879,7 @@ function iface_set_config(name, config)
 	config.orig_bss = [ ...config.bss ];
 	iface_check_mld(phydev, name, config);
 	if (!length(config.bss))
-		return iface_config_remove(name, old_config);
+		return iface_config:remove(name, old_config);
 
 	try {
 		let ret = iface_reload_config(name, phydev, config, old_config);
@@ -1060,7 +1060,7 @@ function mld_add_bss(name, data, phy_list, i)
 		return;
 
 	hostapd.printf(`Add MLD interface ${name}`);
-	wdev_remove(name);
+	wdev:remove(name);
 	let phydev = phy_list[config.phy];
 	if (!phydev) {
 		phydev = phy_open(config.phy, 0);
@@ -1160,7 +1160,7 @@ function mld_set_config(config)
 	for (let name, data in prev_mld) {
 		if (data.ifname)
 			hostapd.printf(`Remove MLD interface ${name}`);
-		wdev_remove(name);
+		wdev:remove(name);
 	}
 
 	// add new interfaces
@@ -1388,7 +1388,7 @@ let main_obj = {
 			};
 		}
 	},
-	config_remove: {
+	config:remove: {
 		args: {
 			iface: ""
 		},
@@ -1466,7 +1466,7 @@ return {
 	bss_reload: function(phy, name, obj, reconf) {
 		bss_event("reload", name, { reconf: reconf != 0 });
 	},
-	bss_remove: function(phy, name, obj) {
+	bss:remove: function(phy, name, obj) {
 		bss_event("remove", name);
 	},
 	sta_auth: function(iface, sta) {

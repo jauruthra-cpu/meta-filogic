@@ -14,6 +14,8 @@ Signed-off-by: Nicolas Escande <nico.escande@gmail.com>
  src/ap/acs.c | 25 +++++++++++++++++++++++--
  1 file changed, 23 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/acs.c b/src/ap/acs.c
 index 78d1feb..130e135 100644
 --- a/src/ap/acs.c

@@ -12,6 +12,7 @@ LEDs are defined in device tree.
 According the datasheets 3 LEDs are supported on all Intel XWAY PHYs.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/81f4717ab9acf38f3239727a4540ae96fd01109b.1728558223.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

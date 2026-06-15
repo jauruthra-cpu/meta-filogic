@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: John Crispin <john@phrozen.org>
 Date: Wed, 15 Sep 2021 19:54:35 -0700
 Subject: [PATCH] mac80211: MBSSID support in interface handling

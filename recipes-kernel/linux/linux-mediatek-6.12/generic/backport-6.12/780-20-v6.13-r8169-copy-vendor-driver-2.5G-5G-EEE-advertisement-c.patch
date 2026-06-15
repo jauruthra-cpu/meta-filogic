@@ -13,6 +13,7 @@ We use new phylib accessor phy_set_eee_broken() to mark the respective
 EEE modes as broken.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/ce185e10-8a2f-4cf8-a49b-fd8fb3c3c8a1@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

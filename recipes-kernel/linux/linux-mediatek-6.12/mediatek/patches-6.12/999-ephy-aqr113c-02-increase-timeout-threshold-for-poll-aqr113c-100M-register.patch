@@ -8,6 +8,7 @@ Without this patch, the user may observe poll timeout and attach PHY
 failure logs after the interface goes down and up on MTK RFB.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/phy/aquantia/aquantia_main.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

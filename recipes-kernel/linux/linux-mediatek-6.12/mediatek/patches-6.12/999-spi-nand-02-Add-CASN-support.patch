@@ -4,6 +4,7 @@ Date: Mon, 31 Jul 2023 10:40:09 +0800
 Subject: [PATCH] Add CASN support for SPI-NAND
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/core.c | 569 +++++++++++++++++++++++++++++++++++-
  include/linux/mtd/onfi.h    | 153 +++++++++-

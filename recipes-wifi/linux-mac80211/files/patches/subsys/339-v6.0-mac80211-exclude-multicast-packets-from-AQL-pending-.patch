@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Wed, 13 Jul 2022 07:32:26 +0200
 Subject: [PATCH] mac80211: exclude multicast packets from AQL pending airtime

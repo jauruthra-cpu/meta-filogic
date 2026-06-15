@@ -4,6 +4,7 @@ Date: Mon, 20 Jan 2025 19:50:03 +0800
 Subject: [PATCH 2/2] clk: mediatek: add mt7987 clock drivers support
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/clk/mediatek/Kconfig                  |   9 +
  drivers/clk/mediatek/Makefile                 |   5 +

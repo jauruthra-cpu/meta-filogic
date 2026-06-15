@@ -112,6 +112,7 @@ Tested-by: Nilay Shroff <nilay@linux.ibm.com>
 Acked-by: Yury Norov <yury.norov@gmail.com>
 Acked-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
 Signed-off-by: Kees Cook <kees@kernel.org>
+Upstream-Status: Pending
 ---
  include/linux/fortify-string.h | 14 +++++++++++++-
  1 file changed, 13 insertions(+), 1 deletion(-)

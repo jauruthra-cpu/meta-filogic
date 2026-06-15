@@ -10,6 +10,7 @@ MT7988 (AKA MediaTek Filogic 880) uses efuse for storing calibration
 data.
 
 Signed-off-by: Rafał Miłecki <rafal@milecki.pl>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20240613195933.31089-2-zajec5@gmail.com
 Signed-off-by: Matthias Brugger <matthias.bgg@gmail.com>
 Signed-off-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>

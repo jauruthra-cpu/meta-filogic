@@ -30,6 +30,7 @@ accordingly.
 
 Fixes: 8c52932da5e6 ("mtd: rawnand: qcom: cleanup qcom_nandc driver")
 Signed-off-by: Md Sadre Alam <quic_mdalam@quicinc.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/qpic_common.c       |  2 +-

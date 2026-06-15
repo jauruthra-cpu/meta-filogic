@@ -16,6 +16,7 @@ Fix this issue by checking the port offload status when iterating over
 lower devs.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/net/bridge/br_switchdev.c

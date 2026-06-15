@@ -5,6 +5,7 @@ saves ~11k kernel size after lzma and ~12k squashfs size in the
 
 lede-commit: 41a039f46450ffae9483d6216422098669da2900
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  arch/mips/Makefile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

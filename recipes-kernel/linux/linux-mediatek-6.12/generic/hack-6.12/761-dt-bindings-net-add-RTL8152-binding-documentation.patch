@@ -7,6 +7,7 @@ Add binding documentation for the Realtek RTL8152 / RTL8153 USB ethernet
 adapters.
 
 Signed-off-by: David Bauer <mail@david-bauer.net>
+Upstream-Status: Pending
 ---
  .../bindings/net/realtek,rtl8152.yaml         | 36 +++++++++++++++++++
  1 file changed, 36 insertions(+)

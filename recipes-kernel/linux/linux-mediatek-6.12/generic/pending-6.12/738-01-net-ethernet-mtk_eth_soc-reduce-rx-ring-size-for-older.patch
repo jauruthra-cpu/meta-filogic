@@ -24,6 +24,7 @@ the following values:
 
 Fixes: c57e55819443 ("net: ethernet: mtk_eth_soc: handle dma buffer size soc specific")
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 16 ++++++++--------
  1 file changed, 8 insertions(+), 8 deletions(-)

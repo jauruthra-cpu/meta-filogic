@@ -9,6 +9,7 @@ data. Allow referencing any block device or partition in Device Tree to
 allow e.g. Ethernet and Wi-Fi drivers accessing them via the NVMEM layer.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/nvmem/Kconfig  |  11 +++
  drivers/nvmem/Makefile |   2 +

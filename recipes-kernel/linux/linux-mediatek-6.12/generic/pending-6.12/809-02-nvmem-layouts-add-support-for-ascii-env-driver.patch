@@ -15,6 +15,7 @@ so they can be referenced by other drivers. This driver also supports
 parsing mac-base NVMEM cells to parse ASCII or HEX mac address.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/nvmem/layouts/Kconfig     |  13 +++
  drivers/nvmem/layouts/Makefile    |   1 +

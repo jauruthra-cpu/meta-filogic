@@ -21,6 +21,7 @@ LDO input is 3.3V from 3.3VD, and the resistor (mapped to RP38/RP40 on
 BPI-R4) configures LDO output to 1.8V.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/r/20241220163838.114786-2-linux@fw-web.de
 Signed-off-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>

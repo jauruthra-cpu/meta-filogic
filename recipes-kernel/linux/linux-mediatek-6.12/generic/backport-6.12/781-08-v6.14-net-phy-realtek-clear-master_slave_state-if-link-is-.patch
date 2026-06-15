@@ -13,6 +13,7 @@ is down.
 
 Fixes: 081c9c0265c9 ("net: phy: realtek: read duplex and gbit master from PHYSR register")
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Michal Swiatkowski <michal.swiatkowski@linux.intel.com>
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---

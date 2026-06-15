@@ -8,6 +8,7 @@ end of small packets.
 
 Fixes: 5cd8985a1909 ("net-next: dsa: add Mediatek tag RX/TX handler")
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/net/dsa/tag_mtk.c

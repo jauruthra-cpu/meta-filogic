@@ -10,6 +10,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/wmm.h    | 1 +
  3 files changed, 8 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 79d650331..524843b9d 100644
 --- a/src/ap/beacon.c

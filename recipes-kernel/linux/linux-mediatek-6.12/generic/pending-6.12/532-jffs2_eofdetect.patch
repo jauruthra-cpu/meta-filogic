@@ -2,6 +2,7 @@ From: Felix Fietkau <nbd@nbd.name>
 Subject: fs: jffs2: EOF marker
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  fs/jffs2/build.c | 10 ++++++++++
  fs/jffs2/scan.c  | 21 +++++++++++++++++++--

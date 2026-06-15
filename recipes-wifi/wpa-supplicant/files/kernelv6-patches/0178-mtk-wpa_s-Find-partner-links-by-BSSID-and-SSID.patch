@@ -16,6 +16,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/bss.c | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/bss.c b/wpa_supplicant/bss.c
 index 2c21a26fe..a66dc8c03 100644
 --- a/wpa_supplicant/bss.c

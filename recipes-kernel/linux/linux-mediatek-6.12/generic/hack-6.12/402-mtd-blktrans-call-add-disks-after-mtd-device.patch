@@ -17,6 +17,7 @@ add partitions of an MTD device have been added and locks
 have been released.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/mtd_blkdevs.c    | 33 ++++++++++++++++++++++++++-------
  drivers/mtd/mtdcore.c        |  3 +++

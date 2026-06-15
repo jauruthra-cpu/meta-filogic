@@ -35,6 +35,7 @@ Cc: linux-mips@linux-mips.org
 Cc: Christoph Hellwig <hch@lst.de>
 Cc: Linus Walleij <linus.walleij@linaro.org>
 Signed-off-by: Rafał Miłecki <rafal@milecki.pl>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/bcma/host_soc.c

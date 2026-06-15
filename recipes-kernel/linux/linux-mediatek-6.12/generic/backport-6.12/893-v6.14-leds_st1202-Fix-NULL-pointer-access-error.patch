@@ -14,6 +14,7 @@ initialized and ready to interact with user space.
 
 Fixes: 259230378c65 ("leds: Add LED1202 I2C driver")
 Signed-off-by: Manuel Fombuena <fombuena@outlook.com>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/CWLP123MB54732771AC0CE5491B3C84DCC5C32@CWLP123MB5473.GBRP123.PROD.OUTLOOK.COM
 Signed-off-by: Lee Jones <lee@kernel.org>
 ---

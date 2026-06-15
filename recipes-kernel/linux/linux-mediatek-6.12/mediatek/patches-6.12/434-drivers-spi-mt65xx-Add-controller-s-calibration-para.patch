@@ -5,6 +5,7 @@ Subject: [PATCH 4/6] drivers: spi-mt65xx: Add controller's calibration
  paramter
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/spi/spi-mt65xx.c | 16 ++++++++++++++++
  1 file changed, 16 insertions(+)

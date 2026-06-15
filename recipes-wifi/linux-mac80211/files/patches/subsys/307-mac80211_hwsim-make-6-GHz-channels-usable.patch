@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Mon, 24 May 2021 11:46:09 +0200
 Subject: [PATCH] mac80211_hwsim: make 6 GHz channels usable

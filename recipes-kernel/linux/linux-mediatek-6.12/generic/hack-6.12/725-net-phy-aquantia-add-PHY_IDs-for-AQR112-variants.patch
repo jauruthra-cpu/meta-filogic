@@ -6,6 +6,7 @@ Subject: [PATCH] net: phy: aquantia: add PHY_ID for AQR112R
 As advised by Ian Chang this PHY is used in Puzzle devices.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/aquantia/aquantia_main.c | 10 ++++++++++
  1 file changed, 10 insertions(+)

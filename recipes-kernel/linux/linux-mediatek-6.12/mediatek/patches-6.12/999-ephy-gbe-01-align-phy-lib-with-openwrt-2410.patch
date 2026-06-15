@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/phy/mediatek/mtk-phy-lib.c
 +++ b/drivers/net/phy/mediatek/mtk-phy-lib.c
 @@ -36,6 +36,20 @@ static void __mtk_tr_read(struct phy_dev

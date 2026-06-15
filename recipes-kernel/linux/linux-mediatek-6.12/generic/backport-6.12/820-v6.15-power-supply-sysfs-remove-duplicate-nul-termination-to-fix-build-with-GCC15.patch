@@ -23,6 +23,7 @@ differences are seen after this change (there was always run for a NUL
 byte, it's just that the _second_ NUL byte was getting truncated).
 
 Signed-off-by: Kees Cook <kees@kernel.org>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20250416222740.work.569-kees@kernel.org
 Signed-off-by: Sebastian Reichel <sebastian.reichel@collabora.com>
 

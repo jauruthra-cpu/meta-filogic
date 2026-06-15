@@ -9,6 +9,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/ap_config.h | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_config.h b/src/ap/ap_config.h
 index 51476b8..ae22a2f 100644
 --- a/src/ap/ap_config.h

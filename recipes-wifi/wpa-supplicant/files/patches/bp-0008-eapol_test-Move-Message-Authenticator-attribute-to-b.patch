@@ -14,6 +14,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  wpa_supplicant/eapol_test.c | 3 +++
  1 file changed, 3 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/eapol_test.c b/wpa_supplicant/eapol_test.c
 index ca6faac..36890b6 100644
 --- a/wpa_supplicant/eapol_test.c

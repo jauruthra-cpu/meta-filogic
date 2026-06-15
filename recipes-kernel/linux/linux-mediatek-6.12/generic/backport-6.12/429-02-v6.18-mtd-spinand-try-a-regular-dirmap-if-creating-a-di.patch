@@ -22,6 +22,7 @@ This patch tries to create dirmap for continuous reading first and
 fallback to regular reading if spi controller refuses to create it.
 
 Signed-off-by: Mikhail Kshevetskiy <mikhail.kshevetskiy@iopsys.eu>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/spi/core.c | 43 ++++++++++++++++++++++++++++++-------

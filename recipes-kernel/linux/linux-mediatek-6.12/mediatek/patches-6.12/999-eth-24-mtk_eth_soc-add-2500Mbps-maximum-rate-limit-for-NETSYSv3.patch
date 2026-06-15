@@ -8,6 +8,7 @@ Without this patch, the ETH driver is unable to set QDMA maximum rate
 limit to 2500 Mbps for the specific TX queue.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 15 +++++++++++++++
  1 file changed, 15 insertions(+)

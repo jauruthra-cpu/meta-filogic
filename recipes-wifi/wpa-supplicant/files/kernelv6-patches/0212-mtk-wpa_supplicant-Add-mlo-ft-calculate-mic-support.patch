@@ -19,6 +19,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/rsn_supp/wpa_ft.c | 161 ++++++++++++++++++++++++++++++++++++++++--
  1 file changed, 156 insertions(+), 5 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/rsn_supp/wpa_ft.c b/src/rsn_supp/wpa_ft.c
 index 0730eb58c..0766704f2 100644
 --- a/src/rsn_supp/wpa_ft.c

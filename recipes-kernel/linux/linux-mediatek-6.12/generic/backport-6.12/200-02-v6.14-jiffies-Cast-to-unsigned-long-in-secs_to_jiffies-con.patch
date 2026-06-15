@@ -14,6 +14,7 @@ Fix this by casting the secs_to_jiffies() input value to unsigned long.
 Fixes: b35108a51cf7ba ("jiffies: Define secs_to_jiffies()")
 Reported-by: kernel test robot <lkp@intel.com>
 Signed-off-by: Easwar Hariharan <eahariha@linux.microsoft.com>
+Upstream-Status: Pending
 Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
 Cc: stable@vger.kernel.org
 Link: https://lore.kernel.org/all/20250130192701.99626-1-eahariha@linux.microsoft.com

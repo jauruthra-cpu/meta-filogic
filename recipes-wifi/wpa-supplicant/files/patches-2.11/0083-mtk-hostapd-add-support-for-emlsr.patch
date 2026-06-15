@@ -48,6 +48,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  src/drivers/driver_nl80211_capa.c |   3 +
  18 files changed, 348 insertions(+), 13 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 206055b75..38273a4f2 100644
 --- a/hostapd/config_file.c

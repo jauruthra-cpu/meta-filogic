@@ -6,6 +6,7 @@ Subject: [PATCH] net: phy: motorcomm: Add missing include
 Directly include linux/bitfield.h which provides FIELD_PREP.
 
 Signed-off-by: Hauke Mehrtens <hauke@hauke-m.de>
+Upstream-Status: Pending
 ---
  drivers/net/phy/motorcomm.c | 1 +
  1 file changed, 1 insertion(+)

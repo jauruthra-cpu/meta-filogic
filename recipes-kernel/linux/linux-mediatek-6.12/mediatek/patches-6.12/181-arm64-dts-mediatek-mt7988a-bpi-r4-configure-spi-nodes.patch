@@ -52,6 +52,7 @@ Errors-To:
 Configure and enable SPI nodes on Bananapi R4 board.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 ---
  .../dts/mediatek/mt7988a-bananapi-bpi-r4.dtsi | 32 +++++++++++++++++++
  1 file changed, 32 insertions(+)

@@ -5,6 +5,7 @@ It can be found on many Netgear devices. It consists of many 0x30 blocks
 starting with 4D 54.
 
 Signed-off-by: Rafał Miłecki <zajec5@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/bcm47xxpart.c | 10 ++++++++++
  1 file changed, 10 insertions(+)

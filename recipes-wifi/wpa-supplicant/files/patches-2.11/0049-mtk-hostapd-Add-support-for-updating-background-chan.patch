@@ -14,6 +14,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/drivers/nl80211_copy.h |   6 +++
  6 files changed, 156 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/dfs.c b/src/ap/dfs.c
 index 4be45c01c..13396fd55 100644
 --- a/src/ap/dfs.c

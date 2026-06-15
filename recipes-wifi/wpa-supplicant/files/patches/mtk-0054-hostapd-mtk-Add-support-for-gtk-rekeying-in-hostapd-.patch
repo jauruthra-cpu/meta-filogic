@@ -8,6 +8,8 @@ Signed-off-by: mtk23510 <rudra.shahi@mediatek.com>
  hostapd/hostapd_cli.c | 13 +++++++++++++
  1 file changed, 13 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/hostapd_cli.c b/hostapd/hostapd_cli.c
 index a99df88..1b8a071 100644
 --- a/hostapd/hostapd_cli.c

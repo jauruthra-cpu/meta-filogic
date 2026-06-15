@@ -17,6 +17,7 @@ Also JEDEC GP partition gp0/1/2/3 are supported but in DT we refer with
 the JEDEC name of gp1/2/3/4 to better adhere to documentration.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Linus Walleij <linus.walleij@linaro.org>
 Link: https://lore.kernel.org/r/20241002221306.4403-5-ansuelsmth@gmail.com
 Signed-off-by: Jens Axboe <axboe@kernel.dk>

@@ -11,6 +11,7 @@ uboot codebase where we have a limit of 8 reserved-memory dts child
 nodes.
 
 Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
+Upstream-Status: Pending
 ---
  arch/arm64/boot/dts/mediatek/mt7986a.dtsi | 34 +++++++++++------------
  1 file changed, 16 insertions(+), 18 deletions(-)

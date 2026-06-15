@@ -31,6 +31,7 @@ Available storage options:
  * SD card
 
 Signed-off-by: Sam Shih <sam.shih@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
 --- a/arch/arm64/boot/dts/mediatek/Makefile
 +++ b/arch/arm64/boot/dts/mediatek/Makefile

@@ -24,6 +24,7 @@ low enough temperature for ARM devices to not be in the real danger
 zone, and gives some operational headroom.
 
 Signed-off-by: Bruno Umuarama <anonimou_eu@hotmail.com>
+Upstream-Status: Pending
 ---
  arch/arm/boot/dts/mediatek/mt7623.dtsi | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)

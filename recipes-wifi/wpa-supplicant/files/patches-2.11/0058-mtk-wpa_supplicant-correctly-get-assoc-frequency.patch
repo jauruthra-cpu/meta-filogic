@@ -8,6 +8,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  src/drivers/driver_nl80211_event.c | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/driver_nl80211_event.c b/src/drivers/driver_nl80211_event.c
 index 39726b212..a8a5b4dc4 100644
 --- a/src/drivers/driver_nl80211_event.c

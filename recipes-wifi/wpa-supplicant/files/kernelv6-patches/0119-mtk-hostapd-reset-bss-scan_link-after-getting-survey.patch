@@ -15,6 +15,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/drivers/driver_nl80211.c | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/driver_nl80211.c b/src/drivers/driver_nl80211.c
 index 3b0fd6116..3a395ce79 100644
 --- a/src/drivers/driver_nl80211.c

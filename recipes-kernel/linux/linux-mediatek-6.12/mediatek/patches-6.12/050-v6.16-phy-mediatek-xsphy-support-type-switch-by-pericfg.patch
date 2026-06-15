@@ -10,6 +10,7 @@ Get syscon and use it to set the PHY type.
 Extend support to PCIe and SGMII mode in addition to USB2 and USB3.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 ---

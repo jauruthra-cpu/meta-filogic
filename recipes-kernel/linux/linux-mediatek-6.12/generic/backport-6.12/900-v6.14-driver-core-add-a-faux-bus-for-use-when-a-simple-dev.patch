@@ -20,6 +20,7 @@ Reviewed-by: Thomas Weißschuh <thomas.weissschuh@linutronix.de>
 Reviewed-by: Zijun Hu <quic_zijuhu@quicinc.com>
 Link: https://lore.kernel.org/r/2025021026-atlantic-gibberish-3f0c@gregkh
 Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Upstream-Status: Pending
 ---
  Documentation/driver-api/infrastructure.rst |   6 +
  drivers/base/Makefile                       |   2 +-

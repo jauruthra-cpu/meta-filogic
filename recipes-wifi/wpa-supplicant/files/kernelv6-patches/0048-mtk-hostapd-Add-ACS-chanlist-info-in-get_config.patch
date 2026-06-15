@@ -14,6 +14,8 @@ Signed-off-by: fancy.liu <fancy.liu@mediatek.com>
  hostapd/ctrl_iface.c | 59 ++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 59 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index b531d6787..e39190e8a 100644
 --- a/hostapd/ctrl_iface.c

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/pcs/pcs-mtk-usxgmii.c
 +++ b/drivers/net/pcs/pcs-mtk-usxgmii.c
 @@ -52,6 +52,12 @@

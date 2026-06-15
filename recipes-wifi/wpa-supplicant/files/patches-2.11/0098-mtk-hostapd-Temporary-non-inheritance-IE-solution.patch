@@ -21,6 +21,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  src/ap/ieee802_11_eht.c | 68 ++++++++++++++++++++++++++++++++++++++++-
  4 files changed, 72 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 3335f5b74..fdc86b7b0 100644
 --- a/src/ap/beacon.c

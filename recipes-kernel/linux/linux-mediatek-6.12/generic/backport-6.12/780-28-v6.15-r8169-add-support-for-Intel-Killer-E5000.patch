@@ -7,6 +7,7 @@ This adds support for the Intel Killer E5000 which seems to be a
 rebranded RTL8126. Copied from r8126 vendor driver.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/9db73e9b-e2e8-45de-97a5-041c5f71d774@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

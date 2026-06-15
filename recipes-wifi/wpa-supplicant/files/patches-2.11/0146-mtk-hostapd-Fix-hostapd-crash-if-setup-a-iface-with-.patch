@@ -24,6 +24,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/hostapd.c | 5 +++++
  1 file changed, 5 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index ffb36a006..616e36a40 100644
 --- a/src/ap/hostapd.c

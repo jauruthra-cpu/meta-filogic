@@ -10,6 +10,7 @@ on BCMBCA chips. Fix is to extend NAND timeout to allow eMMC
 transactions time to complete.
 
 Signed-off-by: David Regan <dregan@broadcom.com>
+Upstream-Status: Pending
 Reviewed-by: William Zhang <william.zhang@broadcom.com>
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>

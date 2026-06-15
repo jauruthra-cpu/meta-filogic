@@ -13,6 +13,8 @@ Signed-off-by: Peter Chiu <chui-hao.chiu@mediatek.com>
  src/ap/hostapd.c | 7 +++++--
  1 file changed, 5 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index c05e305f7..597ee6c71 100644
 --- a/src/ap/hostapd.c

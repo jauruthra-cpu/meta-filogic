@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/include/linux/netdevice.h
 +++ b/include/linux/netdevice.h
 @@ -836,6 +836,7 @@ enum net_device_path_type {

@@ -7,6 +7,7 @@ Avoid some branches in the hot path on low-end devices with limited CPU power,
 and reduce code size
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.h

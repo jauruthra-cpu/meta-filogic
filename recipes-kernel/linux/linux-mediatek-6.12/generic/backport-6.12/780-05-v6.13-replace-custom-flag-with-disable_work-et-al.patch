@@ -10,6 +10,7 @@ Note that in rtl8169_close() we can remove the call to cancel_work()
 because we now call disable_work_sync() in rtl8169_down() already.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>
 ---
  drivers/net/ethernet/realtek/r8169_main.c | 18 ++++++------------

@@ -6,6 +6,7 @@ Subject: bcm53xx: bgmac: use srab switch driver
 use the srab switch driver on these SoCs.
 
 Signed-off-by: Hauke Mehrtens <hauke@hauke-m.de>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/broadcom/bgmac-bcma.c |  1 +
  drivers/net/ethernet/broadcom/bgmac.c      | 24 ++++++++++++++++++++++++

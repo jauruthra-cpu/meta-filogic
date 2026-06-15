@@ -1,5 +1,6 @@
 From: Felix Fietkau <nbd@nbd.name>
 Date: Fri, 6 Feb 2026 20:19:59 +0000
+Upstream-Status: Pending
 Subject: [PATCH] ubus: avoid double close of externally owned channel fds
 
 When a channel is opened via an fd obtained through fileno(), the fd is

@@ -8,6 +8,7 @@ Content-Transfer-Encoding: 8bit
 This allows setting ROOT_DEV to MTD partition named "rootfs".
 
 Signed-off-by: Rafał Miłecki <rafal@milecki.pl>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/mtd/mtdcore.c

@@ -27,6 +27,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/wpa_auth_ft.c | 64 +++++++++++++++++++++++++++++++-------------
  3 files changed, 50 insertions(+), 20 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wpa_auth.c b/src/ap/wpa_auth.c
 index 9c00383ed..03c134296 100644
 --- a/src/ap/wpa_auth.c

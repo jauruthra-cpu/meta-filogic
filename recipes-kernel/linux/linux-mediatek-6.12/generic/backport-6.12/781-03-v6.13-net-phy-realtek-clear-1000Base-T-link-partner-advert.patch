@@ -9,6 +9,7 @@ read_status() function in case auto-negotiation is disabled or has not
 been completed.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/9dc9b47b2d675708afef3ad366bfd78eb584d958.1728565530.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

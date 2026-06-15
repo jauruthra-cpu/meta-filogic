@@ -14,6 +14,7 @@ Fixes: f24f7b2f3af9 ("r8169: add support for RTL8127A")
 Tested-by: Fabio Baltieri <fabio.baltieri@gmail.com>
 Cc: stable@vger.kernel.org
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/d7faae7e-66bc-404a-a432-3a496600575f@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

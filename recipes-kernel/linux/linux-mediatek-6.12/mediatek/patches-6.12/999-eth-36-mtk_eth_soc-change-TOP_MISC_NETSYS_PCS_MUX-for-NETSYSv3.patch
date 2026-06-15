@@ -9,6 +9,7 @@ Since we changed the MT7988's topmisc offset from 0x11D10084 to
 to adjust the TOP_MISC_NETSYS_PCS_MUX offset.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

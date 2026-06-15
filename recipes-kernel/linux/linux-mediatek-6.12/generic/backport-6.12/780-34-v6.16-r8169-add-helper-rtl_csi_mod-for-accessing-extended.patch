@@ -9,6 +9,7 @@ config space if native access isn't possible.
 This avoids code duplication.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/b368fd91-57d7-4cb5-9342-98b4d8fe9aea@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

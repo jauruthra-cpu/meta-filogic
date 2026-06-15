@@ -32,6 +32,7 @@ AS21x1xxB1
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250517201353.5137-6-ansuelsmth@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

@@ -10,6 +10,7 @@ during allocation is superfluous, so use kmalloc() instead of
 kzalloc() to avoid that.
 
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250320-qpic-snand-kmalloc-v1-1-94e267550675@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

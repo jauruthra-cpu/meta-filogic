@@ -4,6 +4,7 @@ Date: Tue, 28 Oct 2025 11:35:15 +0800
 Subject: [PATCH] net: phy: sfp: add additional checksum fail SFP warning
 
 Signed-off-by: neal.yen <neal.yen@mediatek.com>
+Upstream-Status: Pending
 
 diff --git a/drivers/net/phy/sfp.c b/drivers/net/phy/sfp.c
 index 00e152f..99dbfc3 100644

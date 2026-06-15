@@ -10,6 +10,8 @@ This reverts commit d0bd79a2d6840b3f8057e2c3f721a45332091a24.
  wpa_supplicant/bss.h         |  6 ---
  3 files changed, 3 insertions(+), 97 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/common/ieee802_11_defs.h b/src/common/ieee802_11_defs.h
 index d196cc926..f75db0f93 100644
 --- a/src/common/ieee802_11_defs.h

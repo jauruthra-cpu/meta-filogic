@@ -11,6 +11,7 @@ which we ignored since commit 45e9d59d3950 ("net: dsa: b53: do not allow
 to configure VLAN 0") anyway.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251128080625.27181-8-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

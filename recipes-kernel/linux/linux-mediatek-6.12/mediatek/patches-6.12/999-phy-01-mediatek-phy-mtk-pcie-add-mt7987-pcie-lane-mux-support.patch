@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/phy/mediatek/phy-mtk-pcie.c
 +++ b/drivers/phy/mediatek/phy-mtk-pcie.c
 @@ -11,6 +11,8 @@

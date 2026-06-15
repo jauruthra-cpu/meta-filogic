@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ctrl_iface_ap.c | 49 ++++++++++++++++++++++++++++++++++--------
  1 file changed, 40 insertions(+), 9 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ctrl_iface_ap.c b/src/ap/ctrl_iface_ap.c
 index ca7c8b227..fdf5f28be 100644
 --- a/src/ap/ctrl_iface_ap.c

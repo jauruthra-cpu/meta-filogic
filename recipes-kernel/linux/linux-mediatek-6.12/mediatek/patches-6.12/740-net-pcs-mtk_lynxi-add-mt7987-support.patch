@@ -4,6 +4,7 @@ Date: Fri, 9 May 2025 13:22:14 +0800
 Subject: [PATCH] net: pcs: mtk_lynxi add mt7987 support
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/pcs/pcs-mtk-lynxi.c | 10 +++++++---
  1 file changed, 7 insertions(+), 3 deletions(-)

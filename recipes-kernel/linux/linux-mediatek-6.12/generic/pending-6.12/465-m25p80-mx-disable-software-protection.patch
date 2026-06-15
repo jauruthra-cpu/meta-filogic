@@ -2,6 +2,7 @@ From: Felix Fietkau <nbd@nbd.name>
 Subject: Disable software protection bits for Macronix flashes.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/mtd/spi-nor/spi-nor.c | 1 +
  1 file changed, 1 insertion(+)

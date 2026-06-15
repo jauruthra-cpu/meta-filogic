@@ -2,6 +2,7 @@ From: Piotr Dymacz <pepe2k@gmail.com>
 Subject: kernel/mtd: add support for EON EN25Q128
 
 Signed-off-by: Piotr Dymacz <pepe2k@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/spi-nor/spi-nor.c | 1 +
  1 file changed, 1 insertion(+)

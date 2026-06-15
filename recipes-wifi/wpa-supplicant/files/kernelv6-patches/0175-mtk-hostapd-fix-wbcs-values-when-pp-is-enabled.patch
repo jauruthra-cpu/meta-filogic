@@ -13,6 +13,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/ieee802_11.c | 52 +++++++++++++++++++++++++++++++++------------
  1 file changed, 38 insertions(+), 14 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11.c b/src/ap/ieee802_11.c
 index bec892553..312b7f7e6 100644
 --- a/src/ap/ieee802_11.c

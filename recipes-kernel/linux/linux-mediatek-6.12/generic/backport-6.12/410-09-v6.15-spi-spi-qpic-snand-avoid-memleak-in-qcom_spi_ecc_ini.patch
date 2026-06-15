@@ -13,6 +13,7 @@ to avoid that.
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250313-qpic-snand-memleak-fix-v1-1-e54e78d1da3a@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

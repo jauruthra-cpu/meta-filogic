@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/tty/serial/8250/8250.h
 +++ b/drivers/tty/serial/8250/8250.h
 @@ -86,6 +86,7 @@ struct serial8250_config {

@@ -116,6 +116,7 @@ firmware.
 
 Fixes: 2069624dac19 ("net: sfp: Add tx-fault workaround for Huawei MA5671A SFP ONT")
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 ---
  v3: avoid using a vendor name in the function
  v2: rebase on top of net/main instead of linux/master

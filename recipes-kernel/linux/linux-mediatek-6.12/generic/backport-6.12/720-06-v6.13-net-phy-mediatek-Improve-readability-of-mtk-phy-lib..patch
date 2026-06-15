@@ -9,6 +9,7 @@ mtk_phy_led_hw_ctrl_set(), which improves readability.
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---
  drivers/net/phy/mediatek/mtk-phy-lib.c | 44 ++++++++++++++------------

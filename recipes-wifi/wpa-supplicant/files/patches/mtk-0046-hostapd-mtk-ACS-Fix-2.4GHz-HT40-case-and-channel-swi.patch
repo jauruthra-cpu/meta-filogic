@@ -26,6 +26,8 @@ intf enabled.
  src/ap/hostapd.c |   3 +
  2 files changed, 83 insertions(+), 62 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/acs.c b/src/ap/acs.c
 index 130e135..65573b9 100644
 --- a/src/ap/acs.c

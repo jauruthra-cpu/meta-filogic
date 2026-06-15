@@ -10,6 +10,7 @@ Implement custom identify function using the PKGID instead of iterating
 over the implemented MMDs.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 [forward-port by @namiltd]
 Signed-off-by: Mieczyslaw Nalewaj <namiltd@yahoo.com>
 --- a/drivers/net/phy/realtek/realtek_main.c

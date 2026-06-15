@@ -3,6 +3,7 @@ Subject: net: add an optimization for dealing with raw sockets
 
 lede-commit: 4898039703d7315f0f3431c860123338ec3be0f6
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  include/uapi/linux/if_packet.h |  3 +++
  net/packet/af_packet.c         | 34 +++++++++++++++++++++++++++-------

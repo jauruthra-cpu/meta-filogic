@@ -16,6 +16,7 @@ for readers.
 - Writers use spin_lock() to update.
 
 Signed-off-by: Qingfang Deng <dqfext@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250822012548.6232-1-dqfext@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Aloka Dixit <alokad@codeaurora.org>
 Date: Tue, 5 Oct 2021 21:09:36 -0700
 Subject: [PATCH] mac80211: split beacon retrieval functions

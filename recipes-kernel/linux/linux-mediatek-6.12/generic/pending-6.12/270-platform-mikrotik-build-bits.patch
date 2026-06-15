@@ -9,6 +9,7 @@ Content-Transfer-Encoding: 8bit
 This patch adds platform/mikrotik kernel build bits
 
 Signed-off-by: Thibaut VARÈNE <hacks@slashdirt.org>
+Upstream-Status: Pending
 ---
  drivers/platform/Kconfig  | 2 ++
  drivers/platform/Makefile | 1 +

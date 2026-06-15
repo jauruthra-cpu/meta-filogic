@@ -7,6 +7,7 @@ Without this patch, the ETH/WiFi to ETH traffic may not enter the QDMA,
 even if IB2_PSE_QOS is set on the MT7988.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c | 6 ++++++
  drivers/net/ethernet/mediatek/mtk_ppe.h | 4 ++++

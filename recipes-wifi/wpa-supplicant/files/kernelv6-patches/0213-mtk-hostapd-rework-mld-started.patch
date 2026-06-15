@@ -12,6 +12,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/hostapd.c | 67 ++++++++++++++++++++++++++++++++++++++++--------
  1 file changed, 56 insertions(+), 11 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index 3b0f7740a..b0d6e0944 100644
 --- a/src/ap/hostapd.c

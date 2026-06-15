@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/crypto/inside-secure/safexcel.h
 +++ b/drivers/crypto/inside-secure/safexcel.h
 @@ -743,6 +743,9 @@ struct safexcel_priv_data {

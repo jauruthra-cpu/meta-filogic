@@ -19,6 +19,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  wpa_supplicant/driver_i.h            |  2 +-
  10 files changed, 41 insertions(+), 18 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 8bed9ea1c..8bb0cf181 100644
 --- a/hostapd/config_file.c

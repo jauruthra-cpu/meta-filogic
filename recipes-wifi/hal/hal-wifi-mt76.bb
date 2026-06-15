@@ -17,7 +17,7 @@ SRCREV_wifihal = "${AUTOREV}"
 SRCREV_FORMAT = "wifihal"
 
 PV = "${RDK_RELEASE}+git${SRCPV}"
-S = "${WORKDIR}/git/src/wifi/"
+S = "${UNPACKDIR}/git/src/wifi/"
 
 DEPENDS += "rdk-wifi-halif libnl libev hostapd wpa-supplicant"
 CFLAGS:append = " ${@bb.utils.contains('DISTRO_FEATURES', 'extender', '-D_TURRIS_EXTENDER_', '', d)}"

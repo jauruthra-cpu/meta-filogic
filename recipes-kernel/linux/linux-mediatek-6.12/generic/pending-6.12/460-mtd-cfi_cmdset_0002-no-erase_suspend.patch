@@ -8,6 +8,7 @@ simply disable erase suspend, as it will usually not produce any useful gain on
 the small filesystems used on embedded hardware.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/mtd/chips/cfi_cmdset_0002.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

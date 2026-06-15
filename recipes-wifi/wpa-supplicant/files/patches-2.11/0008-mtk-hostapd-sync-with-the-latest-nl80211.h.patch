@@ -8,6 +8,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  src/drivers/nl80211_copy.h | 11 +++++++++++
  1 file changed, 11 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/nl80211_copy.h b/src/drivers/nl80211_copy.h
 index f97f5adc8..620af70c4 100644
 --- a/src/drivers/nl80211_copy.h

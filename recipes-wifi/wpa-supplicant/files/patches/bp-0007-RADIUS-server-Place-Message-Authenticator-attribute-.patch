@@ -13,6 +13,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  src/radius/radius_server.c | 15 +++++++++++++++
  1 file changed, 15 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/radius/radius_server.c b/src/radius/radius_server.c
 index e02c215..fa36915 100644
 --- a/src/radius/radius_server.c

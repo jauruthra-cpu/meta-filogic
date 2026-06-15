@@ -4,6 +4,7 @@ Date: Fri, 7 Jul 2017 17:09:21 +0200
 Subject: kconfig: owrt specifc dependencies
 
 Signed-off-by: John Crispin <john@phrozen.org>
+Upstream-Status: Pending
 ---
  crypto/Kconfig        | 10 +++++-----
  drivers/bcma/Kconfig  |  1 +

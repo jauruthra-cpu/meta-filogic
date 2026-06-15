@@ -19,6 +19,8 @@ Subject: [PATCH] hostapd: mtk: Add hostapd MU SET/GET control
  src/drivers/driver_nl80211_capa.c |   3 +
  13 files changed, 255 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index b5024cc..62e8b33 100644
 --- a/hostapd/config_file.c

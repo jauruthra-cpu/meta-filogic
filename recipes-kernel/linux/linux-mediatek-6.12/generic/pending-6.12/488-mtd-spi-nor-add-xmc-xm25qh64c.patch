@@ -5,6 +5,7 @@ The XMC XM25QH64C is a 8MB SPI NOR chip. The patch is verified on TL-WPA8631P v3
 Datasheet available at https://www.xmcwh.com/uploads/442/XM25QH64C.pdf
 
 Signed-off-by: Joe Mullally <jwmullally@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/spi-nor/xmc.c                             | 2 ++
  1 file changed, 2 insertions(+)

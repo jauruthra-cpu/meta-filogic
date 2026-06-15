@@ -2,6 +2,7 @@ From: Yousong Zhou <yszhou4tech@gmail.com>
 Subject: MIPS: kexec: Accept command line parameters from userspace.
 
 Signed-off-by: Yousong Zhou <yszhou4tech@gmail.com>
+Upstream-Status: Pending
 ---
  arch/mips/kernel/machine_kexec.c   |  153 +++++++++++++++++++++++++++++++-----
  arch/mips/kernel/machine_kexec.h   |   20 +++++

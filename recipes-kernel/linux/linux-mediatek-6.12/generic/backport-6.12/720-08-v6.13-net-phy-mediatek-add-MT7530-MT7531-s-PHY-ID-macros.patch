@@ -8,6 +8,7 @@ it follows the same rule of mtk-ge-soc.c.
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---
  drivers/net/phy/mediatek/mtk-ge.c | 11 +++++++----

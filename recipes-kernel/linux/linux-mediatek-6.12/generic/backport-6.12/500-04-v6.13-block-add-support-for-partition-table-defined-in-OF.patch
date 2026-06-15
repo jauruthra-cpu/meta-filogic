@@ -25,6 +25,7 @@ is used as fallback. Eventually is also possible to declare the read-only
 property to flag the partition as read-only.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Christoph Hellwig <hch@lst.de>
 Link: https://lore.kernel.org/r/20241002221306.4403-6-ansuelsmth@gmail.com
 Signed-off-by: Jens Axboe <axboe@kernel.dk>

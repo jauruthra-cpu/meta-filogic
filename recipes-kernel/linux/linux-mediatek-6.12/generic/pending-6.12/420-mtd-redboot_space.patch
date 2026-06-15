@@ -5,6 +5,7 @@ Subject: add patch for including unpartitioned space in the rootfs partition for
 
 lede-commit: 394918851f84e4d00fa16eb900e7700e95091f00
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  drivers/mtd/redboot.c | 19 +++++++++++++------
  1 file changed, 13 insertions(+), 6 deletions(-)

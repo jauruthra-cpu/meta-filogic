@@ -25,6 +25,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/ieee802_11_eht.c | 68 ++++++++++++++++++++++++++++++++++++++++-
  4 files changed, 72 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 310c0e4a1..77d2cfece 100644
 --- a/src/ap/beacon.c

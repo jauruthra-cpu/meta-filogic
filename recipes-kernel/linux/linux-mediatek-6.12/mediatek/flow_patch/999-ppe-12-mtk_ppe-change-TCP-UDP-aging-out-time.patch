@@ -10,6 +10,7 @@ GC work does not teardown this flow rule. As a result, the flow offload
 cannot immediately reallocate a new flow rule when the traffic resumes.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)

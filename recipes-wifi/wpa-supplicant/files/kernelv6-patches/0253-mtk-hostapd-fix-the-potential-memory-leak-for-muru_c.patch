@@ -13,6 +13,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/ap/ap_config.c | 1 +
  1 file changed, 1 insertion(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_config.c b/src/ap/ap_config.c
 index 5f79168e7..beb047675 100644
 --- a/src/ap/ap_config.c

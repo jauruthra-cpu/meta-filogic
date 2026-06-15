@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  hostapd/hostapd_cli.c | 2 ++
  1 file changed, 2 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/hostapd_cli.c b/hostapd/hostapd_cli.c
 index 80d7547a4..eb14d5393 100644
 --- a/hostapd/hostapd_cli.c

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Tue, 14 Dec 2021 17:53:12 +0100
 Subject: [PATCH] mac80211: use coarse boottime for airtime fairness code

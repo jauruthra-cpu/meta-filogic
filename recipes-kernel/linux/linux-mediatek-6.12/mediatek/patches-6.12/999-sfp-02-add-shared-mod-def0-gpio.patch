@@ -9,6 +9,7 @@ We need to change this GPIO to shared to avoid failures in GPIO
 requests within mtk_add_mux().
 
 Signed-off-by: neal.yen <neal.yen@mediatek.com>
+Upstream-Status: Pending
 
 diff --git a/drivers/net/phy/sfp.c b/drivers/net/phy/sfp.c
 index 5f4dc0a..43bcc16 100644

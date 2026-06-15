@@ -9,6 +9,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  src/ap/beacon.c | 8 --------
  1 file changed, 8 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 31d42e0f4..94face924 100644
 --- a/src/ap/beacon.c

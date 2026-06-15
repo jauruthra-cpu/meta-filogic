@@ -2,6 +2,7 @@ From: Daniel Golle <daniel@makrotopia.org>
 Subject: ubi: auto-create ubiblock device for rootfs
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/ubi/block.c | 42 ++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 42 insertions(+)

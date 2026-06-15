@@ -11,6 +11,7 @@ So disable it first. Tested on GL.iNet GL-MT3000 with MX35LF2GE4AD flash.
 
 Fixes: 11813857864f ("mtd: spi-nand: macronix: Continuous read support")
 Signed-off-by: Chukun Pan <amadeus@jmu.edu.cn>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/macronix.c | 2 --
  1 file changed, 2 deletions(-)

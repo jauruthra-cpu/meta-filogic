@@ -6,6 +6,7 @@ Subject: [PATCH] netfilter: nft_flow_offload: handle netdevice events from
 Move the code that deals with device events to the core.
 
 Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
+Upstream-Status: Pending
 ---
 
 --- a/net/netfilter/nf_flow_table_core.c

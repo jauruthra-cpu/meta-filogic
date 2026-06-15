@@ -8,6 +8,7 @@ Replace the register addresses with the names used in r8125/r8126
 vendor driver, and consider that RSS_CTRL_8125 is a 32 bit register.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/3bf2f340-b369-4174-97bf-fd38d4217492@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

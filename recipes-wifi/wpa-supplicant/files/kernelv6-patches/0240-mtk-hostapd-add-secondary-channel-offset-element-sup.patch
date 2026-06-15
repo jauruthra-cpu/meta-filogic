@@ -16,6 +16,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/beacon.c | 42 ++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 42 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 94face924..1f99aadcd 100644
 --- a/src/ap/beacon.c

@@ -11,6 +11,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/common/ieee802_11_common.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/common/ieee802_11_common.c b/src/common/ieee802_11_common.c
 index 4a35479fc..26360a559 100644
 --- a/src/common/ieee802_11_common.c

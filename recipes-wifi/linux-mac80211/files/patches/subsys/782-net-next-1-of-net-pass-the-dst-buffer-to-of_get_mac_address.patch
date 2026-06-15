@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/backport-include/linux/of_net.h
 +++ /dev/null
 @@ -1,26 +0,0 @@

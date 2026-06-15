@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/mtd/spi-nor/core.c
 +++ b/drivers/mtd/spi-nor/core.c
 @@ -3309,7 +3309,21 @@ static int spi_nor_cal_read(void *priv,

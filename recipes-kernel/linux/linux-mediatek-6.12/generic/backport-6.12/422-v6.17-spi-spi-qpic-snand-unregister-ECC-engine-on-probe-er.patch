@@ -14,6 +14,7 @@ qcom_spi_remove() to avoid possible use-after-free issues.
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Message-ID: <20250903-qpic-snand-unregister-ecceng-v1-1-ef5387b0abdc@gmail.com>
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

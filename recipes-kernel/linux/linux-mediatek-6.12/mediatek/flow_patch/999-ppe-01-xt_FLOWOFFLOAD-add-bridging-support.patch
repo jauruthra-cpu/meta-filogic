@@ -7,6 +7,7 @@ Without this patch, we are unable to use xt_FLOWOFFLOAD to perform
 bridging offload.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  include/linux/netdevice.h      |   2 +
  net/bridge/br_fdb.c            |   1 +

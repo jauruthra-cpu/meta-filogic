@@ -47,6 +47,7 @@ Errors-To:
 Add Fan and cooling maps for Bananpi-R4 board.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 ---
  .../dts/mediatek/mt7988a-bananapi-bpi-r4.dtsi | 29 +++++++++++++++++++
  1 file changed, 29 insertions(+)

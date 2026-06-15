@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/Makefile
 +++ b/Makefile
 @@ -5,7 +5,7 @@

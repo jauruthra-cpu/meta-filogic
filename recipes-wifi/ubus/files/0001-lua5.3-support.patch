@@ -2,7 +2,7 @@ From 24b5aae13f1fe1ae90eab5fbd8e62df72681d065 Mon Sep 17 00:00:00 2001
 From: sah4009 <peter.deherdt@softathome.com>
 Date: Mon, 16 Sep 2019 09:22:16 +0000
 Subject: [PATCH] Lua 5.3 support
-
+Upstream-Status: Pending
 ---
  lua/CMakeLists.txt |  3 ++-
  lua/ubus.c         | 23 +++++++++++++++++++----

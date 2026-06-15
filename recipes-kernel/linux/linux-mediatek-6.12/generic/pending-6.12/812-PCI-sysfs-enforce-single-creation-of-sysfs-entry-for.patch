@@ -45,6 +45,7 @@ Cc: stable@vger.kernel.org
 Reported-by: Krzysztof Hałasa <khalasa@piap.pl>
 Closes: https://bugzilla.kernel.org/show_bug.cgi?id=215515
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/pci/pci-sysfs.c | 34 +++++++++++++++++++++++++++++-----
  include/linux/pci.h     |  1 +

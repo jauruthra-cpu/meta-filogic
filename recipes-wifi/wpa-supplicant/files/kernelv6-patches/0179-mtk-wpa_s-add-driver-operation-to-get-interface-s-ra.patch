@@ -11,6 +11,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/driver_i.h    | 21 +++++++++++++++++++++
  3 files changed, 56 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/driver.h b/src/drivers/driver.h
 index 18b4f8100..35af6f602 100644
 --- a/src/drivers/driver.h

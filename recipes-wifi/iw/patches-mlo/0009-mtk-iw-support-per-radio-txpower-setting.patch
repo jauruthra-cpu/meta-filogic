@@ -2,6 +2,7 @@ From ea9c162ce6e17a3540b5d967b297c84a9614941d Mon Sep 17 00:00:00 2001
 From: Shayne Chen <shayne.chen@mediatek.com>
 Date: Tue, 19 Aug 2025 17:52:59 +0800
 Subject: [PATCH 16/17] mtk: iw: support per-radio txpower setting
+Upstream-Status: Pending
 
 Usage:
 iw phy phy0 set txpower fixed 1600 radio 0

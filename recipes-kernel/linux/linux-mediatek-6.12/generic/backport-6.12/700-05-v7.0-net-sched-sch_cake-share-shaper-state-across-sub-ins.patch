@@ -26,6 +26,7 @@ https://netdevconf.info/0x19/docs/netdev-0x19-paper16-talk-paper.pdf
 
 Reviewed-by: Jamal Hadi Salim <jhs@mojatatu.com>
 Signed-off-by: Jonas Köppeler <j.koeppeler@tu-berlin.de>
+Upstream-Status: Pending
 Signed-off-by: Toke Høiland-Jørgensen <toke@redhat.com>
 Link: https://patch.msgid.link/20260109-mq-cake-sub-qdisc-v8-5-8d613fece5d8@redhat.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

@@ -13,6 +13,8 @@ Subject: [PATCH 31/35] hostapd: mtk: Add muru user number debug command
  src/drivers/driver_nl80211.c | 37 ++++++++++++++++++++++++++++--------
  7 files changed, 53 insertions(+), 16 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 8c48d8f..bf5eeb7 100644
 --- a/hostapd/ctrl_iface.c

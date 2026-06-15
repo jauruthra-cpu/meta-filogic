@@ -12,6 +12,7 @@ versions per default, I'd interpret this as confirmation that these
 chip versions are unaffected. So let's do the same here.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Simon Horman <horms@kernel.org>
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---

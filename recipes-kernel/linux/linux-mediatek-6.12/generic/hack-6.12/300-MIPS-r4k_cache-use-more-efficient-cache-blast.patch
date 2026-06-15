@@ -6,6 +6,7 @@ Optimize the compiler output for larger cache blast cases that are
 common for DMA-based networking.
 
 Signed-off-by: Ben Menchaca <ben.menchaca@qca.qualcomm.com>
+Upstream-Status: Pending
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
 ---
 --- a/arch/mips/include/asm/r4kcache.h

@@ -11,6 +11,7 @@ test before the EEE disablement and simplify the code.
 
 Fixes: bfc17c165835 ("net: phy: realtek: disable PHY-mode EEE")
 Signed-off-by: Marek Vasut <marek.vasut@mailbox.org>
+Upstream-Status: Pending
 Reviewed-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
 Reviewed-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>
 Link: https://patch.msgid.link/20251011110309.12664-1-marek.vasut@mailbox.org

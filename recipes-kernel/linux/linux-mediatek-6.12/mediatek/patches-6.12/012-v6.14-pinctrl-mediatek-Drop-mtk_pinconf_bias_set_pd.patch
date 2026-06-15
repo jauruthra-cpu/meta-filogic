@@ -8,6 +8,7 @@ This function is unused and causing compile errors, delete it.
 Reported-by: Stephen Rothwell <sfr@canb.auug.org.au>
 Link: https://lore.kernel.org/linux-next/20250106164630.4447cd0d@canb.auug.org.au/
 Signed-off-by: Linus Walleij <linus.walleij@linaro.org>
+Upstream-Status: Pending
 ---
  .../pinctrl/mediatek/pinctrl-mtk-common-v2.c   | 18 ------------------
  1 file changed, 18 deletions(-)

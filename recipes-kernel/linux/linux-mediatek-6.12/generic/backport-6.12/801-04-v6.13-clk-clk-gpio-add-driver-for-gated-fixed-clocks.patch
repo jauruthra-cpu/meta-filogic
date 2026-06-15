@@ -26,6 +26,7 @@ The regulator-API provides function stubs for the !CONFIG_REGULATOR case,
 so no special handling is necessary.
 
 Signed-off-by: Heiko Stuebner <heiko@sntech.de>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20240906082511.2963890-5-heiko@sntech.de
 Signed-off-by: Stephen Boyd <sboyd@kernel.org>
 

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/wireless/intel/ipw2x00/ipw2200.c
 +++ b/drivers/net/wireless/intel/ipw2x00/ipw2200.c
 @@ -11470,6 +11470,15 @@ static const struct attribute_group ipw_

@@ -8,6 +8,7 @@ REMOVE THIS PATCH ONCE ALL TARGETS ARE USING LINUX 6.12 AND ALL BOARDS
 HAVE MIGRATED TO UPSTREAM DT BINDINGS.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 --- a/block/partitions/core.c
 +++ b/block/partitions/core.c
 @@ -11,6 +11,8 @@

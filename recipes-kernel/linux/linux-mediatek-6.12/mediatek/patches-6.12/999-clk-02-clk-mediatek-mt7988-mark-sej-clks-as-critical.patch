@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/clk/mediatek/clk-mt7988-infracfg.c
 +++ b/drivers/clk/mediatek/clk-mt7988-infracfg.c
 @@ -183,8 +183,8 @@ static const struct mtk_gate infra_clks[

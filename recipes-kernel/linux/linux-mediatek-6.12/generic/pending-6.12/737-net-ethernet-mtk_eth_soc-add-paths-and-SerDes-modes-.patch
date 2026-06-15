@@ -17,6 +17,7 @@ LynxI PCS for 1000Base-X, 2500Base-X and Cisco SGMII PCS interface
 modes.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_path.c | 122 +++++++-
  drivers/net/ethernet/mediatek/mtk_eth_soc.c  | 292 +++++++++++++++++--

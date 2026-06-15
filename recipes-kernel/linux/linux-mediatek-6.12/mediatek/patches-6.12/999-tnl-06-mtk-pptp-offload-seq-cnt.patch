@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/ppp/pptp.c
 +++ b/drivers/net/ppp/pptp.c
 @@ -41,6 +41,9 @@

@@ -11,6 +11,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  src/ap/hostapd.h       |  5 ++---
  3 files changed, 20 insertions(+), 15 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index 64edbf2fd..26786ed41 100644
 --- a/src/ap/drv_callbacks.c

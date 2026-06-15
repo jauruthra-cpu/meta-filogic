@@ -11,6 +11,7 @@ state.
 Fix this by disabling PHY-mode EEE.
 
 Signed-off-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/E1ttnHW-00785s-Uq@rmk-PC.armlinux.org.uk
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

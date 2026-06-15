@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- ../mtk_factory_rw.sh.bak	2022-11-03 17:09:43.001641800 +0800
 +++ ../mtk_factory_rw.sh	2022-11-03 17:26:01.636647400 +0800
 @@ -27,7 +27,7 @@

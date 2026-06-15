@@ -14,6 +14,7 @@ buffer is required (PPP compression, multilink, and channels without
 direct_xmit), call skb_linearize() explicitly.
 
 Signed-off-by: Qingfang Deng <dqfext@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20260129012902.941-1-dqfext@gmail.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

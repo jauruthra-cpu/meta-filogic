@@ -10,6 +10,7 @@ This allows devices without a high precission timer to reduce boot from >100s
 to <30s.
 
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/char/hw_random/bcm2835-rng.c | 1 +
  1 file changed, 1 insertion(+)

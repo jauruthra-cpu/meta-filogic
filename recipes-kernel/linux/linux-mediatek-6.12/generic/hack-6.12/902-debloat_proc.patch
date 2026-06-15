@@ -4,6 +4,7 @@ Date: Sat, 8 Jul 2017 08:20:09 +0200
 Subject: debloat: procfs
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  fs/locks.c               |  2 ++
  fs/proc/Kconfig          |  5 +++++

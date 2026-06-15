@@ -2,6 +2,7 @@ From: Felix Fietkau <nbd@nbd.name>
 Subject: kernel: add a new version of my netfilter speedup patches for linux 2.6.39 and 3.0
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  include/uapi/linux/netfilter_ipv4/ip_tables.h |  1 +
  net/ipv4/netfilter/ip_tables.c                | 37 +++++++++++++++++++++++++++

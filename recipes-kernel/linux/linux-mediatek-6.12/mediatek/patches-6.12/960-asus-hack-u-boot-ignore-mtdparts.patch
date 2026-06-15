@@ -23,6 +23,7 @@ work-around is applicable for SPI-NAND only. Similar work-arounds for
 other MTD devices can be created as well should they actually be needed.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/spi/core.c | 2 ++
  1 file changed, 2 insertions(+)

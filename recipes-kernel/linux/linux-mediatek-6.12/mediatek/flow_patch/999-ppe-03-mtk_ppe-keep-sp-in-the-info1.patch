@@ -7,6 +7,7 @@ Without this patch, the source port of the PPE entry will be cleared
 after BIND.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 8 ++++++++
  drivers/net/ethernet/mediatek/mtk_ppe.c     | 6 +++++-

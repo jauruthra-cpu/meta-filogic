@@ -11,6 +11,7 @@ offsets.
 So add appropriate ops for them and switch those chips to use them.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251107080749.26936-8-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

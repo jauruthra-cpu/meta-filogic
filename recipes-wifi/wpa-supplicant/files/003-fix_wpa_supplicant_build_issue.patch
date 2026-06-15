@@ -1,3 +1,5 @@
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/Makefile b/wpa_supplicant/Makefile
 index d2982cb..23a3e44 100644
 --- a/wpa_supplicant/Makefile

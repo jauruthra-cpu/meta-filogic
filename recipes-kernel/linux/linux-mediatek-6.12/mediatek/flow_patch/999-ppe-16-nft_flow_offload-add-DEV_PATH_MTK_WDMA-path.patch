@@ -9,6 +9,7 @@ MAC address while running RelayD. Consequently, traffic may experience
 stalls in both the software fastpath and the hardware path.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  net/netfilter/nft_flow_offload.c | 4 ++++
  1 file changed, 4 insertions(+)

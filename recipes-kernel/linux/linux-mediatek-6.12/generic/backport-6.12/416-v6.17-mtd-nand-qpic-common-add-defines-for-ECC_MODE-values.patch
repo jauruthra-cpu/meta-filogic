@@ -12,6 +12,7 @@ support for the 'spi-qpic-snand' driver.
 
 Reviewed-by: Md Sadre Alam <quic_mdalam@quicinc.com>
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Acked-by: Miquel Raynal <miquel.raynal@bootlin.com>
 Link: https://patch.msgid.link/20250702-qpic-snand-8bit-ecc-v2-1-ae2c17a30bb7@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>

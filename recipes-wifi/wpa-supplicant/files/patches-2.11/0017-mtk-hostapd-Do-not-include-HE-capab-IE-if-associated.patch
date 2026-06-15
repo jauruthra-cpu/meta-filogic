@@ -13,6 +13,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ieee802_11.c | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11.c b/src/ap/ieee802_11.c
 index 1dbe30a23..ac1f940a5 100644
 --- a/src/ap/ieee802_11.c

@@ -24,6 +24,7 @@ Verified on Teltonika RUT955 which comes with XT25F128B in recent
 versions of the device.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
 ---
  drivers/mtd/spi-nor/spi-nor.c | 4 ++++

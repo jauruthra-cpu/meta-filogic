@@ -7,6 +7,7 @@ Add a bunch of USB IDs found in various places online to the
 RNDIS USB network driver.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/usb/rndis_host.c | 40 ++++++++++++++++++++++
  1 file changed, 40 insertions(+)

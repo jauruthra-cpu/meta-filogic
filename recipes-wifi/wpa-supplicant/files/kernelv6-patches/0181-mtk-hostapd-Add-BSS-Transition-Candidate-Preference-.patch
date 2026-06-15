@@ -25,6 +25,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/neighbor_db.c   | 17 ++++++++++++++++-
  2 files changed, 22 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ctrl_iface_ap.c b/src/ap/ctrl_iface_ap.c
 index d558d8799..31a2bdcde 100644
 --- a/src/ap/ctrl_iface_ap.c

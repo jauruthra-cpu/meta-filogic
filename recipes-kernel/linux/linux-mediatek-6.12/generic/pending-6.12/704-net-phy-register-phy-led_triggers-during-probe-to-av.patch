@@ -47,6 +47,7 @@ Reported-by: Shiji Yang <yangshiji66@outlook.com>
 Closes: https://lore.kernel.org/all/OS7PR01MB13602B128BA1AD3FA38B6D1FFBC69A@OS7PR01MB13602.jpnprd01.prod.outlook.com/
 Fixes: 06f502f57d0d ("leds: trigger: Introduce a NETDEV trigger")
 Signed-off-by: Andrew Lunn <andrew@lunn.ch>
+Upstream-Status: Pending
 ---
  drivers/net/phy/phy_device.c | 25 +++++++++++++++++--------
  1 file changed, 17 insertions(+), 8 deletions(-)

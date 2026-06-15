@@ -14,6 +14,7 @@ achieved by only adding the corresponding field to the struct in case
 CONFIG_OF is set using #ifdef'ery.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/partitions/check.h | 16 +++++++++++++++-
  block/partitions/core.c  | 14 +++++++++++---

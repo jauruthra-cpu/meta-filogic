@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Sat, 6 Feb 2021 16:08:01 +0100
 Subject: [PATCH] mac80211: minstrel_ht: reduce fluctuations in rate

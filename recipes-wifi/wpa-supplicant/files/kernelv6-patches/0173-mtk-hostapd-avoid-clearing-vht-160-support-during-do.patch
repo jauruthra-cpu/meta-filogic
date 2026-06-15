@@ -15,6 +15,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/drv_callbacks.c | 1 -
  1 file changed, 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index 76b2e2703..64edbf2fd 100644
 --- a/src/ap/drv_callbacks.c

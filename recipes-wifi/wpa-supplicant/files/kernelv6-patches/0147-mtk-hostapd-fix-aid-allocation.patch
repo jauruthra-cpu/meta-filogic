@@ -35,6 +35,8 @@ Signed-off-by: Peter Chiu <chui-hao.chiu@mediatek.com>
  src/ap/ucode.c      |  4 ++--
  4 files changed, 15 insertions(+), 17 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_drv_ops.c b/src/ap/ap_drv_ops.c
 index 18c7f8462..7908b91c5 100644
 --- a/src/ap/ap_drv_ops.c

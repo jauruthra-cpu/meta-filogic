@@ -11,6 +11,7 @@ Make use of the now available 'active-high' property and correctly
 reflect the polarity setting which was previously inverted.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/180ccafa837f09908b852a8a874a3808c5ecd2d0.1728558223.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

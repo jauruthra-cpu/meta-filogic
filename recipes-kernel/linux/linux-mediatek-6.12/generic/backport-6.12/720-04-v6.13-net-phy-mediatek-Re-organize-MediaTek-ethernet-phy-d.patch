@@ -12,6 +12,7 @@ mtk-2p5ge.c: Planned for built-in 2.5G phy on MT7988
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---
  MAINTAINERS                                   |  4 ++--

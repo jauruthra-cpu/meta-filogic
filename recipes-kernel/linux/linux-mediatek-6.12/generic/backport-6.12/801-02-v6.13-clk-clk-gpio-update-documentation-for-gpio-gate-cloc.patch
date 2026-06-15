@@ -8,6 +8,7 @@ handled sleeping and non-sleeping gpios and with that change it seems
 updating the doc was overlooked. So do that now.
 
 Signed-off-by: Heiko Stuebner <heiko@sntech.de>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20240906082511.2963890-3-heiko@sntech.de
 Signed-off-by: Stephen Boyd <sboyd@kernel.org>
 

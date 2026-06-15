@@ -12,6 +12,7 @@ Correctly init to 0 to set polarity high by default.
 Reported-by: Simon Horman <horms@kernel.org>
 Fixes: 6a325aed130b ("net: phy: mediatek: add Airoha PHY ID to SoC driver")
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250415105313.3409-1-ansuelsmth@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

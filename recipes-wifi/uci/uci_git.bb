@@ -11,7 +11,7 @@ SRC_URI = " \
 SRCREV = "f84f49f00fb70364f58b4cce72f1796a7190d370"
 PV = "1.0.0+git${SRCPV}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/${PN}-${PV}"
 
 
 DEPENDS += "libubox"
@@ -24,7 +24,7 @@ FILES:${PN} = "${bindir}/uci ${libdir}/libuci.so"
 
 inherit cmake
 
-EXTRA_OECMAKE = " -DBUILD_LUA=OFF -DCMAKE_SKIP_RPATH=TRUE"
+EXTRA_OECMAKE = " -DBUILD_LUA=OFF -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_POLICY_VERSION_MINIMUM=3.5"
 
 do_install() {
     install -d ${D}${libdir}

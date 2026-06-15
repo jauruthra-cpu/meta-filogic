@@ -54,6 +54,7 @@ case, both (1) (2) endpoint has same "port" (= A).
 Add "port" base functions.
 
 Signed-off-by: Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/87ldyeb5t9.wl-kuninori.morimoto.gx@renesas.com
 Signed-off-by: Rob Herring (Arm) <robh@kernel.org>
 ---

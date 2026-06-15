@@ -43,6 +43,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/drivers/driver_nl80211.c |  22 +-
  9 files changed, 471 insertions(+), 37 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index aa279eda2..fa8e8db3d 100644
 --- a/hostapd/config_file.c

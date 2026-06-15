@@ -15,6 +15,7 @@ controller driver with the following improvements:
 - Rename multiple variables
 
 Signed-off-by: Md Sadre Alam <quic_mdalam@quicinc.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/raw/qcom_nandc.c | 516 ++++++++++++++----------------

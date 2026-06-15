@@ -16,6 +16,7 @@ corresponds to the per channel analog dimming, while the patterns[1-8] to the
 PWM dimming control.
 
 Signed-off-by: Vicentiu Galanopulo <vicentiu.galanopulo@remote-tech.co.uk>
+Upstream-Status: Pending
 Link: https://lore.kernel.org/r/20241218183401.41687-4-vicentiu.galanopulo@remote-tech.co.uk
 Signed-off-by: Lee Jones <lee@kernel.org>
 ---

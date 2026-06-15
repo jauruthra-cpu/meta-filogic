@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/include/uapi/linux/nl80211.h
 +++ b/include/uapi/linux/nl80211.h
 @@ -6027,6 +6027,11 @@ enum nl80211_feature_flags {

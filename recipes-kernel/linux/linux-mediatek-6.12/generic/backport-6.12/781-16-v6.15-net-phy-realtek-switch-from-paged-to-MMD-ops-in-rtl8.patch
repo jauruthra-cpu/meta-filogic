@@ -9,6 +9,7 @@ c45 ops for the MDIO_MMD_VEND2 device. So we can switch to standard
 MMD ops here.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/81416f95-0fac-4225-87b4-828e3738b8ed@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

@@ -41,6 +41,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  10 files changed, 1454 insertions(+)
  create mode 100644 src/ap/afc.c
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index 5c80bcd33..bac603d97 100644
 --- a/hostapd/Makefile

@@ -5,6 +5,7 @@ Subject: Add myloader partition table parser
 
 lede-commit: d8bf22859b51faa09d22c056fe221a45d2f7a3b8
 Signed-off-by: Florian Fainelli <f.fainelli@gmail.com>
+Upstream-Status: Pending
 [adjust for kernel 5.4, add myloader.c to patch]
 Signed-off-by: Adrian Schmutzler <freifunk@adrianschmutzler.de>
 

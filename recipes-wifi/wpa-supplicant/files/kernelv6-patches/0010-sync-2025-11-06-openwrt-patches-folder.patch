@@ -119,6 +119,8 @@ Subject: [PATCH 010/260] sync 2025-11-06 openwrt patches folder
  create mode 100644 src/utils/uloop.c
  create mode 100644 tests/test-crypto_module.c
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index b9992530e..5c80bcd33 100644
 --- a/hostapd/Makefile

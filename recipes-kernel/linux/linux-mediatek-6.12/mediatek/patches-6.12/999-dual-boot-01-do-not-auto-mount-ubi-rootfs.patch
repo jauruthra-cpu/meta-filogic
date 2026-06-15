@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Weijie Gao <weijie.gao@mediatek.com>
 Subject: [PATCH] init: do not mount ubi rootfs if dual boot is enabled
 

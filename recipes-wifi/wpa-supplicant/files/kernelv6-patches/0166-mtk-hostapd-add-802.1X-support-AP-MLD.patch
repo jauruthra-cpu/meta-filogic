@@ -34,6 +34,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/wps_hostapd.c   | 92 +++++++++++++++++++++++++++++++++++++-----
  5 files changed, 163 insertions(+), 19 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index fd8b95f96..76b2e2703 100644
 --- a/src/ap/drv_callbacks.c

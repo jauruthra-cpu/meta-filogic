@@ -22,6 +22,7 @@ Example:
 };
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  MAINTAINERS                 |   6 +
  drivers/block/Kconfig       |  12 +

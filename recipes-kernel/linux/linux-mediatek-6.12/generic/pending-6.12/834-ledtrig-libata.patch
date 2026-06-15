@@ -12,6 +12,7 @@ included in libata-core and both, codepaths and structures remain
 untouched.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/ata/Kconfig       | 16 ++++++++++++++++
  drivers/ata/libata-core.c | 41 +++++++++++++++++++++++++++++++++++++++++

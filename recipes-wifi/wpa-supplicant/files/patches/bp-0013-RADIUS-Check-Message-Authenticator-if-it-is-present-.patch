@@ -13,6 +13,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  src/radius/radius.c | 14 ++++++++++++++
  1 file changed, 14 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/radius/radius.c b/src/radius/radius.c
 index 9000c15..6e9a0e5 100644
 --- a/src/radius/radius.c

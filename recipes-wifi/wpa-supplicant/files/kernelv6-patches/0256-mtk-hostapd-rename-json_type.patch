@@ -12,6 +12,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/utils/json.h | 2 +-
  2 files changed, 2 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/utils/json.c b/src/utils/json.c
 index 5523f284d..d8df5e695 100644
 --- a/src/utils/json.c

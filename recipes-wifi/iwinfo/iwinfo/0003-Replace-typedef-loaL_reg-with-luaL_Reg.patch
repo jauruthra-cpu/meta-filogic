@@ -2,6 +2,7 @@ From 0dbefc4fa4fc1292fa2c940304a5ec0df204cf98 Mon Sep 17 00:00:00 2001
 From: Kas User <kas@example.com>
 Date: Tue, 4 Oct 2022 22:59:16 +0300
 Subject: [PATCH] Replace loaL_reg with luaL_Reg according to lua5.1
+Upstream-Status: Pending
 
 ---
  iwinfo_lua.c | 10 +++++-----

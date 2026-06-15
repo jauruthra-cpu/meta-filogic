@@ -37,6 +37,7 @@ Change the code to use the correct CW_PER_PAGE value to avoid this.
 
 Fixes: 7304d1909080 ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250801-qpic-snand-oob-cwpp-fix-v1-1-f5a41b86af2e@gmail.com
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

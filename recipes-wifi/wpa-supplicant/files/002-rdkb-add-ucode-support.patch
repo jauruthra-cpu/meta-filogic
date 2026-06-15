@@ -1,3 +1,5 @@
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index 15d4070e1..7aac2c13d 100644
 --- a/hostapd/Makefile

@@ -2,6 +2,7 @@ From: Felix Fietkau <nbd@nbd.name>
 Subject: jffs2: add RENAME_EXCHANGE support
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/fs/jffs2/dir.c

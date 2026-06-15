@@ -5,6 +5,7 @@ Date: Sat, 11 Mar 2023 16:32:41 +0100
 Subject: [PATCH net-next] arm64: dts: mt7986: move cpuboot in a dedicated node
 
 Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
+Upstream-Status: Pending
 ---
  arch/arm64/boot/dts/mediatek/mt7986a.dtsi | 21 +++++++++++----------
  1 file changed, 11 insertions(+), 10 deletions(-)

@@ -12,6 +12,7 @@ Subject: [PATCH] mips: kernel: fix detect_memory_region() function
 
 [1] 439a1bcac648 ("fortify: Use __builtin_dynamic_object_size() when available")
 Signed-off-by: Shiji Yang <yangshiji66@outlook.com>
+Upstream-Status: Pending
 ---
  arch/mips/include/asm/bootinfo.h |  2 ++
  arch/mips/kernel/setup.c         | 17 ++++++++++++-----

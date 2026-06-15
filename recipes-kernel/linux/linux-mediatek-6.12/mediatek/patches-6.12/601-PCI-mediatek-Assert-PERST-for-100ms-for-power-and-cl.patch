@@ -12,6 +12,7 @@ be delayed 100ms (TPVPERL) for the power and clock to become stable.
 
 Link: https://lore.kernel.org/r/20211227133110.14500-1-qizhong.cheng@mediatek.com
 Signed-off-by: qizhong cheng <qizhong.cheng@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: Lorenzo Pieralisi <lorenzo.pieralisi@arm.com>
 Acked-by: Pali Rohár <pali@kernel.org>
 ---

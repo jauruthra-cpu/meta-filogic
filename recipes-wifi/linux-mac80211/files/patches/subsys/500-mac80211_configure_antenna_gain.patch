@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/include/net/cfg80211.h
 +++ b/include/net/cfg80211.h
 @@ -3869,6 +3869,7 @@ struct mgmt_frame_regs {

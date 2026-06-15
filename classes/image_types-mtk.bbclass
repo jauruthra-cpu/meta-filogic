@@ -120,13 +120,13 @@ assemble_sd_image () {
     dd if=${IMGDEPLOYDIR}/${PN}-${MACHINE}.ext4 of=${SD_FILE} bs=64k oflag=append conv=notrunc
 }
 
-IMAGE_CMD_mtk.emmc () {
+IMAGE_CMD:mtk.emmc () {
     generate_part_tbl_emmc
     generate_scatter_file
     copy_emmc_preloader
 }
 
-IMAGE_CMD_mtk.sd () {
+IMAGE_CMD:mtk.sd () {
     generate_part_tbl_sd
     assemble_sd_image
 }
@@ -135,7 +135,7 @@ IMAGE_CMD_mtk.sd () {
 NAND_ROOTFS_TYPE ?= "ubi"
 NAND_FILE ?= "${IMGDEPLOYDIR}/${IMAGE_NAME}${IMAGE_NAME_SUFFIX}.mtk.nand"
 
-IMAGE_CMD_mtk.nand () {
+IMAGE_CMD:mtk.nand () {
 
 # create factory image align to openwrt (kernel in ubi)   
 
@@ -177,6 +177,6 @@ IMAGE_CMD_mtk.nand () {
 
 # Both eMMC and SD requires the ext4 rootfs filesystem to be built before using
 # it so we must make this dependency explicit.
-IMAGE_TYPEDEP_mtk.emmc += "ext4"
-IMAGE_TYPEDEP_mtk.sd += "ext4"
-IMAGE_TYPEDEP_mtk.nand += "${NAND_ROOTFS_TYPE}"
+IMAGE_TYPEDEP:mtk.emmc += "ext4"
+IMAGE_TYPEDEP:mtk.sd += "ext4"
+IMAGE_TYPEDEP:mtk.nand += "${NAND_ROOTFS_TYPE}"

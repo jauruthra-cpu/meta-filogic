@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: John Crispin <john@phrozen.org>
 Date: Wed, 15 Sep 2021 19:54:34 -0700
 Subject: [PATCH] nl80211: MBSSID and EMA support in AP mode

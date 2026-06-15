@@ -11,6 +11,7 @@ which connects to an internal BUS and is not a real MAC. Therefore,
 we need to add both link down flows to the existing NETSYS SER flow.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 73 ++++++++++++++++++++-
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |  5 ++

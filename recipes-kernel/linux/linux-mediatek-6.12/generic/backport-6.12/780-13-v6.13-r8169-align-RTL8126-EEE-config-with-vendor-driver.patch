@@ -7,6 +7,7 @@ Align the EEE config for RTL8126A with vendor driver r8126 to avoid
 compatibility issues.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/71e4859e-4cd0-4b6b-b7fa-621d7721992f@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

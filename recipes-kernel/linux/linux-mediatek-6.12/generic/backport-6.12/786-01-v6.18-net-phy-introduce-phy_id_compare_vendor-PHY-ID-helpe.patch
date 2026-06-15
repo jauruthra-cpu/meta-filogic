@@ -10,6 +10,7 @@ While at it also rework the PHY_ID_MATCH macro and move the mask to
 dedicated define so that PHY driver can make use of the mask if needed.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250823134431.4854-1-ansuelsmth@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

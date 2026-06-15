@@ -3,6 +3,7 @@ Subject: fix errors in unresolved weak symbols on arm
 
 lede-commit: 570699d4838a907c3ef9f2819bf19eb72997b32f
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  arch/arm/kernel/module.c | 4 ++++
  1 file changed, 4 insertions(+)

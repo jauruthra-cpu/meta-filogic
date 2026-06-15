@@ -14,6 +14,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  src/common/sae.c | 6 ++++++
  1 file changed, 6 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/common/sae.c b/src/common/sae.c
 index f1ece60..93b63ac 100644
 --- a/src/common/sae.c

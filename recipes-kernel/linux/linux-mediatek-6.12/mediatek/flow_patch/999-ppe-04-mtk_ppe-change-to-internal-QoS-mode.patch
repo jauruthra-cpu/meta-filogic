@@ -7,6 +7,7 @@ Without this patch, the users are unable to use the proprietary HQoS
 and PPPQ modes.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h   | 13 +++
  .../net/ethernet/mediatek/mtk_ppe_debugfs.c   | 94 +++++++++++++++++++
@@ -19,15 +20,6 @@ diff --git a/drivers/net/ethernet/mediatek/mtk_eth_soc.h b/drivers/net/ethernet/
 index dd75599..84a243a 100644
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.h
 +++ b/drivers/net/ethernet/mediatek/mtk_eth_soc.h
-@@ -1709,7 +1709,8 @@ struct mtk_eth {
- 	struct metadata_dst		*dsa_meta[MTK_MAX_DSA_PORTS];
- 
- 	u8				debug_level;
-+	u8				qos_toggle;
- 	u8				l4s_toggle;
- 	struct mtk_ppe			*ppe[3];
- 	struct rhashtable		flow_table;
- 
 @@ -1908,6 +1909,18 @@ static inline u32 mtk_get_ib2_multicast_mask(struct mtk_eth *eth)
  	return MTK_FOE_IB2_MULTICAST;
  }
@@ -310,3 +302,14 @@ index e06bc36..b9cbb34 100644
 -- 
 2.45.2
 
+diff -Naur kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.h kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.h
+--- kernel-source.orign/drivers/net/ethernet/mediatek/mtk_eth_soc.h	2026-07-02 05:28:17.550172187 +0000
++++ kernel-source/drivers/net/ethernet/mediatek/mtk_eth_soc.h	2026-07-02 05:29:41.146968866 +0000
+@@ -1743,6 +1743,7 @@
+ 	struct metadata_dst		*dsa_meta[MTK_MAX_DSA_PORTS];
+ 
+         u8                              debug_level;
++        u8                              qos_toggle;
+         u8                              l4s_toggle;
+ 	struct mtk_ppe			*ppe[3];
+ 	struct rhashtable		flow_table;

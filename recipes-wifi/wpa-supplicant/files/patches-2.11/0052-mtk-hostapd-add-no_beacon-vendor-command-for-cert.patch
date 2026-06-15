@@ -24,6 +24,8 @@ Signed-off-by: MeiChia Chiu <meichia.chiu@mediatek.com>
  src/drivers/driver_nl80211_capa.c |  3 +++
  9 files changed, 94 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 4249f8ff2..a7a125d9e 100644
 --- a/hostapd/ctrl_iface.c

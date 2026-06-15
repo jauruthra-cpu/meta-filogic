@@ -16,6 +16,8 @@ Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
  src/ap/ieee802_11.c | 47 ++++++++++++++++++++++++++++-----------------
  3 files changed, 79 insertions(+), 18 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/afc.c b/src/ap/afc.c
 index 7dfd01346..27c2a8061 100644
 --- a/src/ap/afc.c

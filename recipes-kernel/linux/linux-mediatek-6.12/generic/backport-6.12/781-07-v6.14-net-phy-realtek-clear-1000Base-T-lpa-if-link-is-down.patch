@@ -10,6 +10,7 @@ This fixes bogus 1000Base-T link partner advertisement after link goes
 down (eg. by disconnecting the wire).
 Fixes: 5cb409b3960e ("net: phy: realtek: clear 1000Base-T link partner advertisement")
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Michal Swiatkowski <michal.swiatkowski@linux.intel.com>
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---

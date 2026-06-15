@@ -12,6 +12,7 @@ move the VLAN ID field definition to the search register definition.
 
 Fixes: c45655386e53 ("net: dsa: b53: add support for FDB operations on 5325/5365")
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251128080625.27181-7-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

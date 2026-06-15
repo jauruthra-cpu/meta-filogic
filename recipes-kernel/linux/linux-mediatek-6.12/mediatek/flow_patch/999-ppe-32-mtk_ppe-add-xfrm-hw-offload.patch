@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/ethernet/mediatek/mtk_ppe.c
 +++ b/drivers/net/ethernet/mediatek/mtk_ppe.c
 @@ -620,6 +620,28 @@ int mtk_foe_entry_set_pppoe(struct mtk_e

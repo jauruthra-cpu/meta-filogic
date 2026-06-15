@@ -5,6 +5,7 @@ This exposes the CONFIG_BOOT_RAW symbol in Kconfig. This is needed on
 certain Broadcom chipsets running CFE in order to load the kernel.
 
 Signed-off-by: Mark Miller <mark@mirell.org>
+Upstream-Status: Pending
 Acked-by: Rob Landley <rob@landley.net>
 ---
 --- a/arch/mips/Kconfig

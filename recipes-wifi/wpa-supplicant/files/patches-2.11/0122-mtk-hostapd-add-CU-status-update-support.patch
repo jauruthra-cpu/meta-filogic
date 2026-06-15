@@ -27,6 +27,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/drivers/nl80211_copy.h         | 27 ++++++++++++++++
  10 files changed, 164 insertions(+), 52 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index fad27ec0f..d118e3a7c 100644
 --- a/hostapd/ctrl_iface.c

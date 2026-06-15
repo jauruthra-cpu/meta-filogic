@@ -10,9 +10,9 @@ SRC_URI[sha256sum] = "0ff48a5cd9e9cfe8e815a24e023734919e9a3b7ad2f039243ad121cf5a
 FILESEXTRAPATHS:prepend := "${THISDIR}/files/patches:"
 require files/patches/patches.inc
 
-inherit bin_package allarch ${@bb.utils.contains("DISTRO_FEATURES", "kirkstone", "python3native", "pythonnative", d)}
+inherit bin_package allarch ${@bb.utils.contains_any("DISTRO_FEATURES", "kirkstone wrynose", "python3native", "pythonnative", d)}
 
-S = "${WORKDIR}/${PN}-${PV}"
+S = "${UNPACKDIR}/${PN}-${PV}"
 
 do_install:prepend() {
     (python ${S}/db2fw.py ${S}/regulatory.db ${S}/db.txt)

@@ -7,6 +7,8 @@ Subject: [PATCH 049/260] mtk: hostapd: Fix RSNXE Interop issue with STA
  src/ap/ieee802_11.c | 16 ++++++++++++++++
  1 file changed, 16 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11.c b/src/ap/ieee802_11.c
 index 35334514c..84d923868 100644
 --- a/src/ap/ieee802_11.c

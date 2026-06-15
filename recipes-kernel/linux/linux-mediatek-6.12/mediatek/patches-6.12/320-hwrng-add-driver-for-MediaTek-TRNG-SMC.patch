@@ -9,6 +9,7 @@ TrustedFirmware-A allowing Linux to read random numbers using a
 non-standard vendor-defined Secure Monitor Call.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/char/hw_random/Kconfig      | 16 +++++++
  drivers/char/hw_random/Makefile     |  1 +

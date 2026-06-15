@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/arch/arm64/include/asm/memdump.h
 +++ b/arch/arm64/include/asm/memdump.h
 @@ -0,0 +1,17 @@

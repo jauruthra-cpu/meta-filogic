@@ -6,6 +6,7 @@ Subject: [PATCH] net: pcs: mtk-lynxi: correct power down setting
 Without this patch, the SGMII may not power down correctly.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/pcs/pcs-mtk-lynxi.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

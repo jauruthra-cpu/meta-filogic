@@ -12,6 +12,8 @@ Signed-off-by: Benjamin Lin <benjamin-jw.lin@mediatek.com>
  src/drivers/driver_nl80211.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/driver_nl80211.c b/src/drivers/driver_nl80211.c
 index c1d31bc..29c4b9b 100644
 --- a/src/drivers/driver_nl80211.c

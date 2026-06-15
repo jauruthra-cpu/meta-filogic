@@ -20,6 +20,8 @@ Signed-off-by: mtk27835 <shurong.wen@mediatek.com>
  src/drivers/driver_nl80211_capa.c |   3 +
  13 files changed, 223 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index ebbd56734..e437aa981 100644
 --- a/hostapd/config_file.c

@@ -150,7 +150,7 @@ nand_restore_config() {
 	rmdir /tmp/new_root
 }
 
-nand_remove_ubiblock() {
+nand:remove_ubiblock() {
 	local ubivol="$1"
 
 	local ubiblk="ubiblock${ubivol:3}"
@@ -193,9 +193,9 @@ nand_upgrade_prepare_ubi() {
 	[ "$root_ubivol" = "$kern_ubivol" ] && root_ubivol=
 
 	# remove ubiblocks
-	[ "$kern_ubivol" ] && { nand_remove_ubiblock $kern_ubivol || return 1; }
-	[ "$root_ubivol" ] && { nand_remove_ubiblock $root_ubivol || return 1; }
-	[ "$data_ubivol" ] && { nand_remove_ubiblock $data_ubivol || return 1; }
+	[ "$kern_ubivol" ] && { nand:remove_ubiblock $kern_ubivol || return 1; }
+	[ "$root_ubivol" ] && { nand:remove_ubiblock $root_ubivol || return 1; }
+	[ "$data_ubivol" ] && { nand:remove_ubiblock $data_ubivol || return 1; }
 
 	# kill volumes
 	[ "$kern_ubivol" ] && ubirmvol /dev/$kern_ubidev -N "$CI_KERNPART" || :
@@ -327,9 +327,9 @@ dual_boot_upgrade_prepare_ubi() {
 	local data_ubivol="$( nand_find_volume $ubidev rootfs_data )"
 
 	# remove ubiblocks
-	[ "$boot_fw_ubivol" ] && { nand_remove_ubiblock $boot_fw_ubivol || return 1; }
-	[ "$fw_ubivol" ] && { nand_remove_ubiblock $fw_ubivol || return 1; }
-	[ "$data_ubivol" ] && { nand_remove_ubiblock $data_ubivol || return 1; }
+	[ "$boot_fw_ubivol" ] && { nand:remove_ubiblock $boot_fw_ubivol || return 1; }
+	[ "$fw_ubivol" ] && { nand:remove_ubiblock $fw_ubivol || return 1; }
+	[ "$data_ubivol" ] && { nand:remove_ubiblock $data_ubivol || return 1; }
 
 	# kill firmware volume
 	[ "$fw_ubivol" ] && ubirmvol /dev/$ubidev -N "$firmware_vol_name" || :

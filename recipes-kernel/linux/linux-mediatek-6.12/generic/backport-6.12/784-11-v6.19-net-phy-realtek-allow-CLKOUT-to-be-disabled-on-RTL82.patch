@@ -30,6 +30,7 @@ and for symmetry with the other RTL8211F models.
 
 Co-developed-by: Clark Wang <xiaoning.wang@nxp.com>
 Signed-off-by: Clark Wang <xiaoning.wang@nxp.com>
+Upstream-Status: Pending
 Signed-off-by: Vladimir Oltean <vladimir.oltean@nxp.com>
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20251117234033.345679-5-vladimir.oltean@nxp.com

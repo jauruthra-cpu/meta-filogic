@@ -14,6 +14,7 @@ Reported-by: Jon Hunter <jonathanh@nvidia.com>
 Closes: https://lore.kernel.org/all/114b4c03-5d16-42ed-945d-cf78eabea12b@nvidia.com/
 Suggested-by: Hans-Frieder Vogt <hfdevel@gmx.net>
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/aquantia/aquantia_main.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

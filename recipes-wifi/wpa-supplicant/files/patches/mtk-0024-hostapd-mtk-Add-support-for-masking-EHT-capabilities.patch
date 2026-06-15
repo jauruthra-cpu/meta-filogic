@@ -26,6 +26,8 @@ Signed-off-by: Amit Khatri <amit.khatri@mediatek.com>
  wpa_supplicant/wpa_supplicant_i.h |  6 ++++++
  11 files changed, 68 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/drivers/driver.h b/src/drivers/driver.h
 index 7f6392f..1bf0cd6 100644
 --- a/src/drivers/driver.h

@@ -15,6 +15,7 @@ Without this patch, the users are unable to utilize ethtool for the
 enabling MAC/PHY EEE capability.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 88 ++++++++++++---------
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |  1 +

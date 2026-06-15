@@ -8,6 +8,7 @@ unusable. Packet mangling is required to fix up the vlan for incoming
 packets.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  include/linux/netdevice.h | 10 ++++++++++
  include/linux/skbuff.h    | 14 ++++----------

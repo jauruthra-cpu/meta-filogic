@@ -8,6 +8,7 @@ This helps reduce the possibility of Ethernet transmit timeouts.
 [1]: https://git01.mediatek.com/plugins/gitiles/openwrt/feeds/mtk-openwrt-feeds/+/19d8456c3051e5f6dabf42fa770916a2126ea4bf
 
 Signed-off-by: Chad Monroe <chad@monroe.io>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c |    6 ++++--
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |    1 +

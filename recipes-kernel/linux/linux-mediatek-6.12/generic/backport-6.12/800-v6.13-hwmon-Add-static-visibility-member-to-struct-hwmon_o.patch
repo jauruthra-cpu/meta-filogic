@@ -8,6 +8,7 @@ callback, what results in code duplication. Therefore add an option
 for drivers to specify a static visibility directly.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Message-ID: <89690b81-2c73-47ae-9ae9-45c77b45ca0c@gmail.com>
 groeck: Renamed hwmon_ops_is_visible -> hwmon_is_visible
 Signed-off-by: Guenter Roeck <linux@roeck-us.net>

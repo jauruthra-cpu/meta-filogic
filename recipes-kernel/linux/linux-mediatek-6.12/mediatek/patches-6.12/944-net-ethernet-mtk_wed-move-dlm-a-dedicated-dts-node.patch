@@ -16,6 +16,7 @@ Keep backward-compatibility with older dts version where dlm was defined
 as reserved-memory child node.
 
 Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_wed.c | 19 +++++++++++++++++++
  1 file changed, 19 insertions(+)

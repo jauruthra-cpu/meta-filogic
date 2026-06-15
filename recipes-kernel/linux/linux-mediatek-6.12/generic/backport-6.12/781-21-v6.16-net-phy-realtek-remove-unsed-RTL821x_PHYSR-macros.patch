@@ -7,6 +7,7 @@ These macros have there since the first revision but were never used, so
 let's just remove them.
 
 Signed-off-by: Michael Klein <michael@fossekall.de>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250504172916.243185-2-michael@fossekall.de
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>
 ---

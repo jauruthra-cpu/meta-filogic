@@ -8,6 +8,7 @@ These are the preferred way to copy ethtool strings.
 Avoids incrementing pointers all over the place.
 
 Signed-off-by: Rosen Penev <rosenp@gmail.com>
+Upstream-Status: Pending
 (for hellcreek driver)
 Reviewed-by: Kurt Kanzenbach <kurt@linutronix.de>
 Link: https://patch.msgid.link/20241028044828.1639668-1-rosenp@gmail.com

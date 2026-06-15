@@ -14,6 +14,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/hostapd.h       |  1 +
  3 files changed, 34 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index 8e26eb763..1fc07eb17 100644
 --- a/src/ap/drv_callbacks.c

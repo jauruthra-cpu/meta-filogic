@@ -11,6 +11,7 @@ Add PCIe max link width adjustment feature.
 N/A
 
 Signed-off-by: Jianguo Zhang <jianguo.zhang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/pci/controller/pcie-mediatek-gen3.c | 36 +++++++++++++++++++++
  1 file changed, 36 insertions(+)

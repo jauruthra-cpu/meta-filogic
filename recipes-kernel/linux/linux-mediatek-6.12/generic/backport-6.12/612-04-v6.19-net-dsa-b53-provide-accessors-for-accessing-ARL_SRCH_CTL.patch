@@ -7,6 +7,7 @@ In order to more easily support more formats, move accessing
 ARL_SRCH_CTL into helper functions to contain the differences.
 
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251107080749.26936-5-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

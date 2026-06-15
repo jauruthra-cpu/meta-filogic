@@ -8,6 +8,7 @@ when attached to a PHY. Make sure this is the case also for mxl-gpy which
 keeps SGMII in-band-status in case of SGMII interface mode is used.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/mxl-gpy.c | 19 ++++++++++++++++---
  1 file changed, 16 insertions(+), 3 deletions(-)

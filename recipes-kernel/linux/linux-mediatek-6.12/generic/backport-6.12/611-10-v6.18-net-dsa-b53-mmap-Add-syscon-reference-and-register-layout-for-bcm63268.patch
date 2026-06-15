@@ -12,6 +12,7 @@ Add a structure to describe the ephy control register
 and add register info for bcm63268.
 
 Signed-off-by: Kyle Hendry <kylehendrydev@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250724035300.20497-5-kylehendrydev@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

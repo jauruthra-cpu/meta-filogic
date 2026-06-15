@@ -13,6 +13,7 @@ Without this patch, the TX/RX polarity of the SGMII cannot be controlled
 individually.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/pcs/pcs-mtk-lynxi.c   | 22 ++++++++++++++++------
  include/linux/pcs/pcs-mtk-lynxi.h |  3 ++-

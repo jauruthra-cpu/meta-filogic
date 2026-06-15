@@ -32,6 +32,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  create mode 100644 src/ap/scs.c
  create mode 100644 src/ap/scs.h
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index bac603d97..4644b680d 100644
 --- a/hostapd/Makefile

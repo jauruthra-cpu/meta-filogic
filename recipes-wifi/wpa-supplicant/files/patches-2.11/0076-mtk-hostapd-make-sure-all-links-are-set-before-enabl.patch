@@ -42,6 +42,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ucode.c        | 27 +++++++++++++++++++++++++++
  6 files changed, 56 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 44615c564..206055b75 100644
 --- a/hostapd/config_file.c

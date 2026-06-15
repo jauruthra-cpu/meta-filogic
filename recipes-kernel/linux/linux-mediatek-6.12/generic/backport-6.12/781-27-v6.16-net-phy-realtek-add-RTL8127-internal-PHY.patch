@@ -8,6 +8,7 @@ RTL8127-internal PHY is RTL8261C which is a integrated 10Gbps PHY with ID
 PHY.
 
 Signed-off-by: ChunHao Lin <hau@realtek.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250516055622.3772-1-hau@realtek.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

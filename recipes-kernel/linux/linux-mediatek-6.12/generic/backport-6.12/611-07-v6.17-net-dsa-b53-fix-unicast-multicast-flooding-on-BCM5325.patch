@@ -11,6 +11,7 @@ registers.
 This has to be handled differently with other pages and registers.
 
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250614080000.1884236-13-noltari@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

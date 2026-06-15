@@ -20,6 +20,7 @@ SVN-Revision: 16772
 
 lede-commit: 3b3d64743ba2a874df9d70cd19e242205b0a788c
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
 ---
  arch/mips/Makefile             |  10 ++

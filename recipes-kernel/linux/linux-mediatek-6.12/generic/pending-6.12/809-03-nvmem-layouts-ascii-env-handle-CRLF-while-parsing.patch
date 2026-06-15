@@ -14,6 +14,7 @@ with '\0' to properly parse the mac address.
 Tested on Linksys MX2000, MX5500, and SPNMX56.
 
 Signed-off-by: George Moussalem <george.moussalem@outlook.com>
+Upstream-Status: Pending
 ---
 --- a/drivers/nvmem/layouts/ascii-env.c
 +++ b/drivers/nvmem/layouts/ascii-env.c

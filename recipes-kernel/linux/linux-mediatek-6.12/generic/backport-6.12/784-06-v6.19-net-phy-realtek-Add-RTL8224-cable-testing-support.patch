@@ -39,6 +39,7 @@ Shorted cable (both short types are at roughly the same distance)
   Pair D, fault length: 1.94m, source: TDR
 
 Signed-off-by: Issam Hamdi <ih@simonwunderlich.de>
+Upstream-Status: Pending
 Co-developed-by: Sven Eckelmann <se@simonwunderlich.de>
 Signed-off-by: Sven Eckelmann <se@simonwunderlich.de>
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>

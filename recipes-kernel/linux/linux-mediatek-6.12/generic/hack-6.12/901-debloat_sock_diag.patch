@@ -4,6 +4,7 @@ Date: Sat, 8 Jul 2017 08:16:31 +0200
 Subject: debloat: add some debloat patches, strip down procfs and make O_DIRECT support optional, saves ~15K after lzma on MIPS
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  net/Kconfig         | 3 +++
  net/core/Makefile   | 3 ++-

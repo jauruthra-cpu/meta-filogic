@@ -8,6 +8,7 @@ We should check if the WOL settings was successfully read from the PHY.
 In case this fails we cannot just use the error code and proceed.
 
 Signed-off-by: Daniel Braunwarth <daniel.braunwarth@kuka.com>
+Upstream-Status: Pending
 Reported-by: Jon Hunter <jonathanh@nvidia.com>
 Closes: https://lore.kernel.org/baaa083b-9a69-460f-ab35-2a7cb3246ffd@nvidia.com
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>

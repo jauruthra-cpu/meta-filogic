@@ -41,6 +41,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  wpa_supplicant/wpa_supplicant.conf |  7 ++++++
  5 files changed, 63 insertions(+), 3 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/eap_peer/eap_config.h b/src/eap_peer/eap_config.h
 index 26744ab68..58d5a1359 100644
 --- a/src/eap_peer/eap_config.h

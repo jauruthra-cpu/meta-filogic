@@ -12,6 +12,7 @@ the VEND1_GLOBAL_LED_DRIVE_VDD bit, which means that VDD (ie. supply
 voltage) of the LED is driven rather than GND.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/86a413b4387c42dcb54f587cc2433a06f16aae83.1728558223.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

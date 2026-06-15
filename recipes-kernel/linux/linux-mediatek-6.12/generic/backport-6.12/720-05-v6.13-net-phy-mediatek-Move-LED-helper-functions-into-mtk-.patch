@@ -10,6 +10,7 @@ MTK's ethernet phy driver.
 
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---
  MAINTAINERS                            |   2 +

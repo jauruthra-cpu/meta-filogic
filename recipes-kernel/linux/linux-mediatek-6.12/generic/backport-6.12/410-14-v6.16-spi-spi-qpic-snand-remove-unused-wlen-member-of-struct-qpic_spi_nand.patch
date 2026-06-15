@@ -7,6 +7,7 @@ The 'wlen' member of the qpic_spi_nand structure is never used in the
 code so remove that.
 
 Signed-off-by: Gabor Juhos <j4g8y7@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/spi/spi-qpic-snand.c | 1 -
  1 file changed, 1 deletion(-)

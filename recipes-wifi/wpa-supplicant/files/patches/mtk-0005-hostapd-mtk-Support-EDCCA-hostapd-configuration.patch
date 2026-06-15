@@ -19,6 +19,8 @@ edcca_enable and edcca_compensation and implement edcca related handlers.
  src/drivers/driver_nl80211_capa.c |   7 ++
  12 files changed, 415 insertions(+), 7 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 24018f7..b5024cc 100644
 --- a/hostapd/config_file.c

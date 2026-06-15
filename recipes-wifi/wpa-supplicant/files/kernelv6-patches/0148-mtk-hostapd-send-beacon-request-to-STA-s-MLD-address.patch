@@ -12,6 +12,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/rrm.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/rrm.c b/src/ap/rrm.c
 index 3113cd259..8df296838 100644
 --- a/src/ap/rrm.c

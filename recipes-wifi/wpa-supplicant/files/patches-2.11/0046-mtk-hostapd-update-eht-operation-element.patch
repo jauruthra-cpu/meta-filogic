@@ -7,6 +7,8 @@ Subject: [PATCH 046/149] mtk: hostapd: update eht operation element
  src/ap/ieee802_11_eht.c | 6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ieee802_11_eht.c b/src/ap/ieee802_11_eht.c
 index 89f8ffde9..01c084211 100644
 --- a/src/ap/ieee802_11_eht.c

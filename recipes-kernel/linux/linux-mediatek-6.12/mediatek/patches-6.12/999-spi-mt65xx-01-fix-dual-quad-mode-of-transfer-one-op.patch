@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/spi/spi-mt65xx.c
 +++ b/drivers/spi/spi-mt65xx.c
 @@ -530,6 +530,22 @@ static void mtk_spi_setup_packet(struct

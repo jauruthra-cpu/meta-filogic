@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/mtd/nand/raw/nand_onfi.c
 +++ b/drivers/mtd/nand/raw/nand_onfi.c
 @@ -12,6 +12,7 @@

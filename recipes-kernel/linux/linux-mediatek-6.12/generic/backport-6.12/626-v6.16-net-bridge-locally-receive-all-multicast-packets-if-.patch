@@ -19,6 +19,7 @@ snooping bridges (unless multicast routing is enabled).
 Reported-by: Felix Fietkau <nbd@nbd.name>
 Closes: https://github.com/openwrt/openwrt/issues/15857#issuecomment-2662851243
 Signed-off-by: Shengyu Qu <wiagn233@outlook.com>
+Upstream-Status: Pending
 Reviewed-by: Ido Schimmel <idosch@nvidia.com>
 Acked-by: Nikolay Aleksandrov <razor@blackwall.org>
 Link: https://patch.msgid.link/OSZPR01MB8434308370ACAFA90A22980798B32@OSZPR01MB8434.jpnprd01.prod.outlook.com

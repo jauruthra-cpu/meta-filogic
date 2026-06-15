@@ -42,6 +42,7 @@ function return).
 [    3.642763] [<801b618c>] kernfs_notify+0x94/0xac
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/arch/mips/kernel/process.c

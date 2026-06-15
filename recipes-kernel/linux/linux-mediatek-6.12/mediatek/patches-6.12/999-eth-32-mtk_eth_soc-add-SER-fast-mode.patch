@@ -13,6 +13,7 @@ Without this patch, the traffic between ETH and WiFi would stop for a
 few seconds, even if the GMAC is not hung.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 115 +++++++++++++++++---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |   4 +

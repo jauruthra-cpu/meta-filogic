@@ -12,6 +12,7 @@ Without this patch, the HQoS is not functioning properly following the
 SER.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 50 +++++++++++++++++++++
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 19 ++++++++

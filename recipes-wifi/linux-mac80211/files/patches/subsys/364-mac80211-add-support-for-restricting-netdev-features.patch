@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Sun, 9 Oct 2022 20:15:46 +0200
 Subject: [PATCH] mac80211: add support for restricting netdev features per vif

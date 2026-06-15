@@ -18,6 +18,8 @@ Signed-off-by: MeiChia Chiu <meichia.chiu@mediatek.com>
  src/ap/beacon.c | 9 +++++++--
  1 file changed, 7 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 1a26f11..f3ea5c2 100644
 --- a/src/ap/beacon.c

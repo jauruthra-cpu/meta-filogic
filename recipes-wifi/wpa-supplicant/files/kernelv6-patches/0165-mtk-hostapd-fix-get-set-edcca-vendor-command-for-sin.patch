@@ -18,6 +18,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/drivers/driver_nl80211.c | 46 +++++++++++++++++++++++++++++-------
  6 files changed, 92 insertions(+), 27 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 995e23f4c..f6b2595c9 100644
 --- a/hostapd/ctrl_iface.c

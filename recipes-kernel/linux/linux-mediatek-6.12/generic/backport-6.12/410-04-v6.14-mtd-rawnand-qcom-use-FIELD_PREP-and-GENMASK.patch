@@ -9,6 +9,7 @@ more readable.
 
 Reviewed-by: Konrad Dybcio <konrad.dybcio@oss.qualcomm.com>
 Signed-off-by: Md Sadre Alam <quic_mdalam@quicinc.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/raw/qcom_nandc.c    | 97 ++++++++++++++--------------

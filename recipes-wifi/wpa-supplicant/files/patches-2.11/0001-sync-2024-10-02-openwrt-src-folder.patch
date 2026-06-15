@@ -30,6 +30,8 @@ Subject: [PATCH 001/149] sync 2024-10-02 openwrt src folder
  create mode 100644 wpa_supplicant/ucode.c
  create mode 100644 wpa_supplicant/ucode.h
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/radius.c b/hostapd/radius.c
 new file mode 100644
 index 000000000..362a22c27

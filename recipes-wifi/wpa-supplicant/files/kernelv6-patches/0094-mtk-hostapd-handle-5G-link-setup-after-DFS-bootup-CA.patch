@@ -16,6 +16,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/ieee802_11_eht.c |  8 +++++++-
  5 files changed, 47 insertions(+), 5 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/dfs.c b/src/ap/dfs.c
 index 14a44b038..377e36e80 100644
 --- a/src/ap/dfs.c

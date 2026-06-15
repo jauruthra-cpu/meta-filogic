@@ -9,6 +9,7 @@ As only either 'active-high' or 'active-low' can be set at the
 same time, WARN and return an error in case both are set.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/91598487773d768f254d5faf06cf65b13e972f0e.1728558223.git.daniel@makrotopia.org
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

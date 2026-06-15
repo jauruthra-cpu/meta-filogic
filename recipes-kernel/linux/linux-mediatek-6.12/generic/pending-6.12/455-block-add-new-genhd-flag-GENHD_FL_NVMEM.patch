@@ -7,6 +7,7 @@ Add new flag to destinguish block devices which may act as an NVMEM
 provider.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  include/linux/blkdev.h | 2 ++
  1 file changed, 2 insertions(+)

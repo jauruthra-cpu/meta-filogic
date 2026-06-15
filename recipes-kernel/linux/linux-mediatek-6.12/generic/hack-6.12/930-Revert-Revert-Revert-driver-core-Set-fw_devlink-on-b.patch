@@ -13,6 +13,7 @@ probing devices which reference MTD in device tree.
 
 Link: https://lore.kernel.org/all/696cb2da-20b9-b3dd-46d9-de4bf91a1506@gmail.com/T/#u
 Signed-off-by: Rafał Miłecki <rafal@milecki.pl>
+Upstream-Status: Pending
 ---
  drivers/base/core.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

@@ -3,6 +3,7 @@ From: Michael-CY Lee <michael-cy.lee@mediatek.com>
 Date: Tue, 28 Oct 2025 13:47:31 +0800
 Subject: [PATCH 17/17] mtk: iw: allow to specify radio_idx when setting TX/RX
  antenna
+Upstream-Status: Pending
 
 Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
 ---

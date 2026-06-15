@@ -11,6 +11,7 @@ On some boards is WDI logic of max6370 chip connected via GPIO.
 So extend max63xx_wdt driver to allow specifying WDI logic via GPIO.
 
 Signed-off-by: Pali Rohár <pali@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/watchdog/max63xx_wdt.c | 24 ++++++++++++++++++++++++
  1 file changed, 24 insertions(+)

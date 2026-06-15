@@ -15,6 +15,7 @@ If the led node is present in the controller then the channel is
 set to active.
 
 Signed-off-by: Vicentiu Galanopulo <vicentiu.galanopulo@remote-tech.co.uk>
+Upstream-Status: Pending
 Reviewed-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
 Link: https://lore.kernel.org/r/20241218183401.41687-3-vicentiu.galanopulo@remote-tech.co.uk
 Signed-off-by: Lee Jones <lee@kernel.org>

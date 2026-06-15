@@ -73,6 +73,8 @@ Signed-off-by: Benjamin Lin <benjamin-jw.lin@mediatek.com>
  src/drivers/driver_nl80211_capa.c |   3 +
  21 files changed, 893 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index 4644b680d..5f42fe35a 100644
 --- a/hostapd/Makefile

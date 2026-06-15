@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Wed, 3 Oct 2012 00:00:00 +0200
 Subject: [PATCH] mac80211: allow scans in access point mode (for site survey)

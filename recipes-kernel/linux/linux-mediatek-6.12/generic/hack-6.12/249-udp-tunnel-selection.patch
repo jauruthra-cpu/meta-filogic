@@ -19,6 +19,7 @@ ref https://github.com/openwrt/openwrt/commit/1d15a96b29dcd0947690951a7c36aead79
 fixes: https://github.com/openwrt/packages/issues/22998
 
 Signed-off-by: Andy Chiang <AndyChiang_git@outlook.com>
+Upstream-Status: Pending
 ---
  net/ipv4/Kconfig | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

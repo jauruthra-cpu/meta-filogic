@@ -20,6 +20,7 @@ After:
   27206	  12600	      0	  39806	   9b7e	drivers/net/phy/broadcom.o
 
 Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/403c381b7d9156b67ad68ffc44b8eee70c5e86a9.1736691226.git.christophe.jaillet@wanadoo.fr
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

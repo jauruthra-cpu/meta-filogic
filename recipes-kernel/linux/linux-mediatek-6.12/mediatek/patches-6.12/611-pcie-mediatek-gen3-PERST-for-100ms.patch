@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/pci/controller/pcie-mediatek-gen3.c
 +++ b/drivers/pci/controller/pcie-mediatek-gen3.c
 @@ -416,7 +416,13 @@ static int mtk_pcie_startup_port(struct

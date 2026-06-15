@@ -22,6 +22,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  hostapd/hostapd_cli.c |  8 +++++
  2 files changed, 82 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index 5ae35235a..8c235953c 100644
 --- a/hostapd/ctrl_iface.c

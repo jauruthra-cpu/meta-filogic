@@ -117,6 +117,7 @@ Settings for lan9:
         Link detected: no
 
 Signed-off-by: Markus Stockhausen <markus.stockhausen@gmx.de>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250813054407.1108285-1-markus.stockhausen@gmx.de
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/xfrm/xfrm_device.c
 +++ b/net/xfrm/xfrm_device.c
 @@ -427,6 +427,12 @@ bool xfrm_dev_offload_ok(struct sk_buff

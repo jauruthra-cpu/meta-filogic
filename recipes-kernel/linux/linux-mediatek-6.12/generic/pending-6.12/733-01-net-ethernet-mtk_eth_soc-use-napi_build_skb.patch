@@ -6,6 +6,7 @@ The napi_build_skb() can reuse the skb in skb cache per CPU or
 can allocate skbs in bulk, which helps improve the performance.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c

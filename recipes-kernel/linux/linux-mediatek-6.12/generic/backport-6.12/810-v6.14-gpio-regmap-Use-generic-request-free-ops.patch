@@ -10,6 +10,7 @@ implementents the pinmux op .gpio_request_enable(), pins will
 automatically be muxed to their GPIO function when requested.
 
 Signed-off-by: Sander Vanheule <sander@svanheule.net>
+Upstream-Status: Pending
 Acked-by: Michael Walle <mwalle@kernel.org>
 Link: https://lore.kernel.org/r/20250107201621.12467-1-sander@svanheule.net
 Signed-off-by: Bartosz Golaszewski <bartosz.golaszewski@linaro.org>

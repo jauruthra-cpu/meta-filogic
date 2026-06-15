@@ -25,6 +25,8 @@ Signed-off-by: fancy.liu <fancy.liu@mediatek.com>
  src/ap/hostapd.c | 3 +++
  1 file changed, 3 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index 92ae115f6..3ae5c5a3c 100644
 --- a/src/ap/hostapd.c

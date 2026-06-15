@@ -16,6 +16,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/dfs.c          | 10 ++++++++++
  4 files changed, 50 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 579193f..8a61726 100644
 --- a/hostapd/config_file.c

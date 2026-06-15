@@ -8,6 +8,7 @@ Interface as a SPI-MEM controller with pipelined ECC capability.
 
 Co-developed-by: Sricharan Ramabadhran <quic_srichara@quicinc.com>
 Signed-off-by: Sricharan Ramabadhran <quic_srichara@quicinc.com>
+Upstream-Status: Pending
 Co-developed-by: Varadarajan Narayanan <quic_varada@quicinc.com>
 Signed-off-by: Varadarajan Narayanan <quic_varada@quicinc.com>
 Signed-off-by: Md Sadre Alam <quic_mdalam@quicinc.com>

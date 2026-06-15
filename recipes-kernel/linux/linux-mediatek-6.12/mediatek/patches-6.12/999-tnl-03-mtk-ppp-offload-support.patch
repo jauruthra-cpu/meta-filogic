@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/ppp/ppp_generic.c
 +++ b/drivers/net/ppp/ppp_generic.c
 @@ -1911,6 +1911,41 @@ ppp_send_frame(struct ppp *ppp, struct s

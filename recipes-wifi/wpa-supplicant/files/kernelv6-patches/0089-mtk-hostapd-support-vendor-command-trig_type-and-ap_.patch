@@ -15,6 +15,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  src/drivers/driver_nl80211.c | 11 +++++++++--
  4 files changed, 31 insertions(+), 6 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_drv_ops.c b/src/ap/ap_drv_ops.c
 index a30a2fb08..92e77e421 100644
 --- a/src/ap/ap_drv_ops.c

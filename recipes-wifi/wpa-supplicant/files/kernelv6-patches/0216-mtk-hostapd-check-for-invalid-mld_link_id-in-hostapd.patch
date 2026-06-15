@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ap_config.c | 8 ++++++++
  1 file changed, 8 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_config.c b/src/ap/ap_config.c
 index 81f111f2b..5f79168e7 100644
 --- a/src/ap/ap_config.c

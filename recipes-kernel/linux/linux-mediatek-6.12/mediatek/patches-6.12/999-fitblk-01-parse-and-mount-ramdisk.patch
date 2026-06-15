@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/block/fitblk.c
 +++ b/drivers/block/fitblk.c
 @@ -463,6 +463,11 @@ static int parse_fit_on_dev(struct devic

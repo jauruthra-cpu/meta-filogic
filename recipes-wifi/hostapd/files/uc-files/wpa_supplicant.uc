@@ -1,6 +1,6 @@
 let libubus = require("ubus");
 import { open, readfile } from "fs";
-import { wdev_create, wdev_set_mesh_params, wdev_remove, is_equal, wdev_set_up, vlist_new, phy_open } from "common";
+import { wdev_create, wdev_set_mesh_params, wdev:remove, is_equal, wdev_set_up, vlist_new, phy_open } from "common";
 
 let ubus = libubus.connect();
 
@@ -17,7 +17,7 @@ function iface_stop(iface)
 
 	delete wpas.data.iface_phy[ifname];
 	wpas.remove_iface(ifname);
-	wdev_remove(ifname);
+	wdev:remove(ifname);
 	iface.running = false;
 }
 
@@ -38,7 +38,7 @@ function iface_start(phydev, iface, macaddr_list)
 		wdev_config.mld_radio_mask = wdev_config.mld_allowed_phy_bitmap;
 
 	wpas.data.iface_phy[ifname] = phy;
-	wdev_remove(ifname);
+	wdev:remove(ifname);
 	let ret = phydev.wdev_add(ifname, wdev_config);
 	if (ret)
 		wpas.printf(`Failed to create device ${ifname}: ${ret}`);
@@ -258,7 +258,7 @@ let main_obj = {
 			};
 		}
 	},
-	config_remove: {
+	config:remove: {
 		args: {
 			iface: ""
 		},
@@ -371,7 +371,7 @@ return {
 	iface_add: function(name, obj) {
 		iface_event("add", name);
 	},
-	iface_remove: function(name, obj) {
+	iface:remove: function(name, obj) {
 		iface_event("remove", name);
 	},
 	state: function(ifname, iface, state) {

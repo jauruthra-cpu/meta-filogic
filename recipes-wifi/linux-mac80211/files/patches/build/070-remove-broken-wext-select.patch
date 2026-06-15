@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/staging/rtl8723bs/Kconfig
 +++ b/drivers/staging/rtl8723bs/Kconfig
 @@ -5,7 +5,6 @@ config RTL8723BS

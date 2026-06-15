@@ -26,6 +26,7 @@ again.
 Cc: stable@vger.kernel.org
 Fixes: 0c08080fd71c ("mtd: rawnand: qcom: use FIELD_PREP and GENMASK")
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/mtd/nand/raw/qcom_nandc.c | 24 ++++++++++++------------
  1 file changed, 12 insertions(+), 12 deletions(-)

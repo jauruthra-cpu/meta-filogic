@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/watchdog/mtk_wdt.c
 +++ b/drivers/watchdog/mtk_wdt.c
 @@ -262,21 +262,24 @@ static int mtk_wdt_set_timeout(struct wa

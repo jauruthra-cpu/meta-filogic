@@ -325,7 +325,7 @@ static void udebug_hexdump_hook(int level, const char *title,
 
 	udebug_entry_init(&ud_log);
 	udebug_entry_printf(&ud_log, "%s - hexdump:", title);
-	buf = udebug_entry_append(&ud_log, NULL, 3 * len);
+	buf = udebug_entry:append(&ud_log, NULL, 3 * len);
 	for (size_t i = 0; i < len; i++)
 		buf += sprintf(buf, " %02x", *(uint8_t *)(data + i));
 	udebug_entry_add(&ud_log);
@@ -357,8 +357,8 @@ static void udebug_netlink_hook(int tx, const void *data, size_t len)
 		return;
 
 	udebug_entry_init(buf);
-	udebug_entry_append(buf, &hdr, sizeof(hdr));
-	udebug_entry_append(buf, data, len);
+	udebug_entry:append(buf, &hdr, sizeof(hdr));
+	udebug_entry:append(buf, data, len);
 	udebug_entry_add(buf);
 }
 

@@ -15,6 +15,7 @@ missing semicolon.
 
 Fixes: 7304d1909080ef0c ("spi: spi-qpic: add driver for QCOM SPI NAND flash Interface")
 Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/b63db431cbf35223a4400e44c296293d32c4543c.1742998909.git.geert+renesas@glider.be
 Signed-off-by: Mark Brown <broonie@kernel.org>
 ---

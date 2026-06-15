@@ -4,6 +4,7 @@ Date: Fri, 21 Feb 2025 11:48:53 +0800
 Subject: [PATCH 11/15] net: ethernet: mtk_wed: add ppe drop
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.h | 12 ++++++++++++
  drivers/net/ethernet/mediatek/mtk_wed.c     |  9 +++++++++

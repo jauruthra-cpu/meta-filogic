@@ -14,6 +14,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/wpa_auth_ft.c   | 273 ++++++++++++++++++++++++++++++-----------
  4 files changed, 207 insertions(+), 73 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index e1cb95556..f8f355d2a 100644
 --- a/src/ap/drv_callbacks.c

@@ -4,6 +4,7 @@ Date: Fri, 12 Dec 2025 16:47:10 +0800
 Subject: [PATCH] refactor wdma init flow to avoid double init
 
 Signed-off-by: Rex Lu <rex.lu@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_wed.c | 52 ++++++++++++-------------
  1 file changed, 24 insertions(+), 28 deletions(-)

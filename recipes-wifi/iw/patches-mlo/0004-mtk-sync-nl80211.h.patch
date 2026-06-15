@@ -2,6 +2,7 @@ From 2ee89beb9379f80b1f0aca64ef181d0ebd4676de Mon Sep 17 00:00:00 2001
 From: Shayne Chen <shayne.chen@mediatek.com>
 Date: Thu, 5 Mar 2026 11:16:35 +0800
 Subject: [PATCH 11/17] mtk: sync nl80211.h
+Upstream-Status: Pending
 
 Sync with wireless-next-2026-02-04 tag.
 

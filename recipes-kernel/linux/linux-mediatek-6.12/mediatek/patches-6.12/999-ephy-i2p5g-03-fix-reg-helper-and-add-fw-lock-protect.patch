@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/phy/mediatek/mtk-2p5ge.c
 +++ b/drivers/net/phy/mediatek/mtk-2p5ge.c
 @@ -218,24 +218,24 @@ static inline void reg_writew(struct mtk

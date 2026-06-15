@@ -40,7 +40,7 @@ const mesh_params = {
 	mesh_nolearn: "nolearn"
 };
 
-function wdev_remove(name)
+function wdev:remove(name)
 {
 	nl80211.request(nl80211.const.NL80211_CMD_DEL_INTERFACE, 0, { dev: name });
 }
@@ -86,7 +86,7 @@ function wdev_create(phy, name, data)
 {
 	let phyidx = int(readfile(`/sys/class/ieee80211/${phy}/index`));
 
-	wdev_remove(name);
+	wdev:remove(name);
 
 	if (!iftypes[data.mode])
 		return `Invalid mode: ${data.mode}`;
@@ -420,4 +420,4 @@ function vlist_new(cb) {
 	}, vlist_proto);
 }
 
-export { wdev_remove, wdev_create, wdev_set_mesh_params, wdev_set_radio_mask, wdev_set_up, is_equal, vlist_new, phy_is_fullmac, phy_open };
+export { wdev:remove, wdev_create, wdev_set_mesh_params, wdev_set_radio_mask, wdev_set_up, is_equal, vlist_new, phy_is_fullmac, phy_open };

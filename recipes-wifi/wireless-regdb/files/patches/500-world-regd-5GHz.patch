@@ -1,6 +1,7 @@
 Remove the NO-IR flag from channels 36-48 on the World domain,
 to make it usable for AP mode.
 
+Upstream-Status: Pending
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
 ---
 --- a/db.txt

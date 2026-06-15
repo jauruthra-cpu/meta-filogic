@@ -9,6 +9,7 @@ Consequently, users can switch the SGMII PCS to this new clock source
 for better performance on the MT7987.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 3 +++
  1 file changed, 3 insertions(+)

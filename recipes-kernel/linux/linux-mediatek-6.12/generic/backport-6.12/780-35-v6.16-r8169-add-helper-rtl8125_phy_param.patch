@@ -8,6 +8,7 @@ PHY parameters, similar to what r8168g_phy_param does on earlier PHY
 versions. Add helper rtl8125_phy_param to simplify the code.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/847b7356-12d6-441b-ade9-4b6e1539b84a@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

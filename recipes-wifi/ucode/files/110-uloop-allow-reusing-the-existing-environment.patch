@@ -1,5 +1,6 @@
 From: Felix Fietkau <nbd@nbd.name>
 Date: Wed, 8 Oct 2025 19:11:46 +0200
+Upstream-Status: Pending
 Subject: [PATCH] uloop: allow reusing the existing environment
 
 When passing null as environment argument, reuse existing environ.

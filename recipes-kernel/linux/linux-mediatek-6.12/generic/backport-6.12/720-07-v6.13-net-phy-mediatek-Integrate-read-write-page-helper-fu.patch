@@ -8,6 +8,7 @@ This patch integrates read/write page helper functions as MTK phy lib.
 They are basically the same in mtk-ge.c & mtk-ge-soc.c.
 
 Signed-off-by: SkyLake.Huang <skylake.huang@mediatek.com>
+Upstream-Status: Pending
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---
  drivers/net/phy/mediatek/Kconfig       |  1 +

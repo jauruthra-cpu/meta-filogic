@@ -8,6 +8,7 @@ Each CPU port should have correct LOOKUP MEMBER configuration to
 prevent receiving duplicate packets from user ports.
 
 Signed-off-by: Christian Marangi <ansuelsmth@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/net/dsa/qca/qca8k-8xxx.c | 13 +++++--------
  1 file changed, 5 insertions(+), 8 deletions(-)

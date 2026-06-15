@@ -4,6 +4,7 @@ Date: Tue, 12 Aug 2014 20:49:27 +0200
 Subject: [PATCH 30/36] GPIO: add named gpio exports
 
 Signed-off-by: John Crispin <blogic@openwrt.org>
+Upstream-Status: Pending
 --- a/drivers/gpio/gpiolib-of.c
 +++ b/drivers/gpio/gpiolib-of.c
 @@ -21,6 +21,8 @@

@@ -6,6 +6,7 @@ Clearing the status needs to happen after running the handler, otherwise
 we will get an extra spurious interrupt after the cause has been cleared
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/pci/controller/pcie-mediatek.c

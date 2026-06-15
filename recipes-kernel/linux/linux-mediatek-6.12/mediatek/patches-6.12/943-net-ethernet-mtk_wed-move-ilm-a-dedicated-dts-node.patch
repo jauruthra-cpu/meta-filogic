@@ -14,6 +14,7 @@ Keep backward-compatibility with older dts version where ilm was defined
 as reserved-memory child node.
 
 Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_wed_mcu.c | 55 ++++++++++++++++++---
  1 file changed, 49 insertions(+), 6 deletions(-)

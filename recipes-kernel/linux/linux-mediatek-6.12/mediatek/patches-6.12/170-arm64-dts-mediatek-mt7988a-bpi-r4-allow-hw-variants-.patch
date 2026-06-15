@@ -12,6 +12,7 @@ Just move the common parts to a new dtsi and keep differences (only
 i2c for lan-sfp) in dts.
 
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
+Upstream-Status: Pending
 Acked-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
 Reviewed-by: AngeloGioacchino Del Regno <angelogiaocchino.delregno@collabora.com>
 ---

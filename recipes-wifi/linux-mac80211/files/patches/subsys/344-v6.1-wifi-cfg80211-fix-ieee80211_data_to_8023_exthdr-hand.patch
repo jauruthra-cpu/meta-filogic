@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Fri, 7 Oct 2022 10:54:47 +0200
 Subject: [PATCH] wifi: cfg80211: fix ieee80211_data_to_8023_exthdr

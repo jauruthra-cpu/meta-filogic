@@ -12,6 +12,7 @@ Fix it by removing such filenames from the
 deps_initramfs list.
 
 Signed-off-by: Gabor Juhos <juhosg@openwrt.org>
+Upstream-Status: Pending
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
 ---
  usr/Makefile | 8 +++++---

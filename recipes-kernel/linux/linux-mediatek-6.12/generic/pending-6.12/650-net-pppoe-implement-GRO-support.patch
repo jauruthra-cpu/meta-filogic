@@ -11,6 +11,7 @@ that the device is able to handle improves from ~130 Mbit/s to ~630 Mbit/s,
 using fraglist GRO.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ppp/pppoe.c

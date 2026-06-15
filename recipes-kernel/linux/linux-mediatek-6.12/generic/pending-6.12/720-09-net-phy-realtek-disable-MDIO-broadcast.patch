@@ -10,6 +10,7 @@ PHY may then confuse the RealTek PHY.
 Disabled listening on the MDIO broadcast address to avoid such problems.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
 --- a/drivers/net/phy/realtek/realtek_main.c
 +++ b/drivers/net/phy/realtek/realtek_main.c

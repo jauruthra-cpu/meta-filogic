@@ -14,6 +14,7 @@ built-in temperature sensor, so they have been skipped for now.
 Tested on RTL8221B-VB-CG.
 
 Signed-off-by: Aleksander Jan Bajkowski <olek2@wp.pl>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Signed-off-by: David S. Miller <davem@davemloft.net>
 ---

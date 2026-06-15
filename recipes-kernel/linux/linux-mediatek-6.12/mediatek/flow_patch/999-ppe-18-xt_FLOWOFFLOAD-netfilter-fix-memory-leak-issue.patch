@@ -8,6 +8,7 @@ Without this patch, the kernel may encounter an OOM issue with the
 ip_dst during a high number of WiFi STA connections.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  net/netfilter/xt_FLOWOFFLOAD.c | 11 ++++++++---
  1 file changed, 8 insertions(+), 3 deletions(-)

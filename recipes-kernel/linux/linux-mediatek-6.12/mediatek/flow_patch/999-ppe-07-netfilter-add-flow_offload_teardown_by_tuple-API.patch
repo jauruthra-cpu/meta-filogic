@@ -7,6 +7,7 @@ Without this patch, users are unable to delete or flush flow rule and
 PPE entries via the FTNL application.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  include/net/netfilter/nf_flow_table.h    |   1 +
  net/netfilter/nf_flow_table_core.c       |  23 +++

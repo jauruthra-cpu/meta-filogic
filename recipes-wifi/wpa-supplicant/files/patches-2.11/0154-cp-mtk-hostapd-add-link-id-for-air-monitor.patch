@@ -13,6 +13,8 @@ Change-Id: I3234b8aa0ae4bfc7b2371b990b47fdd31e8fa49f
  src/drivers/driver_nl80211.c | 18 ++++++++++--------
  4 files changed, 29 insertions(+), 12 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_drv_ops.c b/src/ap/ap_drv_ops.c
 index a49a43aed..5ce933dc0 100644
 --- a/src/ap/ap_drv_ops.c

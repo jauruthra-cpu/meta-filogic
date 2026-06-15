@@ -10,6 +10,7 @@ Add soft off and soft on API
 NA
 
 Signed-off-by: Jianguo Zhang <jianguo.zhang@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/pci/controller/pcie-mediatek-gen3.c | 103 ++++++++++++++++++++
  1 file changed, 103 insertions(+)

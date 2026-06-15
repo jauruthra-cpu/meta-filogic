@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/netfilter/xt_FLOWOFFLOAD.c
 +++ b/net/netfilter/xt_FLOWOFFLOAD.c
 @@ -556,7 +556,8 @@ static int nf_dev_forward_path(struct sk

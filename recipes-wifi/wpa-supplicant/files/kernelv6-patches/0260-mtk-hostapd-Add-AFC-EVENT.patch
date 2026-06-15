@@ -15,6 +15,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/common/wpa_ctrl.h | 3 +++
  3 files changed, 14 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/afc.c b/src/ap/afc.c
 index 4d0ff47c2..35bd8d360 100644
 --- a/src/ap/afc.c

@@ -8,6 +8,7 @@ The PSE PPE port will be re-enabled automatically after NETSYS SER,
 so we do not need to enable it manually.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 27 +++------------------
  drivers/net/ethernet/mediatek/mtk_eth_soc.h |  5 +++-

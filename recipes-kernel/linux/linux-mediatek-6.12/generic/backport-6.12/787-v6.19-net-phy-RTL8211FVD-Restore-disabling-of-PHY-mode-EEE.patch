@@ -39,6 +39,7 @@ Given all this information, restore disabling of the PHY-mode EEE.
 
 Fixes: 2c67301584f2 ("net: phy: realtek: Avoid PHYCR2 access if PHYCR2 not present")
 Signed-off-by: Ivan Galkin <ivan.galkin@axis.com>
+Upstream-Status: Pending
 Reviewed-by: Vladimir Oltean <vladimir.oltean@nxp.com>
 Link: https://patch.msgid.link/20251202-phy_eee-v1-1-fe0bf6ab3df0@axis.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

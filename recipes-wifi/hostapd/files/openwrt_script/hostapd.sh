@@ -15,7 +15,7 @@ hostapd_add_rate() {
 	append $var "$val" " "
 }
 
-hostapd_append_wep_key() {
+hostapd:append_wep_key() {
 	local var="$1"
 
 	wep_keyidx=0
@@ -37,7 +37,7 @@ hostapd_append_wep_key() {
 	esac
 }
 
-hostapd_append_wpa_key_mgmt() {
+hostapd:append_wpa_key_mgmt() {
 	local auth_type_l="$(echo $auth_type | tr 'a-z' 'A-Z')"
 
 	case "$auth_type" in
@@ -816,7 +816,7 @@ hostapd_set_bss_options() {
 		wep)
 			local wep_keyidx=0
 			json_get_vars key
-			hostapd_append_wep_key bss_conf
+			hostapd:append_wep_key bss_conf
 			append bss_conf "wep_default_key=$wep_keyidx" "$N"
 			[ -n "$wep_rekey" ] && append bss_conf "wep_rekey_period=$wep_rekey" "$N"
 		;;
@@ -953,7 +953,7 @@ hostapd_set_bss_options() {
 
 		append bss_conf "wpa_disable_eapol_key_retries=$wpa_disable_eapol_key_retries" "$N"
 
-		hostapd_append_wpa_key_mgmt
+		hostapd:append_wpa_key_mgmt
 		[ -n "$wpa_key_mgmt" ] && append bss_conf "wpa_key_mgmt=$wpa_key_mgmt" "$N"
 	fi
 
@@ -1427,12 +1427,12 @@ wpa_supplicant_add_network() {
 	case "$auth_type" in
 		none) ;;
 		owe)
-			hostapd_append_wpa_key_mgmt
+			hostapd:append_wpa_key_mgmt
 			key_mgmt="$wpa_key_mgmt"
 		;;
 		wep)
 			local wep_keyidx=0
-			hostapd_append_wep_key network_data
+			hostapd:append_wep_key network_data
 			append network_data "wep_tx_keyidx=$wep_keyidx" "$N$T"
 		;;
 		wps)
@@ -1442,7 +1442,7 @@ wpa_supplicant_add_network() {
 			local passphrase
 
 			if [ "$_w_mode" != "mesh" ]; then
-				hostapd_append_wpa_key_mgmt
+				hostapd:append_wpa_key_mgmt
 			fi
 
 			key_mgmt="$wpa_key_mgmt"
@@ -1459,7 +1459,7 @@ wpa_supplicant_add_network() {
 			append network_data "$passphrase" "$N$T"
 		;;
 		eap|eap2|eap192)
-			hostapd_append_wpa_key_mgmt
+			hostapd:append_wpa_key_mgmt
 			key_mgmt="$wpa_key_mgmt"
 
 			json_get_vars eap_type identity anonymous_identity ca_cert ca_cert_usesystem

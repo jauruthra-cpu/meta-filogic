@@ -30,6 +30,8 @@ Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
  create mode 100644 afc/afc-reply.txt
  create mode 100644 afc/afcd.c
 
+Upstream-Status: Pending
+
 diff --git a/afc/.gitignore b/afc/.gitignore
 new file mode 100644
 index 000000000..8d8cca905

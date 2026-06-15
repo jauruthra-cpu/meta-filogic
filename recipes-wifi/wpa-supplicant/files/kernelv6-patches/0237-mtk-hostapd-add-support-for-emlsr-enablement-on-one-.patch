@@ -23,6 +23,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  wpa_supplicant/wpa_supplicant.c   |  4 ++--
  13 files changed, 51 insertions(+), 10 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index c0cf1f87b..5cc691b47 100644
 --- a/hostapd/config_file.c

@@ -16,6 +16,8 @@ Signed-off-by: MeiChia Chiu <MeiChia.Chiu@mediatek.com>
  src/drivers/driver_nl80211_event.c | 20 ++++++++++++++++++++
  5 files changed, 53 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index c77cbdc84..74e47cb2c 100644
 --- a/src/ap/drv_callbacks.c

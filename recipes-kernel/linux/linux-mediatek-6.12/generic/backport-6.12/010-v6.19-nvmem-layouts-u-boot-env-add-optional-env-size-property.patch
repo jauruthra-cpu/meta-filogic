@@ -14,6 +14,7 @@ environment data size to use for CRC computation.
 v2: add missing $ref line to DT binding
 
 Signed-off-by: Jascha Sundaresan <flizarthanon@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Rob Herring (Arm) <robh@kernel.org>
 Signed-off-by: Srinivas Kandagatla <srini@kernel.org>
 ---

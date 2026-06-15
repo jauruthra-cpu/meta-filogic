@@ -2,6 +2,7 @@ From: Gabor Juhos <juhosg@openwrt.org>
 Subject: debloat: add kernel config option to disabling common PCI quirks
 
 Signed-off-by: Gabor Juhos <juhosg@openwrt.org>
+Upstream-Status: Pending
 ---
  drivers/pci/Kconfig  | 6 ++++++
  drivers/pci/quirks.c | 6 ++++++

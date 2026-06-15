@@ -24,6 +24,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/events.c | 7 +++++++
  1 file changed, 7 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/events.c b/wpa_supplicant/events.c
 index 32fdd6c89..d5a15b645 100644
 --- a/wpa_supplicant/events.c

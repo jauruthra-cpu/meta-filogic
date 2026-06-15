@@ -2,7 +2,7 @@ From bd7df358028f10327ec3b6066f3d4af2c7436159 Mon Sep 17 00:00:00 2001
 From: Shayne Chen <shayne.chen@mediatek.com>
 Date: Mon, 21 Oct 2024 19:00:13 +0800
 Subject: [PATCH 10/17] openwrt: vif radio mask
-
+Upstream-Status: Pending
 ---
  interface.c | 63 +++++++++++++++++++++++++++++++++++++++++++++++++++--
  1 file changed, 61 insertions(+), 2 deletions(-)

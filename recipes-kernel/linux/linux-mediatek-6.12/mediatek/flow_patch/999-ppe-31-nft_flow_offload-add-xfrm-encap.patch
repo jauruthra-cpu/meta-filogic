@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/netfilter/nft_flow_offload.c
 +++ b/net/netfilter/nft_flow_offload.c
 @@ -362,7 +362,8 @@ static int nft_dev_forward_path(const st

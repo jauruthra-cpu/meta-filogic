@@ -8,6 +8,7 @@ Read the "wday" alarm register and convert it to a date to support up 1
 week in our driver.
 
 Signed-off-by: Daniel González Cabanelas <dgcbueu@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/rtc/rtc-rs5c372.c | 48 ++++++++++++++++++++++++++++++++++-----
  1 file changed, 42 insertions(+), 6 deletions(-)

@@ -13,6 +13,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/beacon.c | 6 ++++++
  1 file changed, 6 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/beacon.c b/src/ap/beacon.c
 index 3254c1187..a97d46f52 100644
 --- a/src/ap/beacon.c

@@ -7,6 +7,7 @@ Without this patch, the kernel cannot access the SFP module through
 the I2C bus on the SFP RFB.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  arch/arm64/boot/dts/mediatek/mt7988a-rfb-eth1-sfp.dtso | 2 +-
  arch/arm64/boot/dts/mediatek/mt7988a-rfb-eth2-sfp.dtso | 2 +-

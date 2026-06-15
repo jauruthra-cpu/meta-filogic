@@ -12,6 +12,7 @@ Fix this on older chips by detecting the presence of small fragments and use
 skb_gso_segment + skb_linearize to deal with them.
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c

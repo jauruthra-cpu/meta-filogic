@@ -7,6 +7,7 @@ Add support for RTL8125BP rev.b. Its XID is 0x689. This chip supports
 DASH and its dash type is "RTL_DASH_25_BP".
 
 Signed-off-by: ChunHao Lin <hau@realtek.com>
+Upstream-Status: Pending
 Reviewed-by: Heiner Kallweit <hkallweit1@gmail.com>
 Link: https://patch.msgid.link/20250107064355.104711-1-hau@realtek.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/sta_info.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/sta_info.c b/src/ap/sta_info.c
 index aa5992723..b4febc3db 100644
 --- a/src/ap/sta_info.c

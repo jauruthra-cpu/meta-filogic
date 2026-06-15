@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Felix Fietkau <nbd@nbd.name>
 Date: Sun, 26 Jun 2022 11:43:25 +0200
 Subject: [PATCH] mac80211: increase quantum for airtime scheduler

@@ -12,6 +12,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/ap_config.h    | 1 -
  3 files changed, 16 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 8bb0cf181..12bf3a825 100644
 --- a/hostapd/config_file.c

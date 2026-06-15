@@ -8,6 +8,7 @@ pull-down but unlike previous designs there is no pull-up option.
 Add new type MTK_PULL_PD_TYPE to support configuring such pins.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
 Reviewed-by: AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
 Link: https://lore.kernel.org/20241217085435.9586-2-linux@fw-web.de

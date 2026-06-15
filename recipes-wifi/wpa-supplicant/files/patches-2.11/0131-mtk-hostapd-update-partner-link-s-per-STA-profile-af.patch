@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/drv_callbacks.c | 14 ++++++++++++++
  1 file changed, 14 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/drv_callbacks.c b/src/ap/drv_callbacks.c
 index e25b90da8..1e786bdba 100644
 --- a/src/ap/drv_callbacks.c

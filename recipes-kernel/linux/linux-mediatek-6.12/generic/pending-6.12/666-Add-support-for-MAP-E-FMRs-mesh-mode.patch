@@ -6,6 +6,7 @@ between MAP CEs (mesh mode) without the need to forward such data to a
 border relay. This is similar to how 6rd works but for IPv4 over IPv6.
 
 Signed-off-by: Steven Barth <cyrus@openwrt.org>
+Upstream-Status: Pending
 ---
  include/net/ip6_tunnel.h       |  13 ++
  include/uapi/linux/if_tunnel.h |  13 ++

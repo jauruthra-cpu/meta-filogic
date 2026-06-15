@@ -10,6 +10,7 @@ This knob can be used to ensure that BPDU packets are never sent or forwarded
 to/from these devices
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
 
 --- a/include/linux/if_bridge.h

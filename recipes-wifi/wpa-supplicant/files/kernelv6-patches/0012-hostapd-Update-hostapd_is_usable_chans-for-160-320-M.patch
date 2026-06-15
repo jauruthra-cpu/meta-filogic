@@ -16,6 +16,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/hw_features.h |   7 +++
  2 files changed, 76 insertions(+), 41 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hw_features.c b/src/ap/hw_features.c
 index ed8495d38..2873424a2 100644
 --- a/src/ap/hw_features.c

@@ -9,6 +9,7 @@ Add the additional RollBall modules as follows.
 - JESS-LINK: P60000BBC001-1
 
 Signed-off-by: neal.yen <neal.yen@mediatek.com>
+Upstream-Status: Pending
 
 diff --git a/drivers/net/phy/sfp.c b/drivers/net/phy/sfp.c
 index f1827a1..5f4dc0a 100644

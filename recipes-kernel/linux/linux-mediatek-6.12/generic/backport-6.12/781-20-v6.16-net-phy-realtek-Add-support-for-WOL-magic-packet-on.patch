@@ -11,6 +11,7 @@ The PHY notifies the system via the INTB/PMEB pin when a WOL event
 occurs.
 
 Signed-off-by: Daniel Braunwarth <daniel.braunwarth@kuka.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/20250429-realtek_wol-v2-1-8f84def1ef2c@kuka.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

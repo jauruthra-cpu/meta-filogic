@@ -2,6 +2,7 @@ From: Felix Fietkau <nbd@nbd.name>
 Subject: netfilter: reduce match memory access
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  net/ipv4/netfilter/ip_tables.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)

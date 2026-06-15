@@ -9,6 +9,7 @@ name until we have updated our local patches for older kernels
 and userspace packages.
 
 Signed-off-by: Jonas Gorski <jogo@openwrt.org>
+Upstream-Status: Pending
 ---
  include/uapi/linux/fib_rules.h | 2 ++
  include/uapi/linux/icmpv6.h    | 2 ++

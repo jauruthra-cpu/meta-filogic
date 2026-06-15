@@ -27,6 +27,7 @@ use it and need to look at the destination address for them as well.
 Fixes: 964dbf186eaa ("net: dsa: tag_brcm: add support for legacy tags")
 Fixes: 0e62f543bed0 ("net: dsa: Fix duplicate frames flooded by learning")
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Vladimir Oltean <olteanv@gmail.com>
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251109134635.243951-1-jonas.gorski@gmail.com

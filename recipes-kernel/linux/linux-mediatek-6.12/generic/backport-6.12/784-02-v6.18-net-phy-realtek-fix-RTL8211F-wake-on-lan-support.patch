@@ -53,6 +53,7 @@ patches which allow these platforms to forward the ethtool WoL commands
 to the Realtek PHY.
 
 Signed-off-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/E1um8Ld-008jxD-Mc@rmk-PC.armlinux.org.uk
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

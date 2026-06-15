@@ -9,6 +9,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/dfs.c | 14 +++++++++-----
  1 file changed, 9 insertions(+), 5 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/dfs.c b/src/ap/dfs.c
 index 3d26a3f54..21283ca0b 100644
 --- a/src/ap/dfs.c

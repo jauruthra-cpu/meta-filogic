@@ -24,6 +24,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  wpa_supplicant/sme.c         | 22 ++++++++++++++++++++++
  4 files changed, 38 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/config.c b/wpa_supplicant/config.c
 index 6026b6f61..51004a3e2 100644
 --- a/wpa_supplicant/config.c

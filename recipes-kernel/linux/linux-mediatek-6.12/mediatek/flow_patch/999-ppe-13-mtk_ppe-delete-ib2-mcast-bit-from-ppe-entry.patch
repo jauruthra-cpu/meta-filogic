@@ -7,6 +7,7 @@ Wihtout this patch, the CDMA may receive an incorrect PPE CPU reason
 with a multicast packet, resulting in abnormal operation of the CDMA.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c | 3 ---
  1 file changed, 3 deletions(-)

@@ -11,6 +11,7 @@ legacy 1000Base-X/2500Base-X/Cisco SGMII LynxI PCS as well, those
 interface modes are also available.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  .../bindings/net/pcs/mediatek,usxgmii.yaml    | 60 +++++++++++++++++++
  1 file changed, 60 insertions(+)

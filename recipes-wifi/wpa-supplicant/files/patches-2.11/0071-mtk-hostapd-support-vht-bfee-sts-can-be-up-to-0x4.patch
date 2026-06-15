@@ -11,6 +11,8 @@ Signed-off-by: Howard Hsu <howard-yh.hsu@mediatek.com>
  hostapd/config_file.c | 3 +++
  1 file changed, 3 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 50d63e259..c1bc344dd 100644
 --- a/hostapd/config_file.c

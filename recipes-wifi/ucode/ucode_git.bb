@@ -17,7 +17,7 @@ SRC_URI = " \
 SRCREV = "85922056ef7abeace3cca3ab28bc1ac2d88e31b1"
 PV = "git${SRCPV}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/${PN}-git"
 
 
 DEPENDS += "libnl-tiny libubox ubus uci"

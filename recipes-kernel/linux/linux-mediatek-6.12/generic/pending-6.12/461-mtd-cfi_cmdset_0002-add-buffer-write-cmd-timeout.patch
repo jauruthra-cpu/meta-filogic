@@ -2,6 +2,7 @@ From: George Kashperko <george@znau.edu.ua>
 Subject: Issue map read after Write Buffer Load command to ensure chip is ready to receive data.
 
 Signed-off-by: George Kashperko <george@znau.edu.ua>
+Upstream-Status: Pending
 ---
  drivers/mtd/chips/cfi_cmdset_0002.c |    1 +
  1 file changed, 1 insertion(+)

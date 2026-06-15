@@ -29,6 +29,7 @@ The platform data of MT7988A is different from previous MediaTek SoCs,
 so we add a new compatible and platform data for it.
 
 Signed-off-by: Sam Shih <sam.shih@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/cpufreq/mediatek-cpufreq.c | 10 ++++++++++
  1 file changed, 10 insertions(+)

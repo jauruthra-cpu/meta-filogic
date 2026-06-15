@@ -17,6 +17,7 @@ The device multiplexes all 8 ports in the same pair of Bulk endpoints.
 Since there is no public datasheet, unfortunately it remains some magic values
 
 Signed-off-by: Corentin Labbe <clabbe@baylibre.com>
+Upstream-Status: Pending
 Tested-by: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
 ---
  drivers/usb/serial/Kconfig  |   9 +

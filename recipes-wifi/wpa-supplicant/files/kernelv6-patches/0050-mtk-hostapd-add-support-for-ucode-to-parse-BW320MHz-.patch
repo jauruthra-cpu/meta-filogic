@@ -8,6 +8,8 @@ Subject: [PATCH 050/260] mtk: hostapd: add support for ucode to parse BW320MHz
  src/utils/ucode.c | 4 ++++
  1 file changed, 4 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/utils/ucode.c b/src/utils/ucode.c
 index b5fdf6676..bc714cf22 100644
 --- a/src/utils/ucode.c

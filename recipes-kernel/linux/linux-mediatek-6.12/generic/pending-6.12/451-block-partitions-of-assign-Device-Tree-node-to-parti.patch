@@ -8,6 +8,7 @@ Assign partition of_node so other drivers are able to identify a
 partition by its Device Tree node.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  block/partitions/of.c | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)

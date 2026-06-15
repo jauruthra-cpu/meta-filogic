@@ -11,6 +11,7 @@ all, so limit RGMII configuration on bcm63xx to the actual RGMII ports.
 
 Fixes: ce3bf94871f7 ("net: dsa: b53: add support for BCM63xx RGMIIs")
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20250602193953.1010487-4-jonas.gorski@gmail.com
 Signed-off-by: Paolo Abeni <pabeni@redhat.com>

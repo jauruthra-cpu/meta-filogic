@@ -31,6 +31,8 @@ Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
  10 files changed, 1549 insertions(+)
  create mode 100644 src/ap/afc.c
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/Makefile b/hostapd/Makefile
 index e8a0dbaad..8dc6e6216 100644
 --- a/hostapd/Makefile

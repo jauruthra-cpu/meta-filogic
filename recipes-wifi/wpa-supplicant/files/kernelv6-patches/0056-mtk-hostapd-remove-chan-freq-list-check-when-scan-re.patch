@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/acs.c | 12 ------------
  1 file changed, 12 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/acs.c b/src/ap/acs.c
 index bba965b8a..ca86e2e33 100644
 --- a/src/ap/acs.c

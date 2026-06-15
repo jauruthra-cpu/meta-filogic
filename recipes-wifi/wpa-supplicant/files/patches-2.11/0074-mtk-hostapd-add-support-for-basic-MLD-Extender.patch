@@ -29,6 +29,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/ucode.c | 45 +++++++++++++++++++++++++------
  3 files changed, 94 insertions(+), 14 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ucode.c b/src/ap/ucode.c
 index ee2c650c2..739fa8249 100644
 --- a/src/ap/ucode.c

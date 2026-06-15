@@ -19,6 +19,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  wlantest/rx_mgmt.c      |   4 +-
  5 files changed, 211 insertions(+), 45 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/wpa_auth_ft.c b/src/ap/wpa_auth_ft.c
 index 505bf4e17..4ca796afb 100644
 --- a/src/ap/wpa_auth_ft.c

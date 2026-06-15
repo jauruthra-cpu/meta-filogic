@@ -11,6 +11,7 @@ Enable the alarm and let to be used as a wakeup source.
 Tested on a Buffalo LS421DE NAS.
 
 Signed-off-by: Daniel González Cabanelas <dgcbueu@gmail.com>
+Upstream-Status: Pending
 ---
  drivers/rtc/rtc-rs5c372.c | 16 ++++++++++++++++
  1 file changed, 16 insertions(+)

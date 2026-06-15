@@ -6,6 +6,7 @@ Subject: [PATCH] ppp: convert to percpu netstats
 Convert to percpu netstats to avoid lock contention when reading them.
 
 Signed-off-by: Qingfang Deng <dqfext@gmail.com>
+Upstream-Status: Pending
 Link: https://patch.msgid.link/20250610083211.909015-1-dqfext@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>
 ---

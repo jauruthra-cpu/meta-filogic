@@ -13,6 +13,7 @@ Move the function over to a more generic place in core library.
 
 Suggested-by: Miquel Raynal <miquel.raynal@bootlin.com>
 Signed-off-by: Markus Stockhausen <markus.stockhausen@gmx.de>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/core.c          | 131 +++++++++++++++++++++++++++++++++++++++

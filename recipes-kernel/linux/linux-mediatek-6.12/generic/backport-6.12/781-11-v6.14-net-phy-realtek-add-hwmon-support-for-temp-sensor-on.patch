@@ -9,6 +9,7 @@ It's available on the standalone versions of the PHY's, and on
 the integrated PHY's in RTL8125B/RTL8125D/RTL8126.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/ad6bfe9f-6375-4a00-84b4-bfb38a21bd71@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

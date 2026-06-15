@@ -27,6 +27,8 @@ Signed-off-by: Allen Ye <allen.ye@mediatek.com>
  src/ap/wpa_auth_i.h    |   2 +
  6 files changed, 280 insertions(+), 50 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.h b/src/ap/hostapd.h
 index b94bb3a39..37462edc6 100644
 --- a/src/ap/hostapd.h

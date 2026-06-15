@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/net/wireless/Kconfig
 +++ b/net/wireless/Kconfig
 @@ -188,7 +188,7 @@ config CFG80211_WEXT_EXPORT

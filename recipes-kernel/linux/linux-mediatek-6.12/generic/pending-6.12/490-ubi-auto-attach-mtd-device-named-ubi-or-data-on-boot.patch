@@ -2,6 +2,7 @@ From: Daniel Golle <daniel@makrotopia.org>
 Subject: ubi: auto-attach mtd device named "ubi" or "data" on boot
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/mtd/ubi/build.c | 36 ++++++++++++++++++++++++++++++++++++
  1 file changed, 36 insertions(+)

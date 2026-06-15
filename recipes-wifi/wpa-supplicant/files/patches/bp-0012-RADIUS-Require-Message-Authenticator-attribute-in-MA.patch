@@ -21,6 +21,8 @@ Signed-off-by: Jouni Malinen <j@w1.fi>
  src/ap/ieee802_11_auth.c |  4 +++-
  5 files changed, 19 insertions(+), 1 deletion(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 24018f7..a104fb6 100644
 --- a/hostapd/config_file.c

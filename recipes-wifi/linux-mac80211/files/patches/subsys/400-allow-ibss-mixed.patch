@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Hauke Mehrtens <hauke@hauke-m.de>
 Date: Mon, 24 Feb 2020 00:00:00 +0100
 Subject: [PATCH] mac80211: Allow IBSS mode and different beacon intervals

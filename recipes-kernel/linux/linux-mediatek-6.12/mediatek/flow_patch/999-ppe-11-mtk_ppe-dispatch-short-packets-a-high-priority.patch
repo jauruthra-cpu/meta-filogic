@@ -8,6 +8,7 @@ Without this patch, the performance of ETH to ETH cannot reach line rate
 in an unbalanced PHY rate test for the mt7988.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_ppe.c       | 18 +++-
  drivers/net/ethernet/mediatek/mtk_ppe.h       |  3 +

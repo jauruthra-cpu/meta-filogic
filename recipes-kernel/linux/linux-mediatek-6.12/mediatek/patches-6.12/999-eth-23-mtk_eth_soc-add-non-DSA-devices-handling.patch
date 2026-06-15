@@ -8,6 +8,7 @@ Without this patch, ETH is unable to set the QDMA maximum rate limit
 for non-DSA devices.
 
 Signed-off-by: Bo-Cun Chen <bc-bocun.chen@mediatek.com>
+Upstream-Status: Pending
 ---
  drivers/net/ethernet/mediatek/mtk_eth_soc.c | 25 ++++++++++++---------
  1 file changed, 15 insertions(+), 10 deletions(-)

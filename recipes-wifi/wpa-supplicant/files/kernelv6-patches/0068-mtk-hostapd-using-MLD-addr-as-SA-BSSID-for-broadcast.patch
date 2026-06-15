@@ -9,6 +9,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/ap/ap_drv_ops.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/ap_drv_ops.c b/src/ap/ap_drv_ops.c
 index 401988606..339398ff0 100644
 --- a/src/ap/ap_drv_ops.c

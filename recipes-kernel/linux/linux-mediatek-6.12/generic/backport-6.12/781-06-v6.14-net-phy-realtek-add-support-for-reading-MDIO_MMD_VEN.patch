@@ -10,6 +10,7 @@ By exposing this mechanism standard MMD access functions can be used
 to access the MDIO_MMD_VEND2 registers.
 
 Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Andrew Lunn <andrew@lunn.ch>
 Link: https://patch.msgid.link/e821b302-5fe6-49ab-aabd-05da500581c0@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

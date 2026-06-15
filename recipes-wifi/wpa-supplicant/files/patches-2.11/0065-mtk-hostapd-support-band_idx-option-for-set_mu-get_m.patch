@@ -25,6 +25,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  src/drivers/driver_nl80211.c | 15 +++----
  9 files changed, 88 insertions(+), 28 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 014ca4d3c..50d63e259 100644
 --- a/hostapd/config_file.c

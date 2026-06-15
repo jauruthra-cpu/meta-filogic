@@ -11,6 +11,8 @@ Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
  hostapd/hostapd_cli.c | 6 +++---
  1 file changed, 3 insertions(+), 3 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/hostapd_cli.c b/hostapd/hostapd_cli.c
 index 99fc6cbea..b71a9d57c 100644
 --- a/hostapd/hostapd_cli.c

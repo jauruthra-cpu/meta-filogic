@@ -9,6 +9,7 @@ Mark MMDs PMAPMD, PCS and AN which are always existing according to
 the datasheet as present to fix that.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 ---
  drivers/net/phy/realtek/realtek_main.c | 3 +++
  1 file changed, 3 insertions(+)

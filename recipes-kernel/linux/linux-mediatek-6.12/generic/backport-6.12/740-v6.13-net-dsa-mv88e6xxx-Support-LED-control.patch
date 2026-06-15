@@ -80,6 +80,7 @@ We add LED operations to all switches in the 6352 family:
 6172, 6176, 6240 and 6352.
 
 Signed-off-by: Linus Walleij <linus.walleij@linaro.org>
+Upstream-Status: Pending
 ---
  drivers/net/dsa/mv88e6xxx/Kconfig  |  10 +
  drivers/net/dsa/mv88e6xxx/Makefile |   1 +

@@ -12,6 +12,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/ap/ieee802_11.c  |  5 +++++
  4 files changed, 26 insertions(+), 28 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/ctrl_iface.c b/hostapd/ctrl_iface.c
 index b0117e5..96b593a 100644
 --- a/hostapd/ctrl_iface.c

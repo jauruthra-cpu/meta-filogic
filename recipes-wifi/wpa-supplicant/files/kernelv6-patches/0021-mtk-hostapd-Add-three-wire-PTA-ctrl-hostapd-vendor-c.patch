@@ -27,6 +27,8 @@ Signed-off-by: StanleyYP Wang <StanleyYP.Wang@mediatek.com>
  src/drivers/driver_nl80211_capa.c |  3 ++
  13 files changed, 219 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/hostapd/config_file.c b/hostapd/config_file.c
 index 8c082d27f..8830e9458 100644
 --- a/hostapd/config_file.c

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/pinctrl/mediatek/pinctrl-mt7981.c
 +++ b/drivers/pinctrl/mediatek/pinctrl-mt7981.c
 @@ -48,7 +48,7 @@ static const struct mtk_pin_field_calc m

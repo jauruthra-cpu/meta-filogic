@@ -12,6 +12,7 @@ Datasheet:
 Tested on Xiaomi AX3000T flashed with OpenWRT.
 
 Signed-off-by: Bohdan Chubuk <chbgdn@gmail.com>
+Upstream-Status: Pending
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
 ---
  drivers/mtd/nand/spi/foresee.c | 10 ++++++++++

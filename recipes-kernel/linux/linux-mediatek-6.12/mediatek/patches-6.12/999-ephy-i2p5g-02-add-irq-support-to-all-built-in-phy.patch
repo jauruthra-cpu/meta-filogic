@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 --- a/drivers/net/phy/mediatek/mtk-2p5ge.c
 +++ b/drivers/net/phy/mediatek/mtk-2p5ge.c
 @@ -697,49 +697,16 @@ static int mt798x_2p5ge_phy_get_features

@@ -4,6 +4,7 @@ Date: Sun, 16 Jul 2017 16:56:10 +0200
 Subject: lib: add broadcast_uevent()
 
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
+Upstream-Status: Pending
 ---
  include/linux/kobject.h |  5 +++++
  lib/kobject_uevent.c    | 37 +++++++++++++++++++++++++++++++++++++

@@ -10,6 +10,7 @@ last_cmd and last_byte are now unused brcmnand_host members.
 last_addr is only written and never read so we can remove it too.
 
 Signed-off-by: Álvaro Fernández Rojas <noltari@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Reviewed-by: William Zhang <william.zhang@broadcom.com>
 Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>

@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Lorenzo Bianconi <lorenzo@kernel.org>
 Date: Sat, 23 Oct 2021 11:10:50 +0200
 Subject: [PATCH] cfg80211: implement APIs for dedicated radar detection HW

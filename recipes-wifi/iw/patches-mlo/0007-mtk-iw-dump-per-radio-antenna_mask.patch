@@ -2,6 +2,7 @@ From a772694c6914fa7b4f349486d16a7933328d05a4 Mon Sep 17 00:00:00 2001
 From: Shayne Chen <shayne.chen@mediatek.com>
 Date: Mon, 25 Nov 2024 14:16:47 +0800
 Subject: [PATCH 14/17] mtk: iw: dump per-radio antenna_mask
+Upstream-Status: Pending
 
 Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>
 ---

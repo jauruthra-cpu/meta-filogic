@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 diff --git a/drivers/net/ethernet/mediatek/mtk_eth_soc.c b/drivers/net/ethernet/mediatek/mtk_eth_soc.c
 index 5ad5a03..2198859 100644
 --- a/drivers/net/ethernet/mediatek/mtk_eth_soc.c

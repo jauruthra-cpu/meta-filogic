@@ -1,3 +1,4 @@
+Upstream-Status: Pending
 From: Daniel Golle <daniel@makrotopia.org>
 Date: Thu, 26 Jun 2025 00:54:32 +0100
 Subject: [PATCH] arm64: dts: mt7988a: complete dtsi

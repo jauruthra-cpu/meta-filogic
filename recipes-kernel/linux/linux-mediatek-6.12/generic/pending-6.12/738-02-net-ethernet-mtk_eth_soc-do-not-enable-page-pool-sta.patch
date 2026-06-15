@@ -10,6 +10,7 @@ This option incurs additional CPU cost in allocation and recycle paths
 and additional memory cost to store the statistics.
 
 Signed-off-by: Danila Romanov <pervokur@gmail.com>
+Upstream-Status: Pending
 Signed-off-by: Felix Fietkau <nbd@nbd.name>
 ---
 

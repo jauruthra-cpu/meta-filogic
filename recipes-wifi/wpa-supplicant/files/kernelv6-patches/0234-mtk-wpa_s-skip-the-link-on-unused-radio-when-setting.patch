@@ -19,6 +19,8 @@ Signed-off-by: Michael-CY Lee <michael-cy.lee@mediatek.com>
  wpa_supplicant/wpa_supplicant_i.h |  5 +++++
  3 files changed, 35 insertions(+), 6 deletions(-)
 
+Upstream-Status: Pending
+
 diff --git a/wpa_supplicant/sme.c b/wpa_supplicant/sme.c
 index 6ae3663fe..0afae3b9c 100644
 --- a/wpa_supplicant/sme.c

@@ -51,6 +51,7 @@ wan-SFP, so add this to common dtsi and the lan-sfp only to the dual-SFP
 variant.
 
 Signed-off-by: Daniel Golle <daniel@makrotopia.org>
+Upstream-Status: Pending
 Signed-off-by: Frank Wunderlich <frank-w@public-files.de>
 ---
  .../mediatek/mt7988a-bananapi-bpi-r4-2g5.dts   | 11 +++++++++++

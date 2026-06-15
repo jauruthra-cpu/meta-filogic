@@ -14,6 +14,7 @@ with more than one result register (i.e. those with 4 ARL bins).
 
 Fixes: cd169d799bee ("net: dsa: b53: Bound check ARL searches")
 Signed-off-by: Jonas Gorski <jonas.gorski@gmail.com>
+Upstream-Status: Pending
 Reviewed-by: Florian Fainelli <florian.fainelli@broadcom.com>
 Link: https://patch.msgid.link/20251102100758.28352-4-jonas.gorski@gmail.com
 Signed-off-by: Jakub Kicinski <kuba@kernel.org>

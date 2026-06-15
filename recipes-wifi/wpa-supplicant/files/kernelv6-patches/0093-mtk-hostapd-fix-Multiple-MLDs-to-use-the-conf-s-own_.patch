@@ -9,6 +9,8 @@ Signed-off-by: Bo Jiao <Bo.Jiao@mediatek.com>
  src/ap/hostapd.c | 6 ++++++
  1 file changed, 6 insertions(+)
 
+Upstream-Status: Pending
+
 diff --git a/src/ap/hostapd.c b/src/ap/hostapd.c
 index f3ee6f7f0..643448542 100644
 --- a/src/ap/hostapd.c
