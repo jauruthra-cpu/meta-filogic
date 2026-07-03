@@ -25,8 +25,9 @@ $MOUNT -n -t tmpfs tmpfs -o rw,nosuid,nodev,noexec,noatime /rdklogs
 [ -z "$CONSOLE" ] && CONSOLE="/dev/console"
 mkdir -p /mnt
 dual_boot=$([ -f /sys/firmware/devicetree/base/mediatek,dual-boot ] && echo Y)
+no_split_fitrw=$([ -f /sys/firmware/devicetree/base/mediatek,no-split-fitrw ] && echo Y)
 
-if [ x"${dual_boot}" = xY ]; then
+if [ x"${dual_boot}" = xY -a x"${no_split_fitrw}" = xY ]; then
 	data_dev=$(blkid -t "PARTLABEL=rootfs_data" -o device)
 
 	mkfs.f2fs -q -l rootfs_data $data_dev
