@@ -5,6 +5,8 @@
 
 require optee-os.inc
 
+include optee-ta-encrypt.inc
+
 SUMMARY = "OP-TEE Trusted OS TA devkit"
 DESCRIPTION = "OP-TEE TA devkit for build TAs"
 HOMEPAGE = "https://www.op-tee.org/"
