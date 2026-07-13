@@ -7,6 +7,7 @@
 #
 
 inherit kernel-uboot kernel-artifact-names uboot-sign kernel-fitimage
+inherit mtk_key_derive
 
 python __anonymous () {
     d.appendVarFlag('do_gen_sb_dtb', 'depends', ' rdk-generic-broadband-image:do_hash_rootfs')
@@ -494,22 +495,6 @@ fitimage_assemble_itb() {
 			-f $1 \
 			arch/${ARCH}/boot/$2
 	fi
-}
-
-bin2hex() {
-	od -An -t x1 -w128 | sed "s/ //g"
-}
-
-hkdf_key_derive() {
-	key=$(cat $1 | bin2hex)
-	salt=$(cat $2 | bin2hex)
-	out=$3
-
-	openssl kdf \
-		-keylen 32 -binary -out ${out} \
-		-kdfopt digest:SHA2-256 \
-		-kdfopt hexkey:$key \
-		-kdfopt hexsalt:$salt HKDF
 }
 
 do_fw_enc_key_derive() {
