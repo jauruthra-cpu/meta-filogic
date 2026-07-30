@@ -48,6 +48,7 @@ SRC_URI:append = " \
     file://781-usb-net-rndis-support-asr.patch \
     file://800-GPIO-add-named-gpio-exports.patch \
     file://810-bcma-ssb-fallback-sprom.patch \
+    file://820-ledtrig-network-module.patch \
     file://901-debloat_sock_diag.patch \
     file://902-debloat_proc.patch \
     file://904-debloat_dma_buf.patch \

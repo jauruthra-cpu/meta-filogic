@@ -287,4 +287,5 @@ SRC_URI:append = " \
     file://923-v7.1-crypto-testmgr-Add-test-vectors-for-authenc-hmac-md5.patch \
     file://930-v7.1-crypto-safexcel-Group-authenc-ciphersuites.patch \
     file://931-v7.1-crypto-safexcel-Add-support-for-authenc-hmac-md5-sui.patch \
+    file://990-v7.0-sign-file-use-only-openssl-cms-api-for-signing.patch \
     "

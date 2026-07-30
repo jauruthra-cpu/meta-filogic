@@ -7,8 +7,8 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}-${PV}/mediatek/flow_patch:"
 
 KBRANCH ?= "linux-6.12.y"
 
-LINUX_VERSION ?= "6.12.87"
-SRCREV_machine ?= "8bf2f55ef536982e44802d99340119dac6f50636"
+LINUX_VERSION ?= "6.12.94"
+SRCREV_machine ?= "0b8f247169e487eff2d4c2dd531bc43f7efda2cb"
 KMETA = "kernel-meta"
 SRCREV_meta ?= "39c7e069b8475a8751d1a584a6181e072033f25d"
 
@@ -57,7 +57,6 @@ require ${PN}-${PV}/generic/hack-6.12/hack-6.12.inc
 SRC_URI:remove = " \
     file://531-debloat_lzma.patch \
     "
-require ${PN}-${PV}/mediatek/patches-6.12/patches-6.12.inc
 
 
 require linux-mediatek6-12.inc
@@ -76,22 +75,9 @@ do_filogic_patches() {
     DISTRO_ccn34_build_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','ccn34','true','false',d)}"
     DISTRO_LAN_AS_WAN_ENABLED="${@bb.utils.contains('DISTRO_FEATURES','lan0_as_wan','true','false',d)}"
         if [ ! -e patch_applied ]; then
-            patch -p1 < ${WORKDIR}/001-rdkb-eth-mtk-change-ifname-for.patch
-            patch -p1 < ${WORKDIR}/863-arm64-dts-mt7986-add-sound-wm8960.patch
-            patch -p1 < ${WORKDIR}/999-dsa-03-add-an8855-netlink-support.patch
-            patch -p1 < ${WORKDIR}/999-dts-04-arm64-dts-mediatek-add-mt7988-cpufreq-cooling-device.patch
-            patch -p1 < ${WORKDIR}/999-dts-12-arm64-dts-mediatek-add-mt7981-pinctrl.patch
-            patch -p1 < ${WORKDIR}/999-dts-13-arm64-dts-mediatek-add-mt7986-pinctrl.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-03-add-pwm-pin-and-devices.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-04-add-i2c-pin-and-devices.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-05-arm64-dts-mediatek-add-gpio-keys-debounce.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-wifi-device-node.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7981-rfb-08-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7986a-rfb-01-arm64-dts-mediaek-refactor-pinctrl-node.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7986a-rfb-08-arm64-dts-mediatek-fix-spim-nand-nor-dts-setting.patch
-            patch -p1 < ${WORKDIR}/999-dts-mt7986a-rfb-13-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch
-            patch -p1 < ${WORKDIR}/999-net-01-netdevice-add-macvlan-device-path-type.patch
 
+            for i in ${WORKDIR}/mediatek/patches-6.12/*.patch; do patch -p1 < $i; done
+            patch -p1 < ${WORKDIR}/001-rdkb-eth-mtk-change-ifname-for.patch
             if [ $DISTRO_FlowBlock_ENABLED = 'true' ]; then
                 for i in ${WORKDIR}/mediatek/flow_patch/*.patch; do patch -p1 < $i; done
             fi

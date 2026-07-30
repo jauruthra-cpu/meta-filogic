@@ -135,7 +135,7 @@ SRC_URI:append = " \
     file://843-cpufreq-add-support-to-fix-voltage-cpu.patch \
     file://844-cpufreq-mediatek-Add-support-for-MT7987.patch \
     file://862-arm64-dts-mt7986-add-afe.patch \
-    file://863-arm64-dts-mt7986-add-sound-wm8960.patch;apply=no \
+    file://863-arm64-dts-mt7986-add-sound-wm8960.patch \
     file://864-arm64-dts-mt7986-add-sound-overlay-for-bpi-r3.patch \
     file://900-dts-mt7622-bpi-r64-aliases-for-dtoverlay.patch \
     file://901-arm-add-cmdline-override.patch \
@@ -168,14 +168,15 @@ SRC_URI:append = " \
     file://999-devapc-01-soc-mediatek-add-mt798x-support.patch \
     file://999-dsa-01-mt7530_mdio-add-individual-polarity-control-for-SGMII.patch \
     file://999-dsa-02-add-mt7531-netlink-support.patch \
-    file://999-dsa-03-add-an8855-netlink-support.patch;apply=no \
+    file://999-dsa-03-add-an8855-netlink-support.patch \
     file://999-dsa-04-add-mxl862xx-tag-formats.patch \
     file://999-dsa-05-add-mxl862xx-tag8021q-driver.patch \
     file://999-dsa-06-fix-mt7531-vlan-del-to-override-fid.patch \
+    file://999-dsa-07-add-mt7531-dual-cpu-port.patch \
     file://999-dts-01-arm64-dts-mediatek-add-mt7987-basic-device-tree.patch \
     file://999-dts-02-arm64-dts-mediatek-add-mt7988-multiple-thermal-zones.patch \
     file://999-dts-03-arm64-dts-mediatek-add-mt7987-multiple-thermal-zones.patch \
-    file://999-dts-04-arm64-dts-mediatek-add-mt7988-cpufreq-cooling-device.patch;apply=no \
+    file://999-dts-04-arm64-dts-mediatek-add-mt7988-cpufreq-cooling-device.patch \
     file://999-dts-05-arm64-dts-mediatek-add-mt7987-cpufreq-cooling-device.patch \
     file://999-dts-06-arm64-dts-mediatek-add-soc-phandle-label.patch \
     file://999-dts-07-arm64-dts-mediatek-add-mt7986-pdma-interrupts.patch \
@@ -183,41 +184,41 @@ SRC_URI:append = " \
     file://999-dts-09-arm64-dts-mediatek-refactor-mt7988a-pinctrl.patch \
     file://999-dts-10-arm64-dts-mediatek-mt7988a-fix-spi-clock.patch \
     file://999-dts-11-arm64-dts-mediatek-mt7988a-add-pextp-clk-node.patch \
-    file://999-dts-12-arm64-dts-mediatek-add-mt7981-pinctrl.patch;apply=no \
-    file://999-dts-13-arm64-dts-mediatek-add-mt7986-pinctrl.patch;apply=no \
+    file://999-dts-12-arm64-dts-mediatek-add-mt7981-pinctrl.patch \
+    file://999-dts-13-arm64-dts-mediatek-add-mt7986-pinctrl.patch \
     file://999-dts-14-arm64-dts-mediatek-fix-mt7986-spi-clock.patch \
     file://999-dts-15-arm64-dts-mediatek-mt7987-add-pciephy-node-for-pcie-lane-mux.patch \
     file://999-dts-16-arm64-dts-mediatek-align-mt7981-spi2-compatible.patch \
     file://999-dts-17-arm64-dts-mediatek-extend-mt7988-WiFi-reserved-memory-to-10M.patch \
     file://999-dts-mt7981-rfb-01-arm64-dts-mediatek-add-mt7981-nor-overlay-dts.patch \
     file://999-dts-mt7981-rfb-02-arm64-dts-mediatek-add-mt7981-spim-nand-overlay-dts.patch \
-    file://999-dts-mt7981-rfb-03-add-pwm-pin-and-devices.patch;apply=no \
+    file://999-dts-mt7981-rfb-03-add-pwm-pin-and-devices.patch \
     file://999-dts-mt7981-rfb-03-arm64-dts-mediatek-add-mt7981-spidev-overlay-dts.patch \
-    file://999-dts-mt7981-rfb-04-add-i2c-pin-and-devices.patch;apply=no \
+    file://999-dts-mt7981-rfb-04-add-i2c-pin-and-devices.patch \
     file://999-dts-mt7981-rfb-04-arm64-dts-mediatek-fix-mt7981-spim-clock.patch \
-    file://999-dts-mt7981-rfb-05-arm64-dts-mediatek-add-gpio-keys-debounce.patch;apply=no \
+    file://999-dts-mt7981-rfb-05-arm64-dts-mediatek-add-gpio-keys-debounce.patch \
     file://999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-optee-device-node.patch \
-    file://999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-wifi-device-node.patch;apply=no \
+    file://999-dts-mt7981-rfb-06-arm64-dts-mediatek-add-wifi-device-node.patch \
     file://999-dts-mt7981-rfb-07-arm64-dts-mediatek-add-mt7981-sfp-overlay-dts.patch \
-    file://999-dts-mt7981-rfb-08-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch;apply=no \
+    file://999-dts-mt7981-rfb-08-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch \
     file://999-dts-mt7981-rfb-08-arm64-dts-mediatek-add-mt7981-devapc.patch \
     file://999-dts-mt7981-rfb-09-arm64-dts-mediatek-add-mt7981-emi.patch \
     file://999-dts-mt7981-rfb-10-arm64-dts-mediatek-add-pmu-support.patch \
     file://999-dts-mt7986a-bananapi-bpi-r3-01-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch \
-    file://999-dts-mt7986a-rfb-01-arm64-dts-mediaek-refactor-pinctrl-node.patch;apply=no \
+    file://999-dts-mt7986a-rfb-01-arm64-dts-mediaek-refactor-pinctrl-node.patch \
     file://999-dts-mt7986a-rfb-02-arm64-dts-mediatek-add-mt7986-dt-overlay-support.patch \
     file://999-dts-mt7986a-rfb-03-arm64-dts-mediatek-fix-default-ethernet-interfaces-config.patch \
     file://999-dts-mt7986a-rfb-04-arm64-dts-mediatek-add-pwm-leds.patch \
     file://999-dts-mt7986a-rfb-05-arm64-dts-mediatek-add-i2c-devices.patch \
     file://999-dts-mt7986a-rfb-06-arm64-dts-mediatek-enable-trng.patch \
     file://999-dts-mt7986a-rfb-07-arm64-dts-mediatek-add-optee-device-node.patch \
-    file://999-dts-mt7986a-rfb-08-arm64-dts-mediatek-fix-spim-nand-nor-dts-setting.patch;apply=no \
+    file://999-dts-mt7986a-rfb-08-arm64-dts-mediatek-fix-spim-nand-nor-dts-setting.patch \
     file://999-dts-mt7986a-rfb-09-arm64-dts-mediatek-add-spidev.patch \
     file://999-dts-mt7986a-rfb-10-arm64-dts-mediatek-add-gpio-buttons.patch \
     file://999-dts-mt7986a-rfb-11-arm64-dts-mediatek-change-uart1-pins.patch \
     file://999-dts-mt7986a-rfb-12-arm64-dts-mediatek-add-mt7986-sfp-overlay-dts.patch \
     file://999-dts-mt7986a-rfb-12-arm64-dts-mediatek-add-spim-nor-support.patch \
-    file://999-dts-mt7986a-rfb-13-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch;apply=no \
+    file://999-dts-mt7986a-rfb-13-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch \
     file://999-dts-mt7986a-rfb-13-arm64-dts-mediatek-add-mt7986-devapc.patch \
     file://999-dts-mt7986a-rfb-14-arm64-dts-mediatek-add-mt7986-emi.patch \
     file://999-dts-mt7986a-rfb-15-arm64-dts-mediatek-enable-watchdog.patch \
@@ -226,6 +227,7 @@ SRC_URI:append = " \
     file://999-dts-mt7986b-rfb-02-arm64-dts-mediatek-fix-default-ethernet-interfaces-config.patch \
     file://999-dts-mt7986b-rfb-03-arm64-dts-mediatek-fix-spim-nand-dts-setting.patch \
     file://999-dts-mt7986b-rfb-04-arm64-dts-mediatek-enable-watchdog.patch \
+    file://999-dts-mt7986b-rfb-05-arm64-dts-mediatek-mt7531-dual-cpu-port.patch \
     file://999-dts-mt7987a-bananapi-bpi-r4-lite-01-arm64-dts-mediatek-add-bananapi-bpi-r4-lite-support.patch \
     file://999-dts-mt7987a-bananapi-bpi-r4-lite-02-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch \
     file://999-dts-mt7987a-bananapi-bpi-r4-mini-01-arm64-dts-mediatek-add-bananapi-bpi-r4-mini-support.patch \
@@ -240,7 +242,6 @@ SRC_URI:append = " \
     file://999-dts-mt7988a-bananapi-bpi-r4-pro-01-arm64-dts-mediatek-add-bananapi-bpi-r4-pro-support.patch \
     file://999-dts-mt7988a-rfb-02-arm64-dts-mediatek-add-dt-overlay-related-dts.patch \
     file://999-dts-mt7988a-rfb-03-arm64-dts-mediatek-add-fit-root-related-nodes.patch \
-    file://999-dts-mt7988a-rfb-04-arm64-dts-mediatek-change-loglevel.patch \
     file://999-dts-mt7988a-rfb-05-arm64-dts-mediatek-move-phys-to-sgmiipcs-and-usxgmiisy.patch \
     file://999-dts-mt7988a-rfb-06-arm64-dts-mediatek-add-firmware_name-for-aqr-10gphy.patch \
     file://999-dts-mt7988a-rfb-07-arm64-dts-mediatek-disable-eee-for-aqr-10gphy.patch \
@@ -334,6 +335,11 @@ SRC_URI:append = " \
     file://999-eth-47-mtk_eth_soc-change-IB1-VLAN_TAG-bit-to-IS_SP_TAG-for-NETSYSv3.patch \
     file://999-eth-48-mtk_eth_soc-add-PSE-port-link-handling-for-MAC-ports.patch \
     file://999-eth-49-mtk_eth_soc-add-qdma-PKT_RX_WDONE-for-mt7988d.patch \
+    file://999-eth-50-mtk_eth_soc-add-netdev-restart-work.patch \
+    file://999-eth-51-mtk_eth_soc-drop-dynamic-ppe-mtu-update.patch \
+    file://999-eth-52-mtk_eth_soc-add-skb-headroom-copy.patch \
+    file://999-eth-52-mtk_eth_soc-use-per-MAC-SGMII-syscfg0-mask.patch \
+    file://999-eth-53-mtk_eth_soc-fix-spurious-mdio-timeout.patch \
     file://999-eth-90-mtk_eth_soc-support-proprietary-debugfs.patch \
     file://999-fitblk-01-parse-and-mount-ramdisk.patch \
     file://999-gsw-01-add-mt7531-support.patch \
@@ -342,7 +348,7 @@ SRC_URI:append = " \
     file://999-i2c-02-add-zts8232-driver.patch \
     file://999-lvts-01-thermal-mediatek-backport-kernel-6.18-lvts-driver.patch \
     file://999-lvts-02-thermal-mediatek-improve-mt798x-config.patch \
-    file://999-net-01-netdevice-add-macvlan-device-path-type.patch;apply=no \
+    file://999-net-01-netdevice-add-macvlan-device-path-type.patch \
     file://999-net-02-netdevice-add-npu-device-path-type.patch \
     file://999-pcie-01-pcie-mediatek-gen3-Add-PCIe-max-link-width-adjustment.patch \
     file://999-pcie-02-pcie-mediatek-gen3-Add-PCIe-IRQ-affinity-support.patch \

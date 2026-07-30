@@ -11,6 +11,8 @@ SRC_URI = " \
     file://smp-mt76.sh \
     file://flowtable.sh \
     file://smp.service \
+    file://smp.sh \
+    file://smp-dispatch.sh \
     file://001-rdkb-smp-ifname.patch \
     "
 
@@ -22,6 +24,8 @@ do_install() {
     install -d ${D}${sbindir}
     install -m 0755 ${S}/smp-mt76.sh ${D}${sbindir}
     install -m 0755 ${S}/flowtable.sh ${D}${sbindir}
+    install -m 0755 ${S}/smp.sh ${D}${sbindir}
+    install -m 0755 ${S}/smp-dispatch.sh ${D}${sbindir}
 	install -d ${D}${systemd_unitdir}/system/
 	install -m 0644 ${S}/smp.service ${D}${systemd_unitdir}/system
 }
