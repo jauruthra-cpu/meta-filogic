@@ -264,4 +264,5 @@ SRC_URI:append = " \
     file://0262-cp-mtk-hostapd-fix-DFS-bootup-radar-detection-issues.patch;patchdir=${PATCHDEST}\
     file://0263-cp-mtk-hostapd-parse-and-use-link_id-from-lower-layer-i.patch;patchdir=${PATCHDEST}\
     file://0264-cp-mtk-hostapd-always-carry-MBSSID-IE-to-fix-CSA-issue-.patch;patchdir=${PATCHDEST}\
+    file://0265-cp-mtk-hostapd-fix-background-primary-channel-backup-is.patch;patchdir=${PATCHDEST}\
     "

@@ -99,4 +99,13 @@ SRC_URI:append = " \
     file://0097-cp-mtk-mt76-mt7996-Remove-firmware-log-initialization.patch \
     file://0098-cp-mtk-mt76-sync-common-part-for-connac2-support.patch \
     file://0099-cp-mtk-mt76-mt7915-add-connac2-support.patch \
+    file://0100-cp-mtk-mt76-mt7996-Refactor-WMM-PBC-to-be-per-band-cont.patch \
+    file://0101-cp-mtk-mt76-mt7996-Fix-MLD_ID-in-MAC_TXD-and-HIF_TXP.patch \
+    file://0102-cp-mtk-mt76-fix-testmode-issues.patch \
+    file://0103-cp-mtk-mt76-mt7996-fix-dfs-radar-detection.patch \
+    file://0104-cp-mtk-mt76-mt7996-fix-rro-msdu-page-double-allocate.patch \
+    file://0105-cp-mtk-mt76-mt7996-Refactor-WMM-PBC-for-unified-FW-comm.patch \
+    file://0106-cp-mtk-mt76-mt7996-Put-unexpected-packets-to-ALTXQ.patch \
+    file://0107-cp-mtk-mt76-mt7996-check-if-link-BSS-is-initialized-bef.patch \
+    file://0108-cp-mtk-wifi-mt76-cherrypick-bugfix-from-upstream.patch \
     "

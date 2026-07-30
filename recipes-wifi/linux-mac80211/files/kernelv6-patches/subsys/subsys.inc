@@ -138,4 +138,5 @@ SRC_URI:append = " \
     file://0136-mtk-mac80211-add-drv-callback-during-rx_beacon-for-b.patch \
     file://0137-mtk-ieee80211-fix-definition-of-EHT-MCS-15-capabilit.patch \
     file://0138-cp-mtk-mac80211-handleing-link_id-in-TxS.patch \
+    file://0139-cp-mtk-mac80211-fix-__ieee80211_link_copy_chanctx_to_vl.patch \
     "

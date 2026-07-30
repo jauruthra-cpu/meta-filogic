@@ -291,34 +291,64 @@ function simple_convert() {
 }
 
 function convert_tx_mode() {
-    # Remove leading zeros
-    local tx_mode=$(echo $1 | sed -r 's/0+([0-9]+)/\1/g')
+    local tx_mode=$(remove_leading_zeros "$1")
+    local ebf=$2
 
-    if [ "$tx_mode" = "0" ]; then
-        echo "cck"
-    elif [ "$tx_mode" = "1" ]; then
-        echo "ofdm"
-    elif [ "$tx_mode" = "2" ]; then
-        echo "ht"
-    elif [ "$tx_mode" = "4" ]; then
-        echo "vht"
-    elif [ "$tx_mode" = "8" ]; then
-        echo "he_su"
-    elif [ "$tx_mode" = "9" ]; then
-        echo "he_er"
-    elif [ "$tx_mode" = "10" ]; then
-        echo "he_tb"
-    elif [ "$tx_mode" = "11" ]; then
-        echo "he_mu"
-    elif [ "$tx_mode" = "13" ]; then
-        echo "eht_su"
-    elif [ "$tx_mode" = "14" ]; then
-        echo "eht_tb"
-    elif [ "$tx_mode" = "15" ]; then
-        echo "eht_mu"
-    else
-        echo "undefined"
-    fi
+    case "$tx_mode" in
+        0)
+            echo "cck"
+            ;;
+        1)
+            echo "ofdm"
+            ;;
+        2)
+            echo "ht"
+            ;;
+        4)
+            echo "vht"
+            ;;
+        8)
+            echo "he_su"
+            ;;
+        9)
+            echo "he_er"
+            ;;
+        10)
+            echo "he_tb"
+            ;;
+        11)
+            echo "he_mu"
+            ;;
+        13)
+            echo "eht_su"
+            ;;
+        15)
+            if [ -z "$ebf" ]; then
+                echo "eht_mu"
+            else
+                echo "eht_su"
+            fi
+            ;;
+        16)
+            if [ -z "$ebf" ]; then
+                echo "eht_tb"
+            else
+                echo "uhr_su"
+            fi
+            ;;
+        17)
+            echo "uhr_su"
+            ;;
+        18)
+            echo "uhr_mu"
+            ;;
+        19)
+            echo "uhr_tb"
+            ;;
+        *)
+            echo "undefined"
+            ;;
+    esac
 }
 
 function convert_gi {
@@ -459,7 +489,7 @@ function convert_channel {
     local band=$(echo $1 | sed s/:/' '/g | cut -d " " -f 2)
     local pri_sel=$(echo $1 | sed s/:/' '/g | cut -d " " -f 3)
     local center_ch2=$(echo $1 | sed s/:/' '/g | cut -d " " -f 4)
-    local fast_cal=$(echo $1 | sed s/:/' '/g | cut -d " " -f 5)
+    local fast_cal=$(remove_leading_zeros $(echo $1 | sed s/:/' '/g | cut -d " " -f 5))
     local fast_cal_type="none"
     local ctrl_band_idx=$(get_config "ATECTRLBANDIDX" ${iwpriv_file})
     local bw=$(get_config "ATETXBW" ${iwpriv_file} | cut -d ":" -f 1)
@@ -705,7 +735,7 @@ function convert_ibf {
             new_cmd="txcmd"
             ;;
         "ATEConTxETxBfGdProc")
-            local tx_rate_mode=$(convert_tx_mode ${new_param:0:2})
+            local tx_rate_mode=$(convert_tx_mode ${new_param:0:2} "1")
             local tx_rate_idx=${new_param:3:2}
             local bw=$(remove_leading_zeros ${new_param:6:2})
             local channel=$(remove_leading_zeros ${new_param:9:3})
@@ -725,7 +755,7 @@ function convert_ibf {
             do_cmd "mt76-test phy${phy_idx} set tx_rate_mode=${tx_rate_mode} tx_rate_idx=${tx_rate_idx} tx_rate_sgi=0"
             ;;
         "ATEConTxETxBfInitProc")
-            local tx_rate_mode=$(convert_tx_mode ${new_param:0:2})
+            local tx_rate_mode=$(convert_tx_mode ${new_param:0:2} "1")
             local tx_rate_idx=${new_param:3:2}
             local bw=$(remove_leading_zeros ${new_param:6:2})
             local tx_rate_nss=${new_param:9:2}
@@ -986,33 +1016,27 @@ function do_ate_work() {
             ;;
         "GROUPREK")
             do_cmd "mt76-test ${interface} set state=group_prek"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal sync group\""
             ;;
         "GROUPREKDump")
             do_cmd "mt76-test ${interface} set state=group_prek_dump"
             ;;
         "GROUPREKClean")
             do_cmd "mt76-test ${interface} set state=group_prek_clean"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal group clean\""
             ;;
         "DPD2G")
             do_cmd "mt76-test ${interface} set state=dpd_2g"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal sync dpd 2g\""
             ;;
         "DPD5G")
             do_cmd "mt76-test ${interface} set state=dpd_5g"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal sync dpd 5g\""
             ;;
         "DPD6G")
             do_cmd "mt76-test ${interface} set state=dpd_6g"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal sync dpd 6g\""
             ;;
         "DPDDump")
             do_cmd "mt76-test ${interface} set state=dpd_dump"
             ;;
         "DPDClean")
             do_cmd "mt76-test ${interface} set state=dpd_clean"
-            do_cmd "atenl -i ${interface} -c \"eeprom precal dpd clean\""
             ;;
         "RXGAINCAL")
             do_cmd "mt76-test ${interface} set state=rx_gain_cal"
@@ -1247,8 +1271,14 @@ if [ "${cmd_type}" = "set" ]; then
             fi
             ;;
         "ATETXANT"|"ATERXANT")
-            cmd_new="tx_antenna"
-            param_new=${param}
+            if [[ ${param} == *:* ]]; then
+                cmd_new="tx_spe_idx"
+                param_new=$(echo ${param} | sed s/:/' '/g | cut -d " " -f 2)
+            else
+                do_cmd "mt76-test ${interface} set tx_spe_idx=0"
+                cmd_new="tx_antenna"
+                param_new=${param}
+            fi
             ;;
         "ATETXGI")
             if [ ${connac_ver} == "2" ]; then
@@ -1265,7 +1295,6 @@ if [ "${cmd_type}" = "set" ]; then
             param_new=$(convert_tx_mode ${param})
             if [ "${param_new}" = "undefined" ]; then
                 print_err "unknown tx mode"
-                print_debug "0:cck, 1:ofdm, 2:ht, 4:vht, 8:he_su, 9:he_er, 10:he_tb, 11:he_mu"
                 exit
             else
                 record_config ${cmd} ${param} ${iwpriv_file}
@@ -1464,8 +1493,6 @@ elif [ "${cmd_type}" = "switch" ]; then
         ## flash mode should set eeprom testmode offset bit
         ## efuse/bin file/default bin mode rely on module param only
         do_cmd "atenl -i ${interface} -c \"eeprom set 0x${eeprom_testmode_offset}=0x${testmode_enable}\""
-        ## If has no precal, it would not affect
-        do_cmd "atenl -i ${interface} -c \"eeprom precal sync\""
         do_cmd "atenl -i ${interface} -c \"sync eeprom all\""
     fi
 
