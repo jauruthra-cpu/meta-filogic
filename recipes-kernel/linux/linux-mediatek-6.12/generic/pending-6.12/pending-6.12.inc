@@ -20,7 +20,6 @@ SRC_URI:append = " \
     file://300-mips_expose_boot_raw.patch \
     file://301-MIPS-Add-barriers-between-dcache-icache-flushes.patch \
     file://302-mips_no_branch_likely.patch \
-    file://303-Revert-powerpc-dts-mpc85xx-remove-simple-bus-compatible-from-ifc-node.patch \
     file://308-mips32r2_tune.patch \
     file://310-arm_module_unresolved_weak_sym.patch \
     file://330-MIPS-kexec-Accept-command-line-parameters-from-users.patch \

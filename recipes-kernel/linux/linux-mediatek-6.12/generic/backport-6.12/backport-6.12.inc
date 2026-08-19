@@ -2,8 +2,6 @@
 SRC_URI:append = " \
     file://010-v6.19-nvmem-layouts-u-boot-env-add-optional-env-size-property.patch \
     file://152-v6.16-net-wireguard-add-nonstring-annotation-to-fix-build-with-GCC15.patch \
-    file://200-01-v6.13-jiffies-Define-secs_to_jiffies.patch \
-    file://200-02-v6.14-jiffies-Cast-to-unsigned-long-in-secs_to_jiffies-con.patch \
     file://201-v6.13-of-property-add-of_graph_get_next_port.patch \
     file://202-v6.13-clk-Provide-devm_clk_bulk_get_all_enabled-helper.patch \
     file://203-01-v6.13-of-address-Rework-bus-matching-to-avoid-warnings.patch \
@@ -114,12 +112,9 @@ SRC_URI:append = " \
     file://613-05-v6.19-net-dsa-b53-fix-BCM5325-65-ARL-entry-multicast-port-masks.patch \
     file://613-06-v6.19-net-dsa-b53-fix-BCM5325-65-ARL-entry-VIDs.patch \
     file://613-07-v6.19-net-dsa-b53-allow-VID-0-for-BCM5325-65.patch \
-    file://620-v6.15-ppp-use-IFF_NO_QUEUE-in-virtual-interfaces.patch \
-    file://621-v6.17-ppp-convert-to-percpu-netstats.patch \
     file://622-v6.18-ppp-remove-rwlock-usage.patch \
     file://623-v6.18-pppoe-remove-rwlock-usage.patch \
     file://624-v6.18-pppoe-drop-sock-reference-counting-on-fast-path.patch \
-    file://625-v7.0-ppp-enable-TX-scatter-gather.patch \
     file://626-v6.16-net-bridge-locally-receive-all-multicast-packets-if-.patch \
     file://630-v6.13-net-usb-qmi_wwan-add-Quectel-RG255C.patch \
     file://630-v6.14-PM-sleep-wakeirq-Introduce-device-managed-variant-of.patch \

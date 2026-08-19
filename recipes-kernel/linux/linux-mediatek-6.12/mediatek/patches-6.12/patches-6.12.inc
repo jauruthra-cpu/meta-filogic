@@ -106,7 +106,6 @@ SRC_URI:append = " \
     file://437-drivers-mtd-Add-maxsize-automatic-detect-for-mtd-partition.patch \
     file://450-nvmem-add-layout-for-Adtran-devices.patch \
     file://500-gsw-rtl8367s-mt7622-support.patch \
-    file://601-PCI-mediatek-Assert-PERST-for-100ms-for-power-and-cl.patch \
     file://602-arm64-dts-mediatek-add-mt7622-pcie-slot-node.patch \
     file://610-pcie-mediatek-fix-clearing-interrupt-status.patch \
     file://611-pcie-mediatek-gen3-PERST-for-100ms.patch \
@@ -238,6 +237,7 @@ SRC_URI:append = " \
     file://999-dts-mt7987a-rfb-04-arm64-dts-mediatek-add-last-partition-size-extend-to-end-support.patch \
     file://999-dts-mt7987a-rfb-05-arm64-dts-mediatek-add-mt7987-emi.patch \
     file://999-dts-mt7987a-rfb-06-dts-mediatek-add-pcie-wifi-reset-support.patch \
+    file://999-dts-mt7987a-rfb-07-arm64-dts-mediatek-add-i2c-devices.patch \
     file://999-dts-mt7988a-bananapi-bpi-r4-01-arm64-dts-mediatek-add-bananapi-bpi-r4-support.patch \
     file://999-dts-mt7988a-bananapi-bpi-r4-pro-01-arm64-dts-mediatek-add-bananapi-bpi-r4-pro-support.patch \
     file://999-dts-mt7988a-rfb-02-arm64-dts-mediatek-add-dt-overlay-related-dts.patch \
@@ -350,6 +350,7 @@ SRC_URI:append = " \
     file://999-lvts-02-thermal-mediatek-improve-mt798x-config.patch \
     file://999-net-01-netdevice-add-macvlan-device-path-type.patch \
     file://999-net-02-netdevice-add-npu-device-path-type.patch \
+    file://999-nvmem-01-add-efuse-read-via-smc-on-mt798x.patch \
     file://999-pcie-01-pcie-mediatek-gen3-Add-PCIe-max-link-width-adjustment.patch \
     file://999-pcie-02-pcie-mediatek-gen3-Add-PCIe-IRQ-affinity-support.patch \
     file://999-pcie-03-pcie-mediatek-gen3-adjust-WIFI-HW-reset-flow.patch \
