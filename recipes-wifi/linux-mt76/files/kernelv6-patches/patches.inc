@@ -108,4 +108,6 @@ SRC_URI:append = " \
     file://0106-cp-mtk-mt76-mt7996-Put-unexpected-packets-to-ALTXQ.patch \
     file://0107-cp-mtk-mt76-mt7996-check-if-link-BSS-is-initialized-bef.patch \
     file://0108-cp-mtk-wifi-mt76-cherrypick-bugfix-from-upstream.patch \
+    file://0109-cp-mtk-mt76-mt7996-disable-beacons-when-going-offchanne.patch \
+    file://0110-cp-mtk-mt76-mt7996-Fix-spinlock-usage-to-prevent-AP-pan.patch \
     "
