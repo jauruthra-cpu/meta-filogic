@@ -851,4 +851,3 @@ static void __init mtk_ethsys_init(struct device_node *node)
 			__func__, r);
 }
 CLK_OF_DECLARE(mtk_ethsys, "mediatek,mt7981-ethsys", mtk_ethsys_init);
-
