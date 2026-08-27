@@ -1,4 +1,4 @@
-inherit kernel-uboot kernel-artifact-names uboot-sign_bpi kernel-fitimage
+inherit kernel-uboot kernel-artifact-names uboot-sign kernel-fitimage
 
 python __anonymous () {
         d.appendVarFlag('do_assemble_filogic_fitimage', 'depends', ' rdk-generic-broadband-image:do_hash_rootfs')
@@ -729,4 +729,3 @@ python do_fit_image_filogic_deploy(){
     subprocess.Popen("install -m 0644 %s/arch/%s/boot/fitImage-filogic %s/" %(BUILD, ARCH, DEPLOY_DIR_IMAGE), shell=True)
 }
 addtask fit_image_filogic_deploy before do_deploy after do_assemble_filogic_fitimage
-
